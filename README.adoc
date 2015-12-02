@@ -1,0 +1,5 @@
+= specifications-TERM
+openEHR Terminology Specifications
+
+This repository contains the document and model sources for the openEHR Terminology specifications.
+

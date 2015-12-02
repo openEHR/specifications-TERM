@@ -1,0 +1,99 @@
+= Terminology
+
+== Code Sets
+
+Code sets whose codes are derived from resources published by external authorities are not shown in full here; the definitive resource is referenced instead. The openEHR code-set databases contain the full set of codes in each case. In the header of each table:
+
+* the issuer is the name of the issuing organisation;
+* the "openEHR code set id" is the identifier used for code sets by the openEHR Reference Model;
+* the "external identifier" is an identifier assumed by openEHR to be the identifier of this code set, based on its published name, with spaces replaced by underscores.
+
+=== Countries
+
+This ISO code set defined by the ISO 3166-1 standard consists of 2-character names of countries and country subdivisions. For a definitive online rendition see http://www.unicode.org/unicode/onlinedat/countries.html.
+
+=== Character Sets
+
+This IANA (Internet Naming Authority) code set consists of the names of recognised character sets.  See http://www.iana.org/assignments/character-sets for authoritative source.
+
+=== Compression algorithms
+
+This code set consists of the names of algorithms used to compress data, and is drawn from HL7's CompressionAlgorithms domain.
+
+=== Integrity check algorithms
+
+This code set consists of the names of algorithms used to generate hashes for the purpose of integrity checks on data; its initial values are drawn from the HL7 IntegrityCheckAlgorithm domain.
+
+=== Languages
+
+This ISO code set defined by the ISO 639-1 standard consists of the "alpha-2" form of names of languages. This does not cover all languages, whereas ISO 639-2 "alpha-3" covers many more languages of cultural or indigenous interest, but which nevertheless are unlikely to be supported by current software or operating systems. See http://www.loc.gov/standards/iso639-2/langhome.html.
+
+=== Media Types
+This IANA (Internet Naming Authority) code set consists of the names of MIME media types. See http://www.iana.org/assignments/media-types/text/ for authoritative source.
+
+=== Normal Status
+This code set codifies statuses of quantitative values with respect to a normal range for the measured analyte or phenomenon. Use generally restricted to laboratory results. Maps to some codes in HL7v2 User-defined table 0078 - Abnormal flags and to the HL7v3 ObservationInterpretation vocabulary.  The HL7v3 mappings are shown below.
+
+== The openEHR Terminology
+
+Within the openEHR terminology, terms are identified in groups, each with its own identifier. The identifiers of the groups is defined in the Support Information Model, Terminology package. Each set of terms is described below on a per-group basis.
+
+=== Attestation Reason
+
+This vocabulary codifies attestation statuses of Compositions or other elements of the health record, and is drawn from the HL7 ParticipationSignature domain, as used in CDA. 
+
+=== Audit Change Type
+
+This vocabulary codifies the kinds of changes to data which are recorded in audit trails.
+
+=== Composition Category
+
+This vocabulary codifies the values of the category attribute of the `COMPOSITION` class in the `rm.composition` package.
+
+=== Event Math Function
+
+This vocabulary codifies mathematical functions of non-instantaneous events.
+
+=== Instruction States
+
+This vocabulary codifies the names of the states in the standard Instruction state machine, documented in the openEHR EHR Information model (Entry section).  
+
+=== Instruction Transitions
+
+This vocabulary codifies the names of the transitions in the standard Instruction state machine, documented in the openEHR EHR Information model (Entry section).
+
+=== Null Flavours
+
+This vocabulary codifies "flavours of null" for missing data items.
+
+=== Participation Function
+
+This vocabulary codifies functions of participation of parties in an interaction (used in `PARTICIPATION` class).
+
+=== Participation Mode
+
+This vocabulary codifies modes of participation of parties in an interaction (used in `PARTICIPATION` class). The initial set has been defined to be the same as HL7's ParticipationMode vocabulary domain.
+
+=== Property
+
+This vocabulary codifies purposes for physical properties corresponding to formal unit specifications, and allows comparison of Quantities with different units but which measure the same property. The vocabulary values are taken from:
+
+* CEN ENV 12435 - "Medical Informatics - Expression of results of measurements in health sciences"
+* HL7 "Unified Codes for Units of Measure"
+
+=== Setting
+
+This vocabulary codifies broad types of settings in which clinical care is delivered. It is not intended to be a perfect classification of the real world, but instead a practical coarse-grained categorisation to aid querying.
+
+=== Subject relationship
+
+This vocabulary codifies the relationship between the subject of care and some other party mentioned in the health record.
+
+=== Term Mapping Purpose
+
+This vocabulary codifies purposes for term mappings as used in the class `TERM_MAPPING`. The usecase for this vocabulary is yet to be determined.
+
+=== Version Lifecycle State
+
+This vocabulary codifies lifecycle states of Compositions or other elements of the health record.
+

@@ -1,0 +1,29 @@
+= Preface
+
+== Purpose
+
+This document describes the openEHR Support Terminology and code sets, which define the vocabulary and codes needed for the openEHR Reference, Archetype and Service models. The openEHR terminology is not considered to be in the same space as externally defined terminologies such as SNOMED-CT, ICDx etc, since it is not an ontology of real facts, but of informational classifiers needed by the openEHR models. The code sets are generally a means of interfacing external codes such as ISO language identifiers, with openEHR. The audience of this document includes:
+
+* Standards bodies producing health informatics standards;
+* Software development organisations developing EHR systems;
+* Academic groups studying the EHR;•The open source healthcare community.
+
+== Related Documents
+
+Prerequisite documents for reading this document include:
+
+* The openEHR Architecture Overview <<openehr_overview>>;
+
+== Status
+
+This specification is in the {spec_status} state. The development version of this document can be found at http://www.openehr.org/releases/TERM/latest/SupportTerminology.html.
+
+Known omissions or questions are indicated in the text with a 'to be determined' paragraph, as follows:
+[.tbd]
+*TBD*: (example To Be Determined paragraph)
+
+Users are encouraged to comment on and/or advise on these paragraphs as well as the main content.  Feedback should be provided either on the http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org[technical mailing list], or on the https://openehr.atlassian.net/browse/SPECPR/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel[specifications issue tracker].
+
+== Tooling
+
+

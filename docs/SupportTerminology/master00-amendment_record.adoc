@@ -4,11 +4,64 @@
 |===
 |Issue|Details|Raiser|Completed
 
+4+^|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0.3*
+{set:cellbgcolor:skyblue}
+
+4+^|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0.1*
+{set:cellbgcolor:skyblue}
+
 |[[latest_issue]]1.0
-|Initial Writing, based on https://openehr.atlassian.net/wiki/display/spec/Archetype+Query+Language+Description[openEHR AQL wiki page].
-|Chunlan Ma +
- H Frankel +
- T Beale
-|[[latest_issue_date]]10 Dec 2015
+|https://openehr.atlassian.net/browse/SPEC-219[SPECRM-219]: Use constants instead of literals to refer to terminology in RM.
+|R Chen
+|[[latest_issue_date]]08 Apr 2007
+
+|
+|https://openehr.atlassian.net/browse/SPEC-221[SPECRM-221]. Add normal_status to `DV_ORDERED`. Add new "normal status" terminology group.
+|H Frankel
+|
+
+|
+|https://openehr.atlassian.net/browse/SPEC-217[SPECRM-217]: Additional math function.
+|S Heard
+|
+
+|
+|https://openehr.atlassian.net/browse/SPEC-235[SPECRM-235]: Make attestation-only commit require a Contribution. Add 'attestation' code to audit-change type.
+|A Patterson
+|
+
+|
+|https://openehr.atlassian.net/browse/SPEC-246[SPECRM-246]: Correct openEHR terminology rubrics.
+|B Verhees, +
+ M Forss
+|
+
+4+^|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
+{set:cellbgcolor:skyblue}
+
+|0.9
+|https://openehr.atlassian.net/browse/SPEC-184[SPECRM-184]. Separate out terminology from Support IM.
+|H Frankel
+|22 Oct 2005
+
+|
+|https://openehr.atlassian.net/browse/SPEC-182[SPECRM-182]: Rationalise `VERSION._lifecycle_state_` and `ATTESTATION.status_`. Add new term set for attestation reason, deprecate attestation state term set.
+|H Frankel
+|
+
+|
+|https://openehr.atlassian.net/browse/SPEC-162[SPECRM-162]. Allow party identifiers when no demographic data. Deprecate some terms from version lifecycle status group, add some new terms.
+|H Frankel
+|
+
+|
+|https://openehr.atlassian.net/browse/SPEC-140[SPECRM-140]. Redevelop Instruction, based on workflow principles. Add term sets for Instruction State machine.
+|H Frankel
+|
+
+|
+|https://openehr.atlassian.net/browse/SPEC-192[SPECRM-192]: Add display-as-absolute facility to delta Events in History
+|H Frankel
+|
 
 |===

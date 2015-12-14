@@ -1,0 +1,61 @@
+//
+// ============================================ Asciidoc HEADER =============================================
+//
+:doctype: book
+:pagenums:
+:numbered!:
+// git rid of PDF 'Chapter' labs on level 1 headings
+:chapter-label:
+//
+// HTML-only attributes
+//
+:linkcss:
+:keywords: terminology, openehr
+:description: openEHR Terminology
+:sectanchors:
+:jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased
+:jira-hist-issues: https://openehr.atlassian.net/issues/?filter=10720
+
+image::http://www.openehr.org/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
+
+
+// Use the following version for 'latest'
+:jira-issues: https://openehr.atlassian.net/issues/?filter=10721
+[.title-para]
+{jira-roadmap}[Roadmap] | {jira-issues}[Current Issues] | {jira-hist-issues}[Change History]
+endif::[]
+
+// Use the following version for a release
+:jira-pr-release: https://openehr.atlassian.net/projects/SPECPR/versions/10060
+:jira-cr-release: https://openehr.atlassian.net/projects/SPECTERM/versions/10860
+[.title-para]
+{jira-pr-release}[Problems Fixed] | {jira-cr-release}[Changes Implemented] | {jira-roadmap}[Roadmap] | {jira-hist-issues}[Change History]
+endif::[]
+
+== Specifications
+
+[cols="2,5,2", options="header"]
+|===
+|Specification |Description |Wiki
+
+|http://www.openehr.org/releases/TERM/{term_release}/SupportTerminology.html[openEHR Terminology]
+|Documentary form of the openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models.
+|https://openehr.atlassian.net/wiki/display/spec/openEHR+Terminology[wiki page] 
+
+|===
+
+== Computable Expressions
+
+[cols="2,5", options="header"]
+|===
+|Resource |Description
+
+|XML
+|XML source file.
+
+|===
+
+
+== Class Index
+
+include::UML/class_index.adoc[leveloffset=+1]

@@ -11,6 +11,7 @@
 {set:cellbgcolor:skyblue}
 
 |[[latest_issue]]1.0
+{set:cellbgcolor!}
 |https://openehr.atlassian.net/browse/SPEC-219[SPECRM-219]: Use constants instead of literals to refer to terminology in RM.
 |R Chen
 |[[latest_issue_date]]08 Apr 2007
@@ -40,6 +41,7 @@
 {set:cellbgcolor:skyblue}
 
 |0.9
+{set:cellbgcolor!}
 |https://openehr.atlassian.net/browse/SPEC-184[SPECRM-184]. Separate out terminology from Support IM.
 |H Frankel
 |22 Oct 2005

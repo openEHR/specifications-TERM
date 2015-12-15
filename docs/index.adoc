@@ -13,19 +13,22 @@
 :keywords: terminology, openehr
 :description: openEHR Terminology
 :sectanchors:
-:jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased
-:jira-hist-issues: https://openehr.atlassian.net/issues/?filter=10720
+:term_release: latest
+:jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page
+:jira-hist-issues: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=released
 
 image::http://www.openehr.org/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
 
 
 // Use the following version for 'latest'
-:jira-issues: https://openehr.atlassian.net/issues/?filter=10721
+ifeval::["{term_release}" == "latest"]
+:jira-issues: https://openehr.atlassian.net/projects/SPECTERM/issues
 [.title-para]
 {jira-roadmap}[Roadmap] | {jira-issues}[Current Issues] | {jira-hist-issues}[Change History]
 endif::[]
 
 // Use the following version for a release
+ifeval::["{term_release}" != "latest"]
 :jira-pr-release: https://openehr.atlassian.net/projects/SPECPR/versions/10060
 :jira-cr-release: https://openehr.atlassian.net/projects/SPECTERM/versions/10860
 [.title-para]

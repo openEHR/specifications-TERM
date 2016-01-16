@@ -8,7 +8,7 @@
 :toc: left
 :toclevels: 4
 :pagenums:
-:numbered!:
+:sectnums!:
 // git rid of PDF 'Chapter' labs on level 1 headings
 :chapter-label:
 :copyright_year: 2008
@@ -29,6 +29,7 @@ image::http://www.openehr.org/releases/BASE/latest/resources/images/openehr_logo
 = Archetype Support Terminology
 
 include::{base_dir}/docs_common/boilerplate/full_front_block.adoc[]
+include::{base_dir}/docs_common/references/openehr_resources.adoc[]
 
 //
 // ============================================= Asciidoc BODY ===============================================
@@ -62,7 +63,7 @@ The work reported in this paper has been funded in by the following organisation
 // --------------------------------------------- CHAPTERS -----------------------------------------------
 //
 :sectanchors:
-:numbered:
+:sectnums:
 include::master01-preface.adoc[leveloffset=+1]
 include::master02-overview.adoc[leveloffset=+1]
 include::master03-terminology.adoc[leveloffset=+1]
@@ -75,9 +76,8 @@ include::master06-maintenance.adoc[leveloffset=+1]
 //
 
 
-:numbered!:
+:sectnums!:
 == References
 //include::{base_dir}/docs_common/references/publications.adoc[leveloffset=+1]
 include::{base_dir}/docs_common/references/resources.adoc[leveloffset=+1]
-include::{base_dir}/docs_common/references/openehr_resources.adoc[leveloffset=+1]
 

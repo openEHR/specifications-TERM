@@ -13,7 +13,7 @@ This document describes the openEHR Support Terminology and code sets, which def
 
 Prerequisite documents for reading this document include:
 
-* The openEHR Architecture Overview <<openehr_overview>>;
+* The {openehr_overview}[openEHR Architecture Overview].
 
 == Status
 

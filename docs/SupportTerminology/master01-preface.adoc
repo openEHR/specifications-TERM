@@ -2,7 +2,7 @@
 
 == Purpose
 
-This document describes the openEHR Support Terminology and code sets, which define the vocabulary and codes needed for the openEHR Reference, Archetype and Service models. The openEHR terminology is not considered to be in the same space as externally defined terminologies such as SNOMED-CT, ICDx etc, since it is not an ontology of real facts, but of informational classifiers needed by the openEHR models. The code sets are generally a means of interfacing external codes such as ISO language identifiers, with openEHR. The audience of this document includes:
+This document describes the openEHR Support Terminology and code sets, which define the vocabulary and codes needed for the openEHR Reference, Archetype and Service models. The openEHR terminology is not considered to be in the same space as externally defined terminologies such as {snomed_ct}[SNOMED CT], {who_icd}[ICDx] etc, since it is not an ontology of real facts, but of informational classifiers needed by the openEHR models. The code sets are generally a means of interfacing external codes such as ISO language identifiers, with openEHR. The audience of this document includes:
 
 * Standards bodies producing health informatics standards;
 * Software development organisations developing EHR systems;

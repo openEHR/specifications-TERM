@@ -1,2 +1,82 @@
 = Representation
 
+== Concrete Format
+
+The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the {openehr_terminology_resources}[openEHR `terminology` repository], which has the following structure.
+
+[.text-center]
+.Repository Structure
+image::images/repo_structure.png[id=repo_structure, align="center", width="60%"]
+
+The concrete representation model is shown in the UML diagram below. Note that this model is not intended as a normative model and does not directly correspond to the normative terminology classes defined in the {openehr_rm_data_types}#_text_package[openEHR Data Types] or {openehr_base_types}#_terminology_package[openEHR Base Types] specifications.
+
+[.text-center]
+.openEHR Terminology Model
+image::{uml_export_dir}/diagrams/TERM-terminology.svg[id=openehr_terminology_model, align="center"]
+
+The `TERMINOLOGY` type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translations of the vocabularies has its own instance. 
+
+The concrete artefacts based on this model are accordingly as follows:
+
+* single file for all code-sets (no translations needed - codes are self-describing, e.g. 'UTF-8', 'text/plain' etc)
+* single file for _each translation_ of the vocabularies.
+
+The code sets terminology file looks as follows:
+
+[source,xml]
+------
+<terminology name="openehr" language="en">
+	<codeset issuer="ISO" openehr_id="countries" external_id="ISO_3166-1">
+		<code value="AF" description="AFGHANISTAN"/>
+		<code value="AX" description="ÅLAND ISLANDS"/>
+		<code value="AL" description="ALBANIA"/>
+		<...>
+		<code value="ZW" description="ZIMBABWE"/>
+	</codeset>
+	<...>
+	<codeset issuer="IANA" openehr_id="character sets" external_id="IANA_character-sets">
+		<code value="ISO-10646-UTF-1"/>
+		<code value="ISO_8859-3:1988"/>
+		<code value="UTF-8"/>
+		<...>
+		<code value="ISO_8859-1:1987"/>
+	</codeset>
+</terminology>
+------
+
+The vocabulary file _for English_ looks as follows:
+
+[source,xml]
+------
+<terminology name="openehr" language="en">
+	<group name="attestation reason">
+		<concept id="240" rubric="signed"/>
+		<concept id="648" rubric="witnessed"/>
+	</group>
+	<group name="audit change type">
+		<concept id="249" rubric="creation"/>
+		<concept id="250" rubric="amendment"/>
+		<concept id="251" rubric="modification"/>
+		<concept id="252" rubric="synthesis"/>
+		<concept id="523" rubric="deleted"/>
+		<concept id="666" rubric="attestation"/>
+		<concept id="253" rubric="unknown"/>
+	</group>
+	<group name="composition category">
+		<concept id="431" rubric="persistent"/>
+		<concept id="433" rubric="event"/>
+	</group>
+	<group name="property">
+		<concept id="339" rubric="Acceleration"/>
+		<concept id="342" rubric="Acceleration, angular"/>
+		<concept id="381" rubric="Amount (Eq)"/>
+		<concept id="384" rubric="Amount (mole)"/>
+		<concept id="497" rubric="Angle, plane"/>
+		<concept id="500" rubric="Angle, solid"/>
+		<...>
+	</group>
+	<...>
+</terminology>
+------
+
+An {openehr_terminology_resources}/tree/master/openEHR_RM/schema[XML Schema (XSD)] has been defined for these files, for use with software that processes them.

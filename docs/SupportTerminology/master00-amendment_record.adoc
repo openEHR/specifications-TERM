@@ -4,65 +4,65 @@
 |===
 |Issue|Details|Raiser|Completed
 
-4+^|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0.3*
-{set:cellbgcolor:skyblue}
+4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}2.1.0*
 
-4+^|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0.1*
-{set:cellbgcolor:skyblue}
+|[[latest_issue]]2.1.0
+|{openehr_jira}/SPECTERM-6[SPECTERM-6]: Correct Terminology typos.
+|I McNicoll
+|[[latest_issue_date]]08 Nov 2017
 
-|[[latest_issue]]1.0
-{set:cellbgcolor!}
-|https://openehr.atlassian.net/browse/SPEC-219[SPECRM-219]: Use constants instead of literals to refer to terminology in RM.
+4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
+
+|1.0
+|{openehr_jira}/SPEC-219[SPECRM-219]: Use constants instead of literals to refer to terminology in RM.
 |R Chen
-|[[latest_issue_date]]08 Apr 2007
+|08 Apr 2007
 
 |
-|https://openehr.atlassian.net/browse/SPEC-221[SPECRM-221]. Add normal_status to `DV_ORDERED`. Add new "normal status" terminology group.
+|{openehr_jira}/SPEC-221[SPECRM-221]. Add normal_status to `DV_ORDERED`. Add new "normal status" terminology group.
 |H Frankel
 |
 
 |
-|https://openehr.atlassian.net/browse/SPEC-217[SPECRM-217]: Additional math function.
+|{openehr_jira}/SPEC-217[SPECRM-217]: Additional math function.
 |S Heard
 |
 
 |
-|https://openehr.atlassian.net/browse/SPEC-235[SPECRM-235]: Make attestation-only commit require a Contribution. Add 'attestation' code to audit-change type.
+|{openehr_jira}/SPEC-235[SPECRM-235]: Make attestation-only commit require a Contribution. Add 'attestation' code to audit-change type.
 |A Patterson
 |
 
 |
-|https://openehr.atlassian.net/browse/SPEC-246[SPECRM-246]: Correct openEHR terminology rubrics.
+|{openehr_jira}/SPEC-246[SPECRM-246]: Correct openEHR terminology rubrics.
 |B Verhees, +
  M Forss
 |
 
-4+^|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
-{set:cellbgcolor:skyblue}
+4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
 
 |0.9
-{set:cellbgcolor!}
-|https://openehr.atlassian.net/browse/SPEC-184[SPECRM-184]. Separate out terminology from Support IM.
+|{openehr_jira}/SPEC-184[SPECRM-184]. Separate out terminology from Support IM.
 |H Frankel
 |22 Oct 2005
 
 |
-|https://openehr.atlassian.net/browse/SPEC-182[SPECRM-182]: Rationalise `VERSION._lifecycle_state_` and `ATTESTATION.status_`. Add new term set for attestation reason, deprecate attestation state term set.
+|{openehr_jira}/SPEC-182[SPECRM-182]: Rationalise `VERSION._lifecycle_state_` and `ATTESTATION.status_`. Add new term set for attestation reason, deprecate attestation state term set.
 |H Frankel
 |
 
 |
-|https://openehr.atlassian.net/browse/SPEC-162[SPECRM-162]. Allow party identifiers when no demographic data. Deprecate some terms from version lifecycle status group, add some new terms.
+|{openehr_jira}/SPEC-162[SPECRM-162]. Allow party identifiers when no demographic data. Deprecate some terms from version lifecycle status group, add some new terms.
 |H Frankel
 |
 
 |
-|https://openehr.atlassian.net/browse/SPEC-140[SPECRM-140]. Redevelop Instruction, based on workflow principles. Add term sets for Instruction State machine.
+|{openehr_jira}/SPEC-140[SPECRM-140]. Redevelop Instruction, based on workflow principles. Add term sets for Instruction State machine.
 |H Frankel
 |
 
 |
-|https://openehr.atlassian.net/browse/SPEC-192[SPECRM-192]: Add display-as-absolute facility to delta Events in History
+|{openehr_jira}/SPEC-192[SPECRM-192]: Add display-as-absolute facility to delta Events in History
 |H Frankel
 |
 

@@ -26,7 +26,7 @@
 
 image::http://www.openehr.org/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
 
-= Archetype Support Terminology
+= openEHR Support Terminology
 
 include::{base_dir}/docs_common/boilerplate/full_front_block.adoc[]
 include::{base_dir}/docs_common/references/openehr_resources.adoc[]
@@ -43,16 +43,14 @@ include::master00-amendment_record.adoc[leveloffset=+1]
 
 == Acknowledgements
 
-The work reported in this paper has been funded in by the following organisations:
+The work reported in this specification and related artefacts has been funded in part by the following organisations:
 
-* Ocean Informatics.
+* FreshEHR Informatics, UK
+* Ocean Informatics, Australia
 
 === Trademarks
 
 * 'openEHR' is a trademark of the openEHR Foundation
-* 'Java' is a registered trademark of Oracle Corporation
-* 'Microsoft' and '.Net' are trademarks of the Microsoft Corporation
-
 
 //
 // --------------------------------------------- TOC -----------------------------------------------
@@ -68,8 +66,8 @@ include::master01-preface.adoc[leveloffset=+1]
 include::master02-overview.adoc[leveloffset=+1]
 include::master03-terminology.adoc[leveloffset=+1]
 include::master04-representation.adoc[leveloffset=+1]
-include::master05-translation.adoc[leveloffset=+1]
-include::master06-maintenance.adoc[leveloffset=+1]
+//include::master05-translation.adoc[leveloffset=+1]
+//include::master06-maintenance.adoc[leveloffset=+1]
 
 //
 // --------------------------------------------- REFERENCES -----------------------------------------------
@@ -77,7 +75,7 @@ include::master06-maintenance.adoc[leveloffset=+1]
 
 
 :sectnums!:
-== References
+//== References
 //include::{base_dir}/docs_common/references/publications.adoc[leveloffset=+1]
-include::{base_dir}/docs_common/references/resources.adoc[leveloffset=+1]
+//include::{base_dir}/docs_common/references/resources.adoc[leveloffset=+1]
 

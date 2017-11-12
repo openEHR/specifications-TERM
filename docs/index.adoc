@@ -14,6 +14,9 @@
 :description: openEHR Terminology
 :sectanchors:
 :term_release: latest
+
+include::UML/{base_dir}/docs_common/references/openehr_resources.adoc[]
+
 :jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page
 :jira-hist-issues: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=released
 
@@ -49,11 +52,27 @@ endif::[]
 
 == Computable Expressions
 
-[cols="2,5", options="header"]
+[cols="1,4", options="header"]
 |===
 |Resource |Description
 
-|XML
-|XML source file.
+|XML terminology files
+|https://github.com/openEHR/terminology/tree/master/openEHR_RM[XML source files].
 
 |===
+
+== Change Requests
+
+
+[cols="1,4", options="header"]
+|===
+|Type |Description
+
+|New code request
+|Requests for codes may be made by raising a new issue on the {openehr_jira_prs}[openEHR PR Jira project]; the 'Component' field must be set to 'openEHR Terminology'.
+
+|Add new translation
+|{openehr_terminology}#_creating_and_maintaining_translations[See here]. 
+
+|===
+

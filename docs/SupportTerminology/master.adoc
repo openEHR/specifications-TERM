@@ -19,6 +19,8 @@
 :keywords: terminology, code-set, vocabulary
 :description: openEHR Support Terminology
 :spec_status: STABLE
+:linkattrs:
+
 
 //
 // ============================================ Asciidoc PREAMBLE =============================================

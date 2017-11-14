@@ -17,11 +17,12 @@
 
 include::UML/{base_dir}/docs_common/references/openehr_resources.adoc[]
 
-:jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page
+:jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=unreleased
 :jira-hist-issues: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=released
 
 image::http://www.openehr.org/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
 
+= openEHR Terminology (TERM) - {term_release}
 
 // Use the following version for 'latest'
 ifeval::["{term_release}" == "latest"]
@@ -32,8 +33,8 @@ endif::[]
 
 // Use the following version for a release
 ifeval::["{term_release}" != "latest"]
-:jira-pr-release: https://openehr.atlassian.net/projects/SPECPR/versions/10060
-:jira-cr-release: https://openehr.atlassian.net/projects/SPECTERM/versions/10860
+:jira-pr-release: https://openehr.atlassian.net/projects/SPECPR/versions/12504
+:jira-cr-release: https://openehr.atlassian.net/projects/SPECTERM/versions/12502
 [.title-para]
 {jira-pr-release}[Problems Fixed] | {jira-cr-release}[Changes Implemented] | {jira-roadmap}[Roadmap] | {jira-hist-issues}[Change History]
 endif::[]

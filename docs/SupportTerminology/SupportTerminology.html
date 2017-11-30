@@ -287,7 +287,7 @@
 <div class="sect2">
 <h3 id="_status"><a class="anchor" href="#_status"></a>1.3. Status</h3>
 <div class="paragraph">
-<p>This specification is in the STABLE state. The development version of this document can be found at <a href="http://www.openehr.org/releases/TERM/latest/SupportTerminology.html" class="bare">http://www.openehr.org/releases/TERM/latest/SupportTerminology.html</a>.</p>
+<p>This specification is in the STABLE state. The development version of this document can be found at <a href="/releases/TERM/latest/SupportTerminology.html">www.openehr.org/releases/TERM/latest/SupportTerminology.html</a>.</p>
 </div>
 <div class="paragraph">
 <p>Known omissions or questions are indicated in the text with a 'to be determined' paragraph, as follows:</p>
@@ -296,19 +296,19 @@
 <p><strong>TBD</strong>: (example To Be Determined paragraph)</p>
 </div>
 <div class="paragraph">
-<p>Users are encouraged to comment on and/or advise on these paragraphs as well as the main content.  Feedback should be provided either on the <a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">technical mailing list</a>, or on the <a href="https://openehr.atlassian.net/browse/SPECPR/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel">specifications issue tracker</a>.</p>
+<p>Users are encouraged to comment on and/or advise on these paragraphs as well as the main content.  Feedback should be provided either on the <a href="http://lists.openehr.org/mailman/listinfo/openehr-technical_lists.openehr.org">technical mailing list</a>, or on the <a href="https://openehr.atlassian.net/issues/?filter=11110">specifications issue tracker</a>.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_requests_for_new_terminology_codes"><a class="anchor" href="#_requests_for_new_terminology_codes"></a>1.4. Requests for new Terminology Codes</h3>
 <div class="paragraph">
-<p>Requests for codes may be made by raising a new issue on the <a href="https://openehr.atlassian.net/browse/projects/SPECPR/issues">openEHR PR Jira project</a>; the 'Component' field must be set to 'openEHR Terminology'.</p>
+<p>Requests for codes may be made by raising a new issue on the {openehr_jira_prs_new_term_request}[openEHR New Term requests]; the 'Component' field must be set to 'openEHR Terminology'.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_creating_and_maintaining_translations"><a class="anchor" href="#_creating_and_maintaining_translations"></a>1.5. Creating and Maintaining Translations</h3>
 <div class="paragraph">
-<p>A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM">terminology file</a>.</p>
+<p>A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) <a href="https://github.com/openEHR/openEHR/terminology/tree/master/openEHR_RM">terminology file</a>.</p>
 </div>
 <div class="paragraph">
 <p>This may be done by the Git workflow of:</p>
@@ -316,7 +316,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>fork the <a href="https://github.com/openEHR/terminology">repository</a>;</p>
+<p>fork the <a href="https://github.com/openEHR/openEHR/terminology">repository</a>;</p>
 </li>
 <li>
 <p>create the new file in a directory <code>/xx</code> where <code>xx</code> is a ISO 639 2-character language code;</p>
@@ -336,13 +336,13 @@
 <h2 id="_overview"><a class="anchor" href="#_overview"></a>2. Overview</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This document provides a documentary expression of the openEHR Support Terminology, consisting of code sets and vocabulary that provide values for the coded attributes in the openEHR Reference Model. The computable form of this terminology is available in the <a href="https://github.com/openEHR/terminology">openEHR <code>terminology</code> repository</a>, and is the definitive expression. Access to the terminology in the openEHR reference model is via the classes defined in the package <code>rm.support.terminology</code>.</p>
+<p>This document provides a documentary expression of the openEHR Support Terminology, consisting of code sets and vocabulary that provide values for the coded attributes in the openEHR Reference Model. The computable form of this terminology is available in the <a href="https://github.com/openEHR/openEHR/terminology">openEHR <code>terminology</code> repository</a>, and is the definitive expression. Access to the terminology in the openEHR reference model is via the classes defined in the package <code>rm.support.terminology</code>.</p>
 </div>
 <div class="paragraph">
 <p>There are two types of coded entities used in openEHR. The first is codes that are self-defining, and which do not have separate rubrics, i.e. the code 'stands for itself'. The ISO country and language codes are examples of this, as are code groups for such concepts as 'integrity check algorithm names'. These are represented in openEHR by the <code>CODE_PHRASE</code> type (found in the <code>rm.data_types.text</code> package). Value sets that cannot meaningfully be translated into other languages and which do not have definitions beyond their code value are usually candidates for being a code set rather than a terminology group. The code sets described in this document are mostly internet vocabularies defined by ISO or IETF. This document does not change the definition, it only a) indicates which codes sets are used for what purpose in openEHR and b) assigns them a logical name by which they are referred to in the openEHR models.</p>
 </div>
 <div class="paragraph">
-<p>The second category of coded entities are true coded terms, where each code is a concept identifier, for which there is a rubric and description, potentially in multiple languages. In other words, the way of linguistically expressing the concept is dependent on the language one is working in. Most clinical terminologies are in this category, e.g. <a href="http://www.who.int/classifications/icd/en/">ICD10</a>, <a href="http://www.who.int/classifications/icd/adaptations/icpc2/en/">ICPC</a>, as well as the vocabularies in the openEHR Terminology described here. Terms in this category are expressed by instances of the <a href="http://www.openehr.org/releases/RM/latest/data_types.html#_text_package">openEHR data type</a> <code>DV_CODED_TEXT</code>, which uses the <code>CODE_PHRASE</code> type to contain its defining code, as well as any mapped codes. The openEHR Terminology is a collection of vocabularies required for various attributes in the openEHR Reference and Archetype Models, each identified by a logical name such as "audit change type".</p>
+<p>The second category of coded entities are true coded terms, where each code is a concept identifier, for which there is a rubric and description, potentially in multiple languages. In other words, the way of linguistically expressing the concept is dependent on the language one is working in. Most clinical terminologies are in this category, e.g. <a href="http://www.who.int/classifications/icd/en/">ICD10</a>, <a href="http://www.who.int/classifications/icd/adaptations/icpc2/en/">ICPC</a>, as well as the vocabularies in the openEHR Terminology described here. Terms in this category are expressed by instances of the <a href="/releases/RM/latest/data_types.html#_text_package">openEHR data type</a> <code>DV_CODED_TEXT</code>, which uses the <code>CODE_PHRASE</code> type to contain its defining code, as well as any mapped codes. The openEHR Terminology is a collection of vocabularies required for various attributes in the openEHR Reference and Archetype Models, each identified by a logical name such as "audit change type".</p>
 </div>
 <div class="paragraph">
 <p>The openEHR Terminology vocabularies provide mappings to other recognised terminologies or vocabularies where available. Given that the attributes defined here are mostly coded attributes (i.e. predefined in the openEHR Reference Model), mappings tend to be to terms in vocabularies defined by standards organisations such as CEN and HL7, rather than large clinical vocabularies such as <a href="http://www.who.int/classifications/icd/en/">WHO ICD10</a>.</p>
@@ -353,7 +353,7 @@
 <h2 id="_terminology"><a class="anchor" href="#_terminology"></a>3. Terminology</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The following subsections describe the purpose of the openEHR Terminology Code sets and Vocabularies. The computable definition may be found in the <a href="https://github.com/openEHR/terminology">openEHR <code>terminology</code> repository</a>.</p>
+<p>The following subsections describe the purpose of the openEHR Terminology Code sets and Vocabularies. The computable definition may be found in the <a href="https://github.com/openEHR/openEHR/terminology">openEHR <code>terminology</code> repository</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_code_sets"><a class="anchor" href="#_code_sets"></a>3.1. Code Sets</h3>
@@ -377,23 +377,23 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Countries</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This ISO code set defined by the ISO 3166-1 standard consists of 2-character names
                                  of countries and country subdivisions.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/ehr.html#_composition_class" target="_blank"><code>COMPOSITION</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/ehr.html#_composition_class" target="_blank"><code>COMPOSITION</code></a><br>
                                  <code><em>.territory</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.unicode.org/unicode/onlinedat/countries.html">Unicode countries list</a>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Character Sets</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This IANA (Internet Naming Authority) code set consists of the names of recognised character sets.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/ehr.html#_entry_class" target="_blank"><code>ENTRY</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/ehr.html#_entry_class" target="_blank"><code>ENTRY</code></a><br>
                                  <code><em>.encoding</em></code><br>
-                                 <a href="http://www.openehr.org/releases/RM/latest/data_types.html#_dv_encapsulated_class" target="_blank"><code>DV_ENCAPSULATED</code></a><br>
+                                 <a href="/releases/RM/latest/data_types.html#_dv_encapsulated_class" target="_blank"><code>DV_ENCAPSULATED</code></a><br>
                                  <code><em>.charset</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.iana.org//assignments/character-sets">IANA Character Sets</a>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Compression algorithms</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This code set consists of the names of algorithms used to compress data.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank"><code>DV_MULTIMEDIA</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank"><code>DV_MULTIMEDIA</code></a><br>
                                  <code><em>.compression_algorithm</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/CompressionAlgorithm/cs.html/v3/CompressionAlgorithm/cs.html">HL7 CompressionAlgorithms domain</a>.</p></td>
 </tr>
@@ -401,7 +401,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Integrity check algorithms</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This code set consists of the names of algorithms used to generate hashes for the
                                  purpose of integrity checks on data.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank"><code>DV_MULTIMEDIA</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank"><code>DV_MULTIMEDIA</code></a><br>
                                  <code><em>.integrity_check_algorithm</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/CompressionAlgorithm/cs.html/v3/IntegrityCheckAlgorithm/cs.html">HL7 IntegrityCheckAlgorithm domain</a></p></td>
 </tr>
@@ -413,18 +413,18 @@
                                  languages of cultural or indigenous interest, but which nevertheless are unlikely
                                  to be supported by current software or operating systems.
                                  See <a href="http://www.loc.gov/standards/iso639-2/langhome.html">Library of Congress codes</a> for the latter.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/ehr.html#_entry_class" target="_blank"><code>ENTRY</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/ehr.html#_entry_class" target="_blank"><code>ENTRY</code></a><br>
                                  <code><em>.language</em></code><br>
-                                 <a href="http://www.openehr.org/releases/RM/latest/ehr.html#_composition_class" target="_blank"><code>COMPOSITION</code></a><br>
+                                 <a href="/releases/RM/latest/ehr.html#_composition_class" target="_blank"><code>COMPOSITION</code></a><br>
                                  <code><em>.language</em></code><br>
-                                 <a href="http://www.openehr.org/releases/RM/latest/data_types.html#_dv_encapsulated_class" target="_blank"><code>DV_ENCAPSULATED</code></a><br>
+                                 <a href="/releases/RM/latest/data_types.html#_dv_encapsulated_class" target="_blank"><code>DV_ENCAPSULATED</code></a><br>
                                  <code><em>.language</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://en.wikipedia.org/wiki//List_of_ISO_639-1_codes">ISO 639-1 codes</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Media Types</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This IANA (Internet Naming Authority) code set consists of the names of edia types.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank"><code>DV_MULTIMEDIA</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank"><code>DV_MULTIMEDIA</code></a><br>
                                  <code><em>.media_type</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.iana.org//assignments/media-types/text/">names of MIME media types</a></p></td>
 </tr>
@@ -434,7 +434,7 @@
                                  range for the measured analyte or phenomenon.
                                  Use generally restricted to laboratory results. Maps to some codes in HL7v2
                                  User-defined table 0078 - Abnormal flags.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/data_types.html#_dv_ordered_class" target="_blank"><code>DV_ORDERED</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/data_types.html#_dv_ordered_class" target="_blank"><code>DV_ORDERED</code></a><br>
                                  <code><em>.normal_status</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/CompressionAlgorithm/cs.html/valueset-observation-interpretation.html">HL7v3 ObservationInterpretation vocabulary</a></p></td>
 </tr>
@@ -466,7 +466,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Attestation Reason</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies attestation statuses of Compositions
                                  or other elements of the health record.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/common.html#_attestation_class" target="_blank"><code>ATTESTATION</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/common.html#_attestation_class" target="_blank"><code>ATTESTATION</code></a><br>
                                  <code><em>.reason</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/CompressionAlgorithm/cs.html/v3/ParticipationSignature/cs.html">HL7 ParticipationSignature domain</a>.</p></td>
 </tr>
@@ -474,7 +474,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Audit Change Type</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies the kinds of changes to data which are
                                  recorded in audit trails.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/common.html#_audit_details_class" target="_blank"><code>AUDIT_DETAILS</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/common.html#_audit_details_class" target="_blank"><code>AUDIT_DETAILS</code></a><br>
                                  <code><em>.change_type</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
@@ -482,7 +482,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Composition Category</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies the values of the <code><em>category</em></code> attribute
                                  in Compositions.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/ehr.html#_composition_class" target="_blank"><code>COMPOSITION</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/ehr.html#_composition_class" target="_blank"><code>COMPOSITION</code></a><br>
                                  <code><em>.category</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
@@ -490,44 +490,44 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Event Math Function</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies mathematical functions applied to
                                  non-instantaneous time series events.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/data_structures.html#_interval_class" target="_blank"><code>INTERVAL_EVENT</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/data_structures.html#_interval_class" target="_blank"><code>INTERVAL_EVENT</code></a><br>
                                  <code><em>.math_function</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Instruction States</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies the names of the states in the
-                                 <a href="http://www.openehr.org/releases/RM/latest/ehr.html#_the_standard_instruction_state_machine_ism">standard Instruction state machine</a>.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/ehr.html#_ism_transition_class" target="_blank"><code>ISM_TRANSITION</code></a><br>
+                                 <a href="/releases/RM/latest/ehr.html#_the_standard_instruction_state_machine_ism">standard Instruction state machine</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/ehr.html#_ism_transition_class" target="_blank"><code>ISM_TRANSITION</code></a><br>
                                  <code><em>.current_state</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Instruction Transitions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies the names of the transitions in the
-                                 <a href="http://www.openehr.org/releases/RM/latest/ehr.html#_the_standard_instruction_state_machine_ism">standard Instruction state machine</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/ehr.html#_ism_transition_class" target="_blank"><code>ISM_TRANSITION</code></a><br>
+                                 <a href="/releases/RM/latest/ehr.html#_the_standard_instruction_state_machine_ism">standard Instruction state machine</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/ehr.html#_ism_transition_class" target="_blank"><code>ISM_TRANSITION</code></a><br>
                                  <code><em>.transition</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Null Flavours</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies 'flavours of null' for missing data items.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/data_structures.html#_element_class" target="_blank"><code>ELEMENT</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/data_structures.html#_element_class" target="_blank"><code>ELEMENT</code></a><br>
                                  <code><em>.null_flavour</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Participation Function</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies functions of participation of parties in an interaction.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/common.html#_participation_class" target="_blank"><code>PARTICIPATION</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/common.html#_participation_class" target="_blank"><code>PARTICIPATION</code></a><br>
                                  <code><em>.function</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Participation Mode</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies modes of participation of parties in an interaction.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/common.html#_participation_class" target="_blank"><code>PARTICIPATION</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/common.html#_participation_class" target="_blank"><code>PARTICIPATION</code></a><br>
                                  <code><em>.mode</em></code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/CompressionAlgorithm/cs.html/v3/ParticipationMode/cs.html">HL7 ParticipationMode domain</a></p></td>
 </tr>
@@ -544,32 +544,32 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies broad types of settings in which clinical care is delivered.
                                  It is not intended to be a perfect classification of the real world, but instead a practical
                                  coarse-grained categorisation to aid querying.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/ehr.html#_event_context_class" target="_blank"><code>EVENT_CONTEXT</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/ehr.html#_event_context_class" target="_blank"><code>EVENT_CONTEXT</code></a><br>
                                  <code><em>.setting</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subject relationship</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies the relationship between the subject of care and some other party mentioned in the health record.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/common.html#_party_related_class" target="_blank"><code>PARTY_RELATED</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/common.html#_party_related_class" target="_blank"><code>PARTY_RELATED</code></a><br>
                                  <code><em>.relationship</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Term Mapping Purpose</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies purposes for term mappings as used in openEHR coded text data.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/data_types.html#_term_mapping_class" target="_blank"><code>TERM_MAPPING</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/data_types.html#_term_mapping_class" target="_blank"><code>TERM_MAPPING</code></a><br>
                                  <code><em>.purpose</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Version Lifecycle State</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies lifecycle states of Compositions or other elements of the health record.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.openehr.org/releases/RM/latest/common.html#_original_version_class" target="_blank"><code>ORIGINAL_VERSION</code></a><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/RM/latest/common.html#_original_version_class" target="_blank"><code>ORIGINAL_VERSION</code></a><br>
                                  <code><em>.lifecycle_state</em></code><br>
-                                 <a href="http://www.openehr.org/releases/RM/latest/common.html#_imported_version_class" target="_blank"><code>IMPORTED_VERSION</code></a><br>
+                                 <a href="/releases/RM/latest/common.html#_imported_version_class" target="_blank"><code>IMPORTED_VERSION</code></a><br>
                                  <code><em>.lifecycle_state</em></code><br>
-                                 <a href="http://www.openehr.org/releases/RM/latest/common.html#_versioned_object_class" target="_blank"><code>VERSIONED_OBJECT</code></a><br>
+                                 <a href="/releases/RM/latest/common.html#_versioned_object_class" target="_blank"><code>VERSIONED_OBJECT</code></a><br>
                                  <code><em>.lifecycle_state</em></code></p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
@@ -584,7 +584,7 @@
 <div class="sect2">
 <h3 id="_concrete_format"><a class="anchor" href="#_concrete_format"></a>4.1. Concrete Format</h3>
 <div class="paragraph">
-<p>The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the <a href="https://github.com/openEHR/terminology">openEHR <code>terminology</code> repository</a>, which has the following structure.</p>
+<p>The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the <a href="https://github.com/openEHR/openEHR/terminology">openEHR <code>terminology</code> repository</a>, which has the following structure.</p>
 </div>
 <div id="repo_structure" class="imageblock text-center" style="text-align: center">
 <div class="content">
@@ -593,7 +593,7 @@
 <div class="title">Figure 1. Repository Structure</div>
 </div>
 <div class="paragraph">
-<p>The concrete representation model is shown in the UML diagram below. Note that this model is not intended as a normative model and does not directly correspond to the normative terminology classes defined in the <a href="http://www.openehr.org/releases/RM/latest/data_types.html#_text_package">openEHR Data Types</a> or <a href="/releases/BASE/latest/base_types.html#_terminology_package">openEHR Base Types</a> specifications.</p>
+<p>The concrete representation model is shown in the UML diagram below. Note that this model is not intended as a normative model and does not directly correspond to the normative terminology classes defined in the <a href="/releases/RM/latest/data_types.html#_text_package">openEHR Data Types</a> or <a href="/releases/BASE/latest/base_types.html#_terminology_package">openEHR Base Types</a> specifications.</p>
 </div>
 <div id="openehr_terminology_model" class="imageblock text-center" style="text-align: center">
 <div class="content">
@@ -678,7 +678,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>An <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM/schema">XML Schema (XSD)</a> has been defined for these files, for use with software that processes them.</p>
+<p>An <a href="https://github.com/openEHR/openEHR/terminology/tree/master/openEHR_RM/schema">XML Schema (XSD)</a> has been defined for these files, for use with software that processes them.</p>
 </div>
 </div>
 </div>

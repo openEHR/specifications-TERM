@@ -20,7 +20,7 @@ include::UML/{base_dir}/docs_common/references/openehr_resources.adoc[]
 :jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=unreleased
 :jira-hist-issues: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=released
 
-image::http://www.openehr.org/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
+image::/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
 
 = openEHR Terminology (TERM) - {term_release}
 
@@ -45,7 +45,7 @@ endif::[]
 |===
 |Specification |Description |Wiki
 
-|http://www.openehr.org/releases/TERM/{term_release}/SupportTerminology.html[openEHR Terminology]
+|link:/releases/TERM/{term_release}/SupportTerminology.html[openEHR Terminology]
 |Documentary form of the openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models.
 |https://openehr.atlassian.net/wiki/display/spec/openEHR+Terminology[wiki page] 
 

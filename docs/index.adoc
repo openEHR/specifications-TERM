@@ -15,7 +15,7 @@
 :sectanchors:
 :term_release: latest
 
-include::UML/{base_dir}/docs_common/references/openehr_resources.adoc[]
+include::UML/{base_dir}/docs_common/references/reference_definitions.adoc[]
 
 :jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=unreleased
 :jira-hist-issues: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=released

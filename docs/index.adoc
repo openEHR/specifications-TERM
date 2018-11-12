@@ -13,16 +13,22 @@
 :keywords: terminology, openehr
 :description: openEHR Terminology
 :sectanchors:
-:term_release: latest
 
-include::UML/{base_dir}/docs_common/references/reference_definitions.adoc[]
+include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
+
+//
+// ============================================ Asciidoc PREAMBLE =============================================
+//
+
+image::{openehr_logo}["openEHR logo",align="center"]
+
+= openEHR Terminology (TERM) - {term_release}
+
+include::{ref_dir}/docs/references/reference_definitions.adoc[]
 
 :jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=unreleased
 :jira-hist-issues: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=released
 
-image::/releases/BASE/latest/resources/images/openehr_logo_large.png["openEHR logo",align="center"]
-
-= openEHR Terminology (TERM) - {term_release}
 
 // Use the following version for 'latest'
 ifeval::["{term_release}" == "latest"]

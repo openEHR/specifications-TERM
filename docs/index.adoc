@@ -22,6 +22,8 @@ include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
 
 image::{openehr_logo}["openEHR logo",align="center"]
 
+image::openehr_block_diagram.svg["openEHR components",align="center",width="60%"]
+
 = openEHR Terminology (TERM) - {term_release}
 
 include::{ref_dir}/docs/references/reference_definitions.adoc[]

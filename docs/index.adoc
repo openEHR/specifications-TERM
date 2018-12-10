@@ -28,23 +28,18 @@ image::openehr_block_diagram.svg["openEHR components",align="center",width="60%"
 
 include::{ref_dir}/docs/references/reference_definitions.adoc[]
 
-:jira-roadmap: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=unreleased
-:jira-hist-issues: https://openehr.atlassian.net/projects/SPECTERM?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page&status=released
-
-
 // Use the following version for 'latest'
 ifeval::["{term_release}" == "latest"]
-:jira-issues: https://openehr.atlassian.net/projects/SPECTERM/issues
 [.title-para]
-{jira-roadmap}[Roadmap] | {jira-issues}[Current Issues] | {jira-hist-issues}[Change History]
+{component_prs}[Open Issues^] | {component_roadmap}[Roadmap^] | {component_history}[Previous Releases^] 
 endif::[]
 
 // Use the following version for a release
 ifeval::["{term_release}" != "latest"]
-:jira-pr-release: https://openehr.atlassian.net/projects/SPECPR/versions/12504
-:jira-cr-release: https://openehr.atlassian.net/projects/SPECTERM/versions/12502
+:term_prs_fixed: {component_prs_fixed}{term_release}/issues
+:term_crs_done: {component_crs_done}{term_release}/changes
 [.title-para]
-{jira-pr-release}[Problems Fixed] | {jira-cr-release}[Changes Implemented] | {jira-roadmap}[Roadmap] | {jira-hist-issues}[Change History]
+{term_prs_fixed}[Issues Fixed^] | {term_crs_done}[Changes Implemented^] | {component_roadmap}[Roadmap^] | {component_history}[Change History^]
 endif::[]
 
 == Specifications
@@ -55,7 +50,7 @@ endif::[]
 
 |link:/releases/TERM/{term_release}/SupportTerminology.html[openEHR Terminology]
 |Documentary form of the openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models.
-|https://openehr.atlassian.net/wiki/display/spec/openEHR+Terminology[wiki page] 
+|{openehr_wiki_root}/display/spec/openEHR+Terminology[wiki page^] 
 
 |===
 
@@ -66,22 +61,21 @@ endif::[]
 |Resource |Description
 
 |XML terminology files
-|https://github.com/openEHR/terminology/tree/master/openEHR_RM[XML source files].
+|{openehr_git}/terminology/tree/master/openEHR_RM[XML source files^].
 
 |===
 
 == Change Requests
-
 
 [cols="1,4", options="header"]
 |===
 |Type |Description
 
 |New code request
-|Requests for codes may be made by raising a new issue on the {openehr_jira_prs}[openEHR PR Jira project]; the 'Component' field must be set to 'openEHR Terminology'.
+|Requests for codes may be made by raising a new issue on the {openehr_jira_prs}[openEHR PR Jira project^]; the 'Component' field must be set to 'openEHR Terminology'.
 
 |Add new translation
-|{openehr_terminology}#_creating_and_maintaining_translations[See here]. 
+|{openehr_terminology}#_creating_and_maintaining_translations[See here^]. 
 
 |===
 

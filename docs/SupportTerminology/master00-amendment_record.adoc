@@ -7,34 +7,34 @@
 4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}2.1.0*
 
 |[[latest_issue]]2.1.0
-|{openehr_jira}/SPECTERM-6[SPECTERM-6]: Correct Terminology typos.
+|{spec_tickets}/SPECTERM-6[SPECTERM-6^]: Correct Terminology typos.
 |I McNicoll
 |[[latest_issue_date]]08 Nov 2017
 
 4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
 
 |1.0
-|{openehr_jira}/SPEC-219[SPECRM-219]: Use constants instead of literals to refer to terminology in RM.
+|{spec_tickets}/SPEC-219[SPECRM-219^]: Use constants instead of literals to refer to terminology in RM.
 |R Chen
 |08 Apr 2007
 
 |
-|{openehr_jira}/SPEC-221[SPECRM-221]. Add normal_status to `DV_ORDERED`. Add new "normal status" terminology group.
+|{spec_tickets}/SPEC-221[SPECRM-221^]. Add normal_status to `DV_ORDERED`. Add new "normal status" terminology group.
 |H Frankel
 |
 
 |
-|{openehr_jira}/SPEC-217[SPECRM-217]: Additional math function.
+|{spec_tickets}/SPEC-217[SPECRM-217^]: Additional math function.
 |S Heard
 |
 
 |
-|{openehr_jira}/SPEC-235[SPECRM-235]: Make attestation-only commit require a Contribution. Add 'attestation' code to audit-change type.
+|{spec_tickets}/SPEC-235[SPECRM-235^]: Make attestation-only commit require a Contribution. Add 'attestation' code to audit-change type.
 |A Patterson
 |
 
 |
-|{openehr_jira}/SPEC-246[SPECRM-246]: Correct openEHR terminology rubrics.
+|{spec_tickets}/SPEC-246[SPECRM-246^]: Correct openEHR terminology rubrics.
 |B Verhees, +
  M Forss
 |
@@ -42,27 +42,27 @@
 4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
 
 |0.9
-|{openehr_jira}/SPEC-184[SPECRM-184]. Separate out terminology from Support IM.
+|{spec_tickets}/SPEC-184[SPECRM-184^]. Separate out terminology from Support IM.
 |H Frankel
 |22 Oct 2005
 
 |
-|{openehr_jira}/SPEC-182[SPECRM-182]: Rationalise `VERSION._lifecycle_state_` and `ATTESTATION.status_`. Add new term set for attestation reason, deprecate attestation state term set.
+|{spec_tickets}/SPEC-182[SPECRM-182^]: Rationalise `VERSION._lifecycle_state_` and `ATTESTATION.status_`. Add new term set for attestation reason, deprecate attestation state term set.
 |H Frankel
 |
 
 |
-|{openehr_jira}/SPEC-162[SPECRM-162]. Allow party identifiers when no demographic data. Deprecate some terms from version lifecycle status group, add some new terms.
+|{spec_tickets}/SPEC-162[SPECRM-162^]. Allow party identifiers when no demographic data. Deprecate some terms from version lifecycle status group, add some new terms.
 |H Frankel
 |
 
 |
-|{openehr_jira}/SPEC-140[SPECRM-140]. Redevelop Instruction, based on workflow principles. Add term sets for Instruction State machine.
+|{spec_tickets}/SPEC-140[SPECRM-140^]. Redevelop Instruction, based on workflow principles. Add term sets for Instruction State machine.
 |H Frankel
 |
 
 |
-|{openehr_jira}/SPEC-192[SPECRM-192]: Add display-as-absolute facility to delta Events in History
+|{spec_tickets}/SPEC-192[SPECRM-192^]: Add display-as-absolute facility to delta Events in History
 |H Frankel
 |
 

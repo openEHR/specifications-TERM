@@ -12,7 +12,7 @@ The concrete representation model is shown in the UML diagram below. Note that t
 
 [.text-center]
 .openEHR Terminology Model
-image::{uml_export_dir}/diagrams/TERM-terminology.svg[id=openehr_terminology_model, align="center"]
+image::{uml_diagrams_uri}/TERM-terminology.svg[id=openehr_terminology_model, align="center"]
 
 The `TERMINOLOGY` type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translations of the vocabularies has its own instance. 
 

@@ -1,24 +1,20 @@
 //
 // ============================================ Asciidoc HEADER =============================================
 //
-:doctype: book
-:source-highlighter: pygments
-//:pygments-style: murphy
-//:toc: macro
-:toc: left
-:toclevels: 4
-:pagenums:
-:sectnums!:
-// git rid of PDF 'Chapter' labs on level 1 headings
-:chapter-label:
+include::{ref_dir}/docs/boilerplate/book_style_settings.adoc[]
+
+//
+// Document-specific attributes
+//
 :copyright_year: 2008
+:spec_status: STABLE
+
 //
 // HTML-only attributes
 //
 :linkcss:
 :keywords: terminology, code-set, vocabulary
 :description: openEHR Support Terminology
-:spec_status: STABLE
 :linkattrs:
 
 
@@ -76,8 +72,6 @@ include::master04-representation.adoc[leveloffset=+1]
 //
 // --------------------------------------------- REFERENCES -----------------------------------------------
 //
-
-
 :sectnums!:
 //== References
 

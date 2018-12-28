@@ -4,14 +4,14 @@
 |===
 |Issue|Details|Raiser|Completed
 
-4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}2.1.0*
+4+^h|*TERM Release 2.1.0*
 
 |[[latest_issue]]2.1.0
 |{spec_tickets}/SPECTERM-6[SPECTERM-6^]: Correct Terminology typos.
 |I McNicoll
 |[[latest_issue_date]]08 Nov 2017
 
-4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
+4+^h|*Release 1.0*
 
 |1.0
 |{spec_tickets}/SPEC-219[SPECRM-219^]: Use constants instead of literals to refer to terminology in RM.
@@ -39,7 +39,7 @@
  M Forss
 |
 
-4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0*
+4+^h|*Release 0.9*
 
 |0.9
 |{spec_tickets}/SPEC-184[SPECRM-184^]. Separate out terminology from Support IM.

@@ -6,7 +6,7 @@ The concrete representation of the openEHR code-sets and vocabularies is in the 
 
 [.text-center]
 .Repository Structure
-image::images/repo_structure.png[id=repo_structure, align="center", width="60%"]
+image::{images_uri}/repo_structure.png[id=repo_structure, align="center"]
 
 The concrete representation model is shown in the UML diagram below. Note that this model is not intended as a normative model and does not directly correspond to the normative terminology classes defined in the {openehr_rm_data_types}#_text_package[openEHR Data Types^] or {openehr_base_types}#_terminology_package[openEHR Base Types^] specifications.
 

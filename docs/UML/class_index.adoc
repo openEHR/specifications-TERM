@@ -6,24 +6,24 @@
 ==== Package CODE
 
 [.xcode]
-* http://www.openehr.org/releases/TERM/{term_release}/CODE.html#_code_class[CODE]
+* link:/releases/TERM/{term_release}/CODE.html#_code_class[CODE^]
 
 ==== Package CODE_SET
 
 [.xcode]
-* http://www.openehr.org/releases/TERM/{term_release}/CODE_SET.html#_code_set_class[CODE_SET]
+* link:/releases/TERM/{term_release}/CODE_SET.html#_code_set_class[CODE_SET^]
 
 ==== Package TERMINOLOGY
 
 [.xcode]
-* http://www.openehr.org/releases/TERM/{term_release}/TERMINOLOGY.html#_terminology_class[TERMINOLOGY]
+* link:/releases/TERM/{term_release}/TERMINOLOGY.html#_terminology_class[TERMINOLOGY^]
 
 ==== Package TERMINOLOGY_CONCEPT
 
 [.xcode]
-* http://www.openehr.org/releases/TERM/{term_release}/TERMINOLOGY_CONCEPT.html#_terminology_concept_class[TERMINOLOGY_CONCEPT]
+* link:/releases/TERM/{term_release}/TERMINOLOGY_CONCEPT.html#_terminology_concept_class[TERMINOLOGY_CONCEPT^]
 
 ==== Package TERMINOLOGY_GROUP
 
 [.xcode]
-* http://www.openehr.org/releases/TERM/{term_release}/TERMINOLOGY_GROUP.html#_terminology_group_class[TERMINOLOGY_GROUP]
+* link:/releases/TERM/{term_release}/TERMINOLOGY_GROUP.html#_terminology_group_class[TERMINOLOGY_GROUP^]

@@ -11,7 +11,7 @@
 //
 :linkcss:
 :keywords: terminology, openehr
-:description: openEHR Terminology
+:description: openEHR Terminology Component
 :sectanchors:
 
 include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
@@ -24,7 +24,7 @@ image::{openehr_logo}["openEHR logo",align="center"]
 
 image::openehr_block_diagram.svg["openEHR components",align="center",width="60%"]
 
-= openEHR Terminology (TERM) - {term_release}
+= openEHR Terminology (TERM) Component - {term_release}
 
 include::{ref_dir}/docs/references/reference_definitions.adoc[]
 
@@ -72,10 +72,10 @@ endif::[]
 |Type |Description
 
 |New code request
-|Requests for codes may be made by raising a new issue on the {openehr_jira_prs}[openEHR PR Jira project^]; the 'Component' field must be set to 'openEHR Terminology'.
+|Requests for codes may be made by raising a new issue on the {openehr_prs}[openEHR PR Jira project^]; the 'Component' field must be set to 'openEHR Terminology'.
 
 |Add new translation
-|{openehr_terminology}#_creating_and_maintaining_translations[See here^]. 
+|{openehr_term_terminology}#_creating_and_maintaining_translations[See here^]. 
 
 |===
 

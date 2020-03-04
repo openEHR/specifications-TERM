@@ -1,18 +1,10 @@
 //
 // ============================================ Asciidoc HEADER =============================================
 //
-:doctype: book
-:pagenums:
-:numbered!:
-// git rid of PDF 'Chapter' labs on level 1 headings
-:chapter-label:
-//
-// HTML-only attributes
-//
-:linkcss:
+include::{ref_dir}/docs/boilerplate/basic_style_settings.adoc[]
+
 :keywords: terminology, openehr
 :description: openEHR Terminology Component
-:sectanchors:
 
 include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
 
@@ -24,6 +16,7 @@ image::{openehr_logo}["openEHR logo",align="center"]
 
 image::openehr_block_diagram.svg["openEHR components",align="center",width="60%"]
 
+:numbered!:
 = openEHR Terminology (TERM) Component - {term_release}
 
 include::{ref_dir}/docs/references/reference_definitions.adoc[]

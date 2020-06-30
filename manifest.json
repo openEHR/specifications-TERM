@@ -1,0 +1,90 @@
+{
+    "id": "TERM",
+    "title": "openEHR Terminology",
+    "description": "openEHR Terminology Component",
+    "keywords": "terminology, code-set, openehr",
+    "specifications": [
+        {
+            "id": "SupportTerminology",
+            "title": "Support Terminology specification",
+            "title_short": "Support Terminology",
+            "description": "openEHR Support Terminology specification",
+            "summary": "Documentary form of the openEHR terminology, which is a set of vocabularies and code sets used by RM, AM and SM.",
+            "micro_summary": "Support Terminology and code-sets needed for RM, AM and SM",
+            "copyright_year": "2008",
+            "spec_status": "STABLE",
+            "keywords": "terminology, code-set, vocabulary, openehr",
+            "notes": [
+                {
+                    "link": "https://specifications.openehr.org/wiki/display/spec/openEHR+Terminology",
+                    "text": "Terminology wiki page"
+                },
+                {
+                    "link": "SupportTerminology#_creating_and_maintaining_translations",
+                    "text": "Terminology translations"
+                }
+            ]
+        },
+        {
+            "id": "en_openehr_terminology.xml",
+            "title": "openEHR Terminology (en)",
+            "title_short": "openEHR Terminology",
+            "description": "openEHR Terminology (en) specification",
+            "summary": "The openEHR Terminology XML file (in english language).",
+            "micro_summary": "openEHR Terminology XML file (in english language)",
+            "link": "https://github.com/openEHR/terminology/blob/master/openEHR_RM/en/openehr_terminology.xml",
+            "copyright_year": "2008",
+            "spec_status": "STABLE",
+            "keywords": "terminology, code-set, vocabulary, openehr"
+        },
+        {
+            "id": "openehr_external_terminologies.xml",
+            "title": "External terminologies",
+            "title_short": "External terminologies",
+            "description": "openEHR Terminology (en) specification",
+            "summary": "The file containing external terminologies (e.g. Countries ISO 3166, Languages ISO 639-1, Media types IANA, etc) used by RM, AM and SM.",
+            "micro_summary": "External Terminologies",
+            "link": "https://github.com/openEHR/terminology/blob/master/openEHR_RM/openehr_external_terminologies.xml",
+            "copyright_year": "2008",
+            "spec_status": "STABLE",
+            "keywords": "terminology, code-set, vocabulary, openehr"
+        }
+    ],
+    "expressions": [
+        {
+            "id": "Terminology-XML",
+            "type": "url",
+            "title": "Terminology XML",
+            "description": "External and openEHR Terminology XML source files.",
+            "link": "https://github.com/openEHR/terminology/tree/master/openEHR_RM"
+        },
+        {
+            "id": "openEHR_UML-TERM.mdzip",
+            "type": "uml",
+            "title": "TERM UML",
+            "description": "UML file for openEHR TERM classes, as MagicDraw 19. Contains UML 2.5 standard XMI file."
+        }
+    ],
+    "jira": {
+        "open_issues": "11100",
+        "roadmap": "SPECTERM"
+    },
+    "releases": [
+        {
+            "id": "2.2.0",
+            "date": "",
+            "jira": {
+                "crs": "SPECTERM/versions/12503",
+                "prs": "SPECPR/versions/12515"
+            }
+        },
+        {
+            "id": "2.1.0",
+            "date": "2017-11-08",
+            "jira": {
+                "crs": "SPECTERM/versions/12502",
+                "prs": "SPECPR/versions/12504"
+            }
+        }
+    ]
+}

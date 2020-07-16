@@ -2,12 +2,7 @@
 // ============================================ Asciidoc HEADER =============================================
 //
 include::{ref_dir}/docs/boilerplate/book_style_settings.adoc[]
-
-:copyright_year: 2008
-:spec_status: STABLE
-:keywords: terminology, code-set, vocabulary
-:description: openEHR Support Terminology
-
+include::manifest_vars.adoc[]
 include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
 
 //

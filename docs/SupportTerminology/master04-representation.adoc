@@ -14,7 +14,7 @@ The concrete representation model is shown in the UML diagram below. Note that t
 .openEHR Terminology Model
 image::{uml_diagrams_uri}/TERM-terminology.svg[id=openehr_terminology_model, align="center"]
 
-The `TERMINOLOGY` type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translations of the vocabularies has its own instance. 
+The `TERMINOLOGY` type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translation of the vocabularies has its own instance.
 
 The concrete artefacts based on this model are accordingly as follows:
 
@@ -79,4 +79,4 @@ The vocabulary file _for English_ looks as follows:
 </terminology>
 ------
 
-An {openehr_terminology_resources}/tree/master/openEHR_RM/schema[XML Schema (XSD)^] has been defined for these files, for use with software that processes them.
+An {openehr_terminology_resources}/tree/master/computable/XML/schema[XML Schema (XSD)^] has been defined for these files, for use with software that processes them.

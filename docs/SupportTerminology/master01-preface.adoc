@@ -37,12 +37,12 @@ Requests for codes may be made by raising a new issue on the {openehr_jira_prs_n
 
 == Creating and Maintaining Translations
 
-A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) {openehr_terminology_resources}/tree/master/openEHR_RM[terminology file^].
+A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) {openehr_terminology_resources}/tree/master/computable/XML[terminology file^].
 
 This may be done by the Git workflow of:
 
 * fork the {openehr_terminology_resources}[repository^];
-* create the new file in a directory `/xx` where `xx` is a ISO 639 2-character language code;
+* create the new file in a directory `/computable/XML/xx` where `xx` is a ISO 639 2-character language code;
 * when translation is complete, create a pull request.
 
 Translations are maintained when new codes are added by means of notifications to the GitHub authors of current translations.

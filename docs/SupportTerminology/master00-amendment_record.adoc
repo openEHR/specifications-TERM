@@ -4,12 +4,19 @@
 |===
 |Issue|Details|Raiser|Completed
 
+4+^h|*TERM Release 2.2.0*
+
+|[[latest_issue]]2.2.0
+|Adding a copy of terminology files Release-2.2.0 of https://github.com/openEHR/terminology and updating related links.
+|S Iancu
+|[[latest_issue_date]]01 Aug 2018
+
 4+^h|*TERM Release 2.1.0*
 
-|[[latest_issue]]2.1.0
+|2.1.0
 |{spec_tickets}/SPECTERM-6[SPECTERM-6^]: Correct Terminology typos.
 |I McNicoll
-|[[latest_issue_date]]08 Nov 2017
+|08 Nov 2017
 
 4+^h|*Release 1.0*
 

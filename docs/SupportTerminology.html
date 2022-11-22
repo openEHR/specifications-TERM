@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="generator" content="Asciidoctor 2.0.18">
 <meta name="description" content="openEHR Support Terminology specification">
 <meta name="keywords" content="terminology, code-set, vocabulary, openehr">
 <title>Support Terminology specification</title>
 <link rel="stylesheet" href="https://specifications.openehr.org/styles/openehr.css">
+<link rel="stylesheet" href="https://specifications.openehr.org/styles/pygments-default.css">
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
@@ -75,7 +76,7 @@
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Release</strong>: TERM latest</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Release</strong>: TERM Release-2.2.0</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Status</strong>: STABLE</p></td>
 </tr>
 <tr>
@@ -99,7 +100,7 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-center valign-top" colspan="2">&#169; 2008 - 2020 The openEHR Foundation</th>
+<th class="tableblock halign-center valign-top" colspan="2">&#169; 2008 - 2022 The openEHR Foundation</th>
 </tr>
 </thead>
 <tbody>
@@ -139,13 +140,22 @@
 </thead>
 <tbody>
 <tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.2.0</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue"></a>2.2.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adding a copy of terminology files Release-2.2.0 of <a href="https://github.com/openEHR/terminology" class="bare">https://github.com/openEHR/terminology</a> and updating related links.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>01 Aug 2018</p></td>
+</tr>
+<tr>
 <th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.1.0</strong></p></th>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue"></a>2.1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1.0</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-6" target="_blank" rel="noopener">SPECTERM-6</a>: Correct Terminology typos.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">I McNicoll</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>08 Nov 2017</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08 Nov 2017</p></td>
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>Release 1.0</strong></p></th>
@@ -252,7 +262,7 @@
 <div class="sect2">
 <h3 id="_purpose"><a class="anchor" href="#_purpose"></a>1.1. Purpose</h3>
 <div class="paragraph">
-<p>This document describes the openEHR Support Terminology and code sets, which define the vocabulary and codes needed for the openEHR Reference, Archetype and Service models. The openEHR terminology is not considered to be in the same space as externally defined terminologies such as <a href="http://www.ihtsdo.org" target="_blank" rel="noopener">SNOMED CT</a>, <a href="http://www.who.int/classifications/icd/en/" target="_blank" rel="noopener">ICDx</a> etc, since it is not an ontology of real facts, but of informational classifiers needed by the openEHR models. The code sets are generally a means of interfacing external codes such as ISO language identifiers, with openEHR. The audience of this document includes:</p>
+<p>This document describes the openEHR Support Terminology and code sets, which define the vocabulary and codes needed for the openEHR Reference, Archetype and Service models. The openEHR terminology is not considered to be in the same space as externally defined terminologies such as <a href="http://www.snomed.org" target="_blank" rel="noopener">SNOMED CT</a>, <a href="http://www.who.int/classifications/icd/en/" target="_blank" rel="noopener">ICDx</a> etc, since it is not an ontology of real facts, but of informational classifiers needed by the openEHR models. The code sets are generally a means of interfacing external codes such as ISO language identifiers, with openEHR. The audience of this document includes:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -299,7 +309,7 @@
 <div class="sect2">
 <h3 id="_feedback"><a class="anchor" href="#_feedback"></a>1.4. Feedback</h3>
 <div class="paragraph">
-<p>Feedback may be provided on the <a href="https://discourse.openehr.org/c/specifications" target="_blank" rel="noopener">technical mailing list</a>.</p>
+<p>Feedback may be provided on the <a href="https://discourse.openehr.org/c/specifications/terminology" target="_blank" rel="noopener">openEHR Terminology specifications forum</a>.</p>
 </div>
 <div class="paragraph">
 <p>Issues may be raised on the <a href="https://specifications.openehr.org/components/TERM/open_issues" target="_blank" rel="noopener">specifications Problem Report tracker</a>.</p>
@@ -311,13 +321,13 @@
 <div class="sect2">
 <h3 id="_requests_for_new_terminology_codes"><a class="anchor" href="#_requests_for_new_terminology_codes"></a>1.5. Requests for new Terminology Codes</h3>
 <div class="paragraph">
-<p>Requests for codes may be made by raising a new issue on the {openehr_jira_prs_new_term_request}[openEHR New Term requests^]; the 'Component' field must be set to 'openEHR Terminology'.</p>
+<p>Requests for codes may be made by raising a new issue on the <a href="https://specifications.openehr.org/components/TERM/open_issues" target="_blank" rel="noopener">specifications Problem Report tracker</a>; the 'Component' field must be set to 'TERM - openEHR Terminology'.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_creating_and_maintaining_translations"><a class="anchor" href="#_creating_and_maintaining_translations"></a>1.6. Creating and Maintaining Translations</h3>
 <div class="paragraph">
-<p>A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM" target="_blank" rel="noopener">terminology file</a>.</p>
+<p>A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) <a href="https://github.com/openEHR/specifications-TERM/tree/master/computable/XML" target="_blank" rel="noopener">terminology file</a>.</p>
 </div>
 <div class="paragraph">
 <p>This may be done by the Git workflow of:</p>
@@ -325,10 +335,10 @@
 <div class="ulist">
 <ul>
 <li>
-<p>fork the <a href="https://github.com/openEHR/terminology" target="_blank" rel="noopener">repository</a>;</p>
+<p>fork the <a href="https://github.com/openEHR/specifications-TERM" target="_blank" rel="noopener">repository</a>;</p>
 </li>
 <li>
-<p>create the new file in a directory <code>/xx</code> where <code>xx</code> is a ISO 639 2-character language code;</p>
+<p>create the new file in a directory <code>/computable/XML/xx</code> where <code>xx</code> is a ISO 639 2-character language code;</p>
 </li>
 <li>
 <p>when translation is complete, create a pull request.</p>
@@ -345,7 +355,7 @@
 <h2 id="_overview"><a class="anchor" href="#_overview"></a>2. Overview</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This document provides a documentary expression of the openEHR Support Terminology, consisting of code sets and vocabulary that provide values for the coded attributes in the openEHR Reference Model. The computable form of this terminology is available in the <a href="https://github.com/openEHR/terminology" target="_blank" rel="noopener">openEHR <code>terminology</code> repository</a>, and is the definitive expression. Access to the terminology in the openEHR reference model is via the classes defined in the package <code>rm.support.terminology</code>.</p>
+<p>This document provides a documentary expression of the openEHR Support Terminology, consisting of code sets and vocabulary that provide values for the coded attributes in the openEHR Reference Model. The computable form of this terminology is available in the <a href="https://github.com/openEHR/specifications-TERM" target="_blank" rel="noopener">openEHR <code>terminology</code> repository</a>, and is the definitive expression. Access to the terminology in the openEHR reference model is via the classes defined in the package <code>rm.support.terminology</code>.</p>
 </div>
 <div class="paragraph">
 <p>There are two types of coded entities used in openEHR. The first is codes that are self-defining, and which do not have separate rubrics, i.e. the code 'stands for itself'. The ISO country and language codes are examples of this, as are code groups for such concepts as 'integrity check algorithm names'. These are represented in openEHR by the <code>CODE_PHRASE</code> type (found in the <code>rm.data_types.text</code> package). Value sets that cannot meaningfully be translated into other languages and which do not have definitions beyond their code value are usually candidates for being a code set rather than a terminology group. The code sets described in this document are mostly internet vocabularies defined by ISO or IETF. This document does not change the definition, it only a) indicates which codes sets are used for what purpose in openEHR and b) assigns them a logical name by which they are referred to in the openEHR models.</p>
@@ -362,7 +372,7 @@
 <h2 id="_terminology"><a class="anchor" href="#_terminology"></a>3. Terminology</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The following subsections describe the purpose of the openEHR Terminology Code sets and Vocabularies. The computable definition may be found in the <a href="https://github.com/openEHR/terminology" target="_blank" rel="noopener">openEHR <code>terminology</code> repository</a>.</p>
+<p>The following subsections describe the purpose of the openEHR Terminology Code sets and Vocabularies. The computable definition may be found in the <a href="https://github.com/openEHR/specifications-TERM" target="_blank" rel="noopener">openEHR <code>terminology</code> repository</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_code_sets"><a class="anchor" href="#_code_sets"></a>3.1. Code Sets</h3>
@@ -404,7 +414,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">This code set consists of the names of algorithms used to compress data.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank" rel="noopener"><code>DV_MULTIMEDIA</code></a><br>
                                  <code><em>.compression_algorithm</em></code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir//v3/CompressionAlgorithm/cs.html" target="_blank" rel="noopener">HL7 CompressionAlgorithms domain</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/CompressionAlgorithm/cs.html" target="_blank" rel="noopener">HL7 CompressionAlgorithms domain</a>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Integrity check algorithms</p></td>
@@ -412,7 +422,7 @@
                                  purpose of integrity checks on data.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_multimedia_class" target="_blank" rel="noopener"><code>DV_MULTIMEDIA</code></a><br>
                                  <code><em>.integrity_check_algorithm</em></code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir//v3/IntegrityCheckAlgorithm/cs.html" target="_blank" rel="noopener">HL7 IntegrityCheckAlgorithm domain</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/IntegrityCheckAlgorithm/cs.html" target="_blank" rel="noopener">HL7 IntegrityCheckAlgorithm domain</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Languages</p></td>
@@ -445,7 +455,7 @@
                                  User-defined table 0078 - Abnormal flags.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_ordered_class" target="_blank" rel="noopener"><code>DV_ORDERED</code></a><br>
                                  <code><em>.normal_status</em></code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir//valueset-observation-interpretation.html" target="_blank" rel="noopener">HL7v3 ObservationInterpretation vocabulary</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/valueset-observation-interpretation.html" target="_blank" rel="noopener">HL7v3 ObservationInterpretation vocabulary</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -477,7 +487,7 @@
                                  or other elements of the health record.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/releases/RM/latest/common.html#_attestation_class" target="_blank" rel="noopener"><code>ATTESTATION</code></a><br>
                                  <code><em>.reason</em></code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir//v3/ParticipationSignature/cs.html" target="_blank" rel="noopener">HL7 ParticipationSignature domain</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/ParticipationSignature/cs.html" target="_blank" rel="noopener">HL7 ParticipationSignature domain</a>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Audit Change Type</p></td>
@@ -538,7 +548,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">This vocabulary codifies modes of participation of parties in an interaction.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/releases/RM/latest/common.html#_participation_class" target="_blank" rel="noopener"><code>PARTICIPATION</code></a><br>
                                  <code><em>.mode</em></code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir//v3/ParticipationMode/cs.html" target="_blank" rel="noopener">HL7 ParticipationMode domain</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.html" target="_blank" rel="noopener">HL7 ParticipationMode domain</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Property</p></td>
@@ -593,7 +603,7 @@
 <div class="sect2">
 <h3 id="_concrete_format"><a class="anchor" href="#_concrete_format"></a>4.1. Concrete Format</h3>
 <div class="paragraph">
-<p>The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the <a href="https://github.com/openEHR/terminology" target="_blank" rel="noopener">openEHR <code>terminology</code> repository</a>, which has the following structure.</p>
+<p>The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the <a href="https://github.com/openEHR/specifications-TERM" target="_blank" rel="noopener">openEHR <code>terminology</code> repository</a>, which has the following structure.</p>
 </div>
 <div id="repo_structure" class="imageblock text-center text-center">
 <div class="content">
@@ -611,7 +621,7 @@
 <div class="title">Figure 2. openEHR Terminology Model</div>
 </div>
 <div class="paragraph">
-<p>The <code>TERMINOLOGY</code> type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translations of the vocabularies has its own instance.</p>
+<p>The <code>TERMINOLOGY</code> type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translation of the vocabularies has its own instance.</p>
 </div>
 <div class="paragraph">
 <p>The concrete artefacts based on this model are accordingly as follows:</p>
@@ -687,7 +697,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>An <a href="https://github.com/openEHR/terminology/tree/master/openEHR_RM/schema" target="_blank" rel="noopener">XML Schema (XSD)</a> has been defined for these files, for use with software that processes them.</p>
+<p>An <a href="https://github.com/openEHR/specifications-TERM/tree/master/computable/XML/schema" target="_blank" rel="noopener">XML Schema (XSD)</a> has been defined for these files, for use with software that processes them.</p>
 </div>
 </div>
 </div>
@@ -695,9 +705,8 @@
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-07-27 11:11:22 +0100
+Last updated 2022-11-12 10:24:18 UTC
 </div>
 </div>
-<link rel="stylesheet" href="https://specifications.openehr.org/styles/pygments-default.css">
 </body>
 </html>

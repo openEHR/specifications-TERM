@@ -72,7 +72,7 @@
     "releases": [
         {
             "id": "2.2.0",
-            "date": "",
+            "date": "2018-08-01",
             "jira": {
                 "crs": "SPECTERM/versions/12503",
                 "prs": "SPECPR/versions/12515"

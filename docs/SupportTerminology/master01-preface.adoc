@@ -25,7 +25,7 @@ Known omissions or questions are indicated in the text with a 'to be determined'
 
 == Feedback
 
-Feedback may be provided on the {openehr_technical_list}[technical mailing list^].
+Feedback may be provided on the {openehr_term_forum}[openEHR Terminology specifications forum^].
 
 Issues may be raised on the {component_prs}[specifications Problem Report tracker^].
 
@@ -33,7 +33,7 @@ To see changes made due to previously reported issues, see the {component_histor
 
 == Requests for new Terminology Codes
 
-Requests for codes may be made by raising a new issue on the {openehr_jira_prs_new_term_request}[openEHR New Term requests^]; the 'Component' field must be set to 'openEHR Terminology'.
+Requests for codes may be made by raising a new issue on the {component_prs}[specifications Problem Report tracker^]; the 'Component' field must be set to 'TERM - openEHR Terminology'.
 
 == Creating and Maintaining Translations
 

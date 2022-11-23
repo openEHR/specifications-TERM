@@ -4,12 +4,18 @@
 |===
 |Issue|Details|Raiser|Completed
 
+|[[latest_issue]]2.4.0
+|Adding a copy of Spanish terminology file from https://github.com/openEHR/terminology and updating related links.
+|S Iancu, +
+ P Pazos
+|[[latest_issue_date]]23 Nov 2022
+
 4+^h|*TERM Release 2.3.0*
 
-|[[latest_issue]]2.3.0
+|2.3.0
 |Adding a copy of terminology files Release-2.3.0 of https://github.com/openEHR/terminology and updating related links.
 |S Iancu
-|[[latest_issue_date]]20 Oct 2019
+|20 Oct 2019
 
 4+^h|*TERM Release 2.2.0*
 

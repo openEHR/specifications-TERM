@@ -1,4 +1,4 @@
-<terminology name="openehr" language="en">	
+<terminology name="openehr" language="ja">	
 	<codeset issuer="openehr" openehr_id="compression algorithms" external_id="openehr_compression_algorithms">
 		<code value="圧縮"/>
 		<code value="展開"/>
@@ -35,6 +35,7 @@
 	<group name="コンポジションカテゴリ">
 		<concept id="431" rubric="永続"/>
 		<concept id="433" rubric="イベント"/>
+		<concept id="435" rubric="*episodic(en)"/>
 	</group>
 	<!--
 	<group name="MultiMedia">
@@ -235,6 +236,7 @@
 		<concept id="166" rubric="キャンセルする"/>
 		<concept id="542" rubric="延期されたステップ"/>
 		<concept id="539" rubric="計画する"/>
+		<concept id="534" rubric="*scheduled step(en)"/>	
 		<concept id="540" rubric="開始する"/>
 		<concept id="541" rubric="実施する"/>
 		<concept id="543" rubric="実行中のステップ"/>

@@ -56,7 +56,7 @@
             "type": "url",
             "title": "Terminology XML",
             "description": "External and openEHR Terminology XML source files.",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.3.0/computable/XML"
+            "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/XML"
         },
         {
             "id": "openEHR_UML-TERM.mdzip",
@@ -70,6 +70,14 @@
         "roadmap": "SPECTERM"
     },
     "releases": [
+        {
+            "id": "2.4.0",
+            "date": "",
+            "jira": {
+                "crs": "SPECTERM/versions/12568",
+                "prs": "SPECPR/versions/12570"
+            }
+        },
         {
             "id": "2.3.0",
             "date": "2019-10-20",

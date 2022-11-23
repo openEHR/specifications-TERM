@@ -4,12 +4,19 @@
 |===
 |Issue|Details|Raiser|Completed
 
+4+^h|*TERM Release 2.3.0*
+
+|[[latest_issue]]2.3.0
+|Adding a copy of terminology files Release-2.3.0 of https://github.com/openEHR/terminology and updating related links.
+|S Iancu
+|[[latest_issue_date]]20 Oct 2019
+
 4+^h|*TERM Release 2.2.0*
 
-|[[latest_issue]]2.2.0
+|2.2.0
 |Adding a copy of terminology files Release-2.2.0 of https://github.com/openEHR/terminology and updating related links.
 |S Iancu
-|[[latest_issue_date]]01 Aug 2018
+|01 Aug 2018
 
 4+^h|*TERM Release 2.1.0*
 

@@ -32,7 +32,7 @@
             "description": "openEHR Terminology (en) specification",
             "summary": "The openEHR Terminology XML file (in english language).",
             "micro_summary": "openEHR Terminology XML file (in english language)",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.2.0/computable/XML/en/openehr_terminology.xml",
+            "link": "computable/XML/en/openehr_terminology.xml",
             "copyright_year": "2008",
             "spec_status": "STABLE",
             "keywords": "terminology, code-set, vocabulary, openehr"
@@ -44,7 +44,7 @@
             "description": "openEHR Terminology (en) specification",
             "summary": "The file containing external terminologies (e.g. Countries ISO 3166, Languages ISO 639-1, Media types IANA, etc) used by RM, AM and SM.",
             "micro_summary": "External Terminologies",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.2.0/computable/XML/openehr_external_terminologies.xml",
+            "link": "computable/XML/openehr_external_terminologies.xml",
             "copyright_year": "2008",
             "spec_status": "STABLE",
             "keywords": "terminology, code-set, vocabulary, openehr"
@@ -56,7 +56,7 @@
             "type": "url",
             "title": "Terminology XML",
             "description": "External and openEHR Terminology XML source files.",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.2.0/computable/XML"
+            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.3.0/computable/XML"
         },
         {
             "id": "openEHR_UML-TERM.mdzip",
@@ -70,6 +70,14 @@
         "roadmap": "SPECTERM"
     },
     "releases": [
+        {
+            "id": "2.3.0",
+            "date": "2019-10-20",
+            "jira": {
+                "crs": "SPECTERM/versions/12567",
+                "prs": "SPECPR/versions/12569"
+            }
+        },
         {
             "id": "2.2.0",
             "date": "2018-08-01",

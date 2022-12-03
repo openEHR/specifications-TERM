@@ -304,7 +304,7 @@
 		<code value="en-ie" description="English (Ireland)"/>
 		<code value="en-za" description="English (South Africa)"/>
 		<code value="en-jm" description="English (Jamaica)"/>
-		<code value="en" description="English (Caribbean)"/>
+		<code value="en-cb" description="English (Caribbean)"/>
 		<code value="en-bz" description="English (Belize)"/>
 		<code value="en-tt" description="English (Trinidad)"/>
 		<code value="et" description="Estonian"/>
@@ -335,7 +335,6 @@
 		<code value="kk" description="Kasakh"/>
 		<code value="km" description="Central Khmer"/>
 		<code value="ko" description="Korean"/>
-		<code value="ko" description="Korean (Johab)"/>
 		<code value="lv" description="Latvian"/>
 		<code value="lt" description="Lithuanian"/>
 		<code value="mk" description="FYRO Macedonian ms Malaysian"/>
@@ -352,15 +351,16 @@
 		<code value="ru" description="Russian"/>
 		<code value="ru-mo" description="Russian (Moldavia)"/>
 		<code value="sz" description="Sami (Lappish)"/>
-		<code value="sr" description="Serbian (Cyrillic)"/>
-		<code value="sr" description="Serbian (Latin)"/>
+		<code value="sr" description="Serbian"/>
+		<code value="sr-ba" description="Serbian (Bosnia and Herzegovina)"/>
+		<code value="sr-me" description="Serbian (Montenegro)"/>
+		<code value="sr-rs" description="Serbian (Republic of Serbia)"/>
 		<code value="sk" description="Slovak"/>
 		<code value="sl" description="Slovenian"/>
 		<code value="si" description="Sinhala"/>
 		<code value="sb" description="Serbian"/>
-		<code value="es" description="Spanish (Spain ? Traditional)"/>
+		<code value="es" description="Spanish"/>
 		<code value="es-mx" description="Spanish (Mexico)"/>
-		<code value="es" description="Spanish (Spain ? Modern)"/>
 		<code value="es-gt" description="Spanish (Guatemala)"/>
 		<code value="es-cr" description="Spanish (Costa Rica)"/>
 		<code value="es-pa" description="Spanish (Panama)"/>

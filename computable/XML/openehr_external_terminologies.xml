@@ -280,11 +280,11 @@
 		<code value="ar-ae" description="Arabic (U.A.E.)"/>
 		<code value="ar-bh" description="Arabic (Bahrain)"/>
 		<code value="ar-qa" description="Arabic (Qatar)"/>
-		<code value="az" description="Azerbaijani"/>
+		<code value="az" description="Azerbaijani, Azeri"/>
 		<code value="eu" description="Basque"/>
-		<code value="bg" description="Bulgarian"/>
 		<code value="be" description="Belarusian"/>
-		<code value="ca" description="Catalan"/>
+		<code value="bg" description="Bulgarian"/>
+		<code value="ca" description="Catalan, Valencian"/>
 		<code value="zh" description="Chinese"/>
 		<code value="zh-tw" description="Chinese (Taiwan)"/>
 		<code value="zh-cn" description="Chinese (PRC)"/>
@@ -293,7 +293,7 @@
 		<code value="hr" description="Croatian"/>
 		<code value="cs" description="Czech"/>
 		<code value="da" description="Danish"/>
-		<code value="nl" description="Dutch (Standard)"/>
+		<code value="nl" description="Dutch"/>
 		<code value="nl-be" description="Dutch (Belgium)"/>
 		<code value="en" description="English"/>
 		<code value="en-us" description="English (United States)"/>
@@ -306,19 +306,18 @@
 		<code value="en-jm" description="English (Jamaica)"/>
 		<code value="en-cb" description="English (Caribbean)"/>
 		<code value="en-bz" description="English (Belize)"/>
-		<code value="en-tt" description="English (Trinidad)"/>
+		<code value="en-tt" description="English (Trinidad and Tobago)"/>
 		<code value="et" description="Estonian"/>
-		<code value="fo" description="Faeroese"/>
-		<code value="fa" description="Farsi"/>
+		<code value="fo" description="Faroese"/>
 		<code value="fi" description="Finnish"/>
-		<code value="fr" description="French (Standard)"/>
+		<code value="fr" description="French"/>
 		<code value="fr-be" description="French (Belgium)"/>
 		<code value="fr-ca" description="French (Canada)"/>
 		<code value="fr-ch" description="French (Switzerland)"/>
 		<code value="fr-lu" description="French (Luxembourg)"/>
-		<code value="gd" description="Gaelic (Scotland)"/>
+		<code value="gd" description="Gaelic, Scottish Gaelic"/>
 		<code value="gd-ie" description="Gaelic (Ireland)"/>
-		<code value="de" description="German (Standard)"/>
+		<code value="de" description="German"/>
 		<code value="de-ch" description="German (Switzerland)"/>
 		<code value="de-at" description="German (Austria)"/>
 		<code value="de-lu" description="German (Luxembourg)"/>
@@ -329,37 +328,40 @@
 		<code value="hu" description="Hungarian"/>
 		<code value="is" description="Icelandic"/>
 		<code value="id" description="Indonesian"/>
-		<code value="it" description="Italian (Standard)"/>
+		<code value="it" description="Italian"/>
 		<code value="it-ch" description="Italian (Switzerland)"/>
 		<code value="ja" description="Japanese"/>
-		<code value="kk" description="Kasakh"/>
-		<code value="km" description="Central Khmer"/>
+		<code value="kk" description="Kazakh"/>
+		<code value="km" description="Central Khmer, Cambodian"/>
 		<code value="ko" description="Korean"/>
 		<code value="lv" description="Latvian"/>
 		<code value="lt" description="Lithuanian"/>
-		<code value="mk" description="FYRO Macedonian ms Malaysian"/>
+		<code value="mk" description="Macedonian"/>
 		<code value="mt" description="Maltese"/>
 		<code value="nb" description="Norwegian Bokmal"/>
 		<code value="nn" description="Norwegian Nynorsk"/>
+		<code value="fa" description="Persian, Farsi"/>
 		<code value="pl" description="Polish"/>
-		<code value="pt-br" description="Portuguese (Brazil)"/>
-		<code value="pt-pt" description="Portuguese (Portugal)"/>
 		<code value="pt" description="Portuguese"/>
-		<code value="rm" description="Rhaeto-Romanic"/>
+		<code value="pt-br" description="Portuguese (Brazil)"/>
+		<code value="pt-pt" description="Portuguese (Portugal) - DEPRECATED"/>
 		<code value="ro" description="Romanian"/>
 		<code value="ro-mo" description="Romanian (Moldavia)"/>
+		<code value="rm" description="Romansh, Rhaeto-Romanic"/>
 		<code value="ru" description="Russian"/>
 		<code value="ru-mo" description="Russian (Moldavia)"/>
-		<code value="sz" description="Sami (Lappish)"/>
+		<code value="se" description="Northern Sami"/>
+		<code value="sz" description="Sami (Lappish) - DEPRECATED"/>
 		<code value="sr" description="Serbian"/>
 		<code value="sr-ba" description="Serbian (Bosnia and Herzegovina)"/>
 		<code value="sr-me" description="Serbian (Montenegro)"/>
 		<code value="sr-rs" description="Serbian (Republic of Serbia)"/>
+		<code value="sb" description="Serbian - DEPRECATED"/>
+		<code value="si" description="Sinhala, Sinhalese"/>
 		<code value="sk" description="Slovak"/>
-		<code value="sl" description="Slovenian"/>
-		<code value="si" description="Sinhala"/>
-		<code value="sb" description="Serbian"/>
-		<code value="es" description="Spanish"/>
+		<code value="sl" description="Slovenian, Slovene"/>
+		<code value="st" description="Southern Sotho, Sesotho, Sutu"/>
+		<code value="es" description="Spanish, Castilian"/>
 		<code value="es-mx" description="Spanish (Mexico)"/>
 		<code value="es-gt" description="Spanish (Guatemala)"/>
 		<code value="es-cr" description="Spanish (Costa Rica)"/>
@@ -378,7 +380,7 @@
 		<code value="es-hn" description="Spanish (Honduras)"/>
 		<code value="es-ni" description="Spanish (Nicaragua)"/>
 		<code value="es-pr" description="Spanish (Puerto Rico)"/>
-		<code value="sx" description="Sutu"/>
+		<code value="sx" description="Sutu - DEPRECATED"/>
 		<code value="sv" description="Swedish"/>
 		<code value="sv-fi" description="Swedish (Finland)"/>
 		<code value="th" description="Thai"/>
@@ -393,7 +395,8 @@
 		<code value="cy-gb" description="Welsh (United Kingdom)"/>
 		<code value="cy-ar" description="Welsh (Argentina)"/>
 		<code value="xh" description="Xhosa"/>
-		<code value="ji" description="Yiddish"/>
+		<code value="yi" description="Yiddish"/>
+		<code value="ji" description="Yiddish - DEPRECATED"/>
 		<code value="zu" description="Zulu"/>
 	</codeset>
 	<codeset issuer="IANA" openehr_id="media types" external_id="IANA_media-types">

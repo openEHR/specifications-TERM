@@ -27,6 +27,7 @@
 		<code value="BM" description="BERMUDA"/>
 		<code value="BT" description="BHUTAN"/>
 		<code value="BO" description="BOLIVIA"/>
+		<code value="BQ" description="BONAIRE, SINT EUSTATIUS AND SABA"/>
 		<code value="BA" description="BOSNIA AND HERZEGOVINA"/>
 		<code value="BW" description="BOTSWANA"/>
 		<code value="BV" description="BOUVET ISLAND"/>
@@ -56,6 +57,7 @@
 		<code value="CI" description="CÔTE D'IVOIRE"/>
 		<code value="HR" description="CROATIA"/>
 		<code value="CU" description="CUBA"/>
+        <code value="CW" description="CURAÇAO"/>
 		<code value="CY" description="CYPRUS"/>
 		<code value="CZ" description="CZECH REPUBLIC"/>
 		<code value="DK" description="DENMARK"/>
@@ -155,7 +157,7 @@
 		<code value="NR" description="NAURU"/>
 		<code value="NP" description="NEPAL"/>
 		<code value="NL" description="NETHERLANDS"/>
-		<code value="AN" description="NETHERLANDS ANTILLES"/>
+		<code value="AN" description="NETHERLANDS ANTILLES - DEPRECATED"/>
 		<code value="NC" description="NEW CALEDONIA"/>
 		<code value="NZ" description="NEW ZEALAND"/>
 		<code value="NI" description="NICARAGUA"/>
@@ -187,7 +189,7 @@
 		<code value="SH" description="SAINT HELENA"/>
 		<code value="KN" description="SAINT KITTS AND NEVIS"/>
 		<code value="LC" description="SAINT LUCIA"/>
-		<code value="MF" description="SAINT MARTIN"/>
+		<code value="MF" description="SAINT MARTIN (FRENCH PART)"/>
 		<code value="PM" description="SAINT PIERRE AND MIQUELON"/>
 		<code value="VC" description="SAINT VINCENT AND THE GRENADINES"/>
 		<code value="WS" description="SAMOA"/>
@@ -199,6 +201,7 @@
 		<code value="SC" description="SEYCHELLES"/>
 		<code value="SL" description="SIERRA LEONE"/>
 		<code value="SG" description="SINGAPORE"/>
+        <code value="SX" description="SINT MAARTEN (DUTCH PART)"/>
 		<code value="SK" description="SLOVAKIA"/>
 		<code value="SI" description="SLOVENIA"/>
 		<code value="SB" description="SOLOMON ISLANDS"/>

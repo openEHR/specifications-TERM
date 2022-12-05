@@ -70,6 +70,7 @@
 		<code value="GQ" description="EQUATORIAL GUINEA"/>
 		<code value="ER" description="ERITREA"/>
 		<code value="EE" description="ESTONIA"/>
+        <code value="SZ" description="ESWATINI"/>
 		<code value="ET" description="ETHIOPIA"/>
 		<code value="FK" description="FALKLAND ISLANDS (MALVINAS)"/>
 		<code value="FO" description="FAROE ISLANDS"/>
@@ -126,12 +127,11 @@
 		<code value="LB" description="LEBANON"/>
 		<code value="LS" description="LESOTHO"/>
 		<code value="LR" description="LIBERIA"/>
-		<code value="LY" description="LIBYAN ARAB JAMAHIRIYA"/>
+		<code value="LY" description="LIBYA"/>
 		<code value="LI" description="LIECHTENSTEIN"/>
 		<code value="LT" description="LITHUANIA"/>
 		<code value="LU" description="LUXEMBOURG"/>
 		<code value="MO" description="MACAO"/>
-		<code value="MK" description="MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"/>
 		<code value="MG" description="MADAGASCAR"/>
 		<code value="MW" description="MALAWI"/>
 		<code value="MY" description="MALAYSIA"/>
@@ -165,12 +165,13 @@
 		<code value="NG" description="NIGERIA"/>
 		<code value="NU" description="NIUE"/>
 		<code value="NF" description="NORFOLK ISLAND"/>
+		<code value="MK" description="NORTH MACEDONIA"/>
 		<code value="MP" description="NORTHERN MARIANA ISLANDS"/>
 		<code value="NO" description="NORWAY"/>
 		<code value="OM" description="OMAN"/>
 		<code value="PK" description="PAKISTAN"/>
 		<code value="PW" description="PALAU"/>
-		<code value="PS" description="PALESTINIAN TERRITORY, OCCUPIED"/>
+		<code value="PS" description="PALESTINIAN, STATE OF"/>
 		<code value="PA" description="PANAMA"/>
 		<code value="PG" description="PAPUA NEW GUINEA"/>
 		<code value="PY" description="PARAGUAY"/>
@@ -181,12 +182,12 @@
 		<code value="PT" description="PORTUGAL"/>
 		<code value="PR" description="PUERTO RICO"/>
 		<code value="QA" description="QATAR"/>
-		<code value="RE" description="REUNION"/>
+		<code value="RE" description="RÉUNION"/>
 		<code value="RO" description="ROMANIA"/>
 		<code value="RU" description="RUSSIAN FEDERATION"/>
 		<code value="RW" description="RWANDA"/>
 		<code value="BL" description="SAINT BARTHÉLEMY"/>
-		<code value="SH" description="SAINT HELENA"/>
+		<code value="SH" description="SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"/>
 		<code value="KN" description="SAINT KITTS AND NEVIS"/>
 		<code value="LC" description="SAINT LUCIA"/>
 		<code value="MF" description="SAINT MARTIN (FRENCH PART)"/>
@@ -213,7 +214,6 @@
 		<code value="SD" description="SUDAN"/>
 		<code value="SR" description="SURINAME"/>
 		<code value="SJ" description="SVALBARD AND JAN MAYEN"/>
-		<code value="SZ" description="SWAZILAND"/>
 		<code value="SE" description="SWEDEN"/>
 		<code value="CH" description="SWITZERLAND"/>
 		<code value="SY" description="SYRIAN ARAB REPUBLIC"/>
@@ -227,20 +227,20 @@
 		<code value="TO" description="TONGA"/>
 		<code value="TT" description="TRINIDAD AND TOBAGO"/>
 		<code value="TN" description="TUNISIA"/>
-		<code value="TR" description="TURKEY"/>
+		<code value="TR" description="TÜRKIYE"/>
 		<code value="TM" description="TURKMENISTAN"/>
 		<code value="TC" description="TURKS AND CAICOS ISLANDS"/>
 		<code value="TV" description="TUVALU"/>
 		<code value="UG" description="UGANDA"/>
 		<code value="UA" description="UKRAINE"/>
 		<code value="AE" description="UNITED ARAB EMIRATES"/>
-		<code value="GB" description="UNITED KINGDOM"/>
-		<code value="US" description="UNITED STATES"/>
+		<code value="GB" description="UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"/>
+		<code value="US" description="UNITED STATES OF AMERICA"/>
 		<code value="UM" description="UNITED STATES MINOR OUTLYING ISLANDS"/>
 		<code value="UY" description="URUGUAY"/>
 		<code value="UZ" description="UZBEKISTAN"/>
 		<code value="VU" description="VANUATU"/>
-		<code value="VE" description="VENEZUELA"/>
+		<code value="VE" description="VENEZUELA, BOLIVARIAN REPUBLIC OF"/>
 		<code value="VN" description="VIET NAM"/>
 		<code value="VG" description="VIRGIN ISLANDS, BRITISH"/>
 		<code value="VI" description="VIRGIN ISLANDS, U.S."/>

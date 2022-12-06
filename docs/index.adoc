@@ -37,38 +37,4 @@ endif::[]
 
 == Specifications
 
-[cols="2,5,2", options="header"]
-|===
-|Specification |Description |Wiki
-
-|link:/releases/TERM/{term_release}/SupportTerminology.html[openEHR Terminology]
-|Documentary form of the openEHR terminology, which is a set of vocabularies and code sets used by the reference and archetype models.
-|{openehr_wiki_root}/display/spec/openEHR+Terminology[wiki page^] 
-
-|===
-
-== Computable Expressions
-
-[cols="1,4", options="header"]
-|===
-|Resource |Description
-
-|XML terminology files
-|{openehr_git}/terminology/tree/master/openEHR_RM[XML source files^].
-
-|===
-
-== Change Requests
-
-[cols="1,4", options="header"]
-|===
-|Type |Description
-
-|New code request
-|Requests for codes may be made by raising a new issue on the {openehr_prs}[openEHR PR Jira project^]; the 'Component' field must be set to 'openEHR Terminology'.
-
-|Add new translation
-|{openehr_term_terminology}#_creating_and_maintaining_translations[See here^]. 
-
-|===
-
+See latest {openehr_term_releases}[openEHR Terminology specifications] index page.

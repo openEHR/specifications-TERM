@@ -9,6 +9,11 @@
 |S Iancu
 |[[latest_issue_date]]06 Dec 2022
 
+|
+|{spec_tickets}/SPECTERM-11[SPECTERM-11]: Merging terminology resource (XML) files into terminology specifications repository.
+|S Iancu
+|06 Dec 2022
+
 |2.4.0
 |{spec_tickets}/SPECTERM-14[SPECTERM-14]: Adding some missing media types in external terminologies (fixes {spec_tickets}/SPECPR-402[SPECPR-402^]).
 |S Iancu, +

@@ -7,6 +7,9 @@ openEHR reference model terminology, and artefacts for binding or using standard
 
 == latest
 
+- Corrected code for 'episodic' in composition category vocabulary
+See https://openehr.atlassian.net/browse/SPECPR-367, https://openehr.atlassian.net/browse/SPECTERM-19
+
 - updated external terminology code-sets and cleanup duplicates
 See https://openehr.atlassian.net/browse/SPECPR-95, https://openehr.atlassian.net/browse/SPECPR-403, https://openehr.atlassian.net/browse/SPECTERM-18
 

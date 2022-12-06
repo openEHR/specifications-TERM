@@ -5,11 +5,17 @@
 |Issue|Details|Raiser|Completed
 
 |[[latest_issue]]latest
+|{spec_tickets}/SPECTERM-19[SPECTERM-19]: Correcting code for 'episodic' in Composition.category vocabulary (fixes {spec_tickets}/SPECPR-367[SPECPR-367^]).
+|S Iancu, +
+ M Polajnar
+|[[latest_issue_date]]06 Dec 2022
+
+|
 |{spec_tickets}/SPECTERM-18[SPECTERM-18]: Updating external terminology code-sets and cleanup duplicates (fixes {spec_tickets}/SPECPR-95[SPECPR-95^], {spec_tickets}/SPECPR-403[SPECPR-403^]).
 |S Iancu, +
  R van Etten, +
  B Jures
-|[[latest_issue_date]]06 Dec 2022
+|06 Dec 2022
 
 |
 |{spec_tickets}/SPECTERM-11[SPECTERM-11]: Merging terminology resource (XML) files into terminology specifications repository.

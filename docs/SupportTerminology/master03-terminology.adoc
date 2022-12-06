@@ -1,6 +1,6 @@
 = Terminology
 
-The following subsections describe the purpose of the openEHR Terminology Code sets and Vocabularies. The computable definition may be found in the {openehr_terminology_resources}[openEHR `terminology` repository^].
+The following subsections describe the purpose of the openEHR Terminology Code sets and Vocabularies. The computable definition may be found in the {openehr_terminology_resources}[openEHR `specifications-TERM` repository^].
 
 == Code Sets
 

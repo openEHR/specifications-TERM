@@ -8,7 +8,7 @@ openEHR reference model terminology, and artefacts for binding or using standard
 == latest
 
 - updated external terminology code-sets and cleanup duplicates
-See https://openehr.atlassian.net/browse/SPECPR-403, https://openehr.atlassian.net/browse/SPECTERM-18
+See https://openehr.atlassian.net/browse/SPECPR-95, https://openehr.atlassian.net/browse/SPECPR-403, https://openehr.atlassian.net/browse/SPECTERM-18
 
 - added some missing media types in external terminologies
 See https://openehr.atlassian.net/browse/SPECPR-402, https://openehr.atlassian.net/browse/SPECTERM-14

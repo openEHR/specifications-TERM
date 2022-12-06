@@ -5,8 +5,10 @@
 |Issue|Details|Raiser|Completed
 
 |[[latest_issue]]latest
-|{spec_tickets}/SPECTERM-18[SPECTERM-18]: Updating external terminology code-sets and cleanup duplicates (fixes {spec_tickets}/SPECPR-403[SPECPR-403^]).
-|S Iancu
+|{spec_tickets}/SPECTERM-18[SPECTERM-18]: Updating external terminology code-sets and cleanup duplicates (fixes {spec_tickets}/SPECPR-95[SPECPR-95^], {spec_tickets}/SPECPR-403[SPECPR-403^]).
+|S Iancu, +
+ R van Etten, +
+ B Jures
 |[[latest_issue_date]]06 Dec 2022
 
 |

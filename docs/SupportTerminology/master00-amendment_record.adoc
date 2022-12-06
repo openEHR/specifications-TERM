@@ -4,11 +4,21 @@
 |===
 |Issue|Details|Raiser|Completed
 
-|[[latest_issue]]2.4.0
-|Adding a copy of Spanish terminology file from https://github.com/openEHR/terminology and updating related links.
+|[[latest_issue]]latest
+|{spec_tickets}/SPECTERM-18[SPECTERM-18]: Updating external terminology code-sets and cleanup duplicates (fixes {spec_tickets}/SPECPR-403[SPECPR-403^]).
+|S Iancu
+|[[latest_issue_date]]06 Dec 2022
+
+|2.4.0
+|{spec_tickets}/SPECTERM-14[SPECTERM-12]: Adding some missing media types in external terminologies (fixes {spec_tickets}/SPECPR-402[SPECPR-402^]).
 |S Iancu, +
  P Pazos
-|[[latest_issue_date]]23 Nov 2022
+|23 Nov 2022
+
+|
+|{spec_tickets}/SPECTERM-12[SPECTERM-12^]: Adding Spanish terminology file from https://github.com/openEHR/terminology and updating related links (fixes {spec_tickets}/SPECPR-401[SPECPR-401^]).
+|P Pazos
+|23 Nov 2022
 
 4+^h|*TERM Release 2.3.0*
 

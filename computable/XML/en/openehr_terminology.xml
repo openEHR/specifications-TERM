@@ -169,7 +169,7 @@
 		<concept id="685" rubric="Refractive power"/>
 	</group>
 	<group name="version lifecycle state">
-		<concept id="532" rubric="complete"/>
+		<concept id="532" rubric="complete"/><!-- warning: the rubric for this concept is 'completed' in the 'instruction states' group (known issue, see SPECPR-51) -->
 		<concept id="553" rubric="incomplete"/>
 		<concept id="523" rubric="deleted"/>
 	</group>
@@ -225,7 +225,7 @@
 		<concept id="245" rubric="active"/>
 		<concept id="530" rubric="suspended"/>
 		<concept id="531" rubric="aborted"/>
-		<concept id="532" rubric="completed"/>
+		<concept id="532" rubric="completed"/><!-- warning: the rubric for this concept is 'complete' in the 'version lifecycle state' group (known issue, see SPECPR-51) -->
 		<concept id="533" rubric="expired"/>
 	</group>
 	<group name="instruction transitions">

@@ -7,6 +7,9 @@ openEHR reference model terminology, and artefacts for binding or using standard
 
 == latest
 
+- Documented known issue concept id 532 with two different rubrics (complete, completed)
+See https://openehr.atlassian.net/browse/SPECPR-51, https://openehr.atlassian.net/browse/SPECTERM-9
+
 - Corrected code for 'episodic' in composition category vocabulary
 See https://openehr.atlassian.net/browse/SPECPR-367, https://openehr.atlassian.net/browse/SPECTERM-19
 

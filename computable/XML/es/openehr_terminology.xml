@@ -169,7 +169,7 @@
         <concept id="685" rubric="Poder refractivo"/>
     </group>
     <group name="version lifecycle state">
-        <concept id="532" rubric="completo"/>
+        <concept id="532" rubric="completo"/><!-- warning: the rubric for this concept is 'completed' in the 'instruction states' group (known issue, see SPECPR-51) -->
         <concept id="553" rubric="incompleto"/>
         <concept id="523" rubric="eliminado"/>
     </group>
@@ -225,7 +225,7 @@
         <concept id="245" rubric="activo"/>
         <concept id="530" rubric="suspendido"/>
         <concept id="531" rubric="abortado"/>
-        <concept id="532" rubric="completado"/>
+        <concept id="532" rubric="completado"/><!-- warning: the rubric for this concept is 'complete' in the 'version lifecycle state' group (known issue, see SPECPR-51) -->
         <concept id="533" rubric="expirado"/>
     </group>
     <group name="instruction transitions">

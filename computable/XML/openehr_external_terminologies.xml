@@ -582,7 +582,6 @@
 	    <code  value="image/jp2" />
 	    <code value="image/svg+xml"/>
 	    <code value="application/cda+xml"/>
-	    <code value="application/cda+xml"/>
 	    <code value="application/EDIFACT"/>
 	    <code value="application/fhir+json"/>
 	    <code value="application/fhir+xml"/>

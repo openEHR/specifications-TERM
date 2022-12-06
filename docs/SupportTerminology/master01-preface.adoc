@@ -37,12 +37,13 @@ Requests for codes may be made by raising a new issue on the {component_prs}[spe
 
 == Creating and Maintaining Translations
 
-A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) {openehr_terminology_resources}/tree/master/computable/XML[terminology file^].
+A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) {openehr_terminology_resources}/tree/master/computable/XML/en/openehr_terminology.xml[terminology file^].
 
 This may be done by the Git workflow of:
 
-* fork the {openehr_terminology_resources}[repository^];
-* create the new file in a directory `/computable/XML/xx` where `xx` is a ISO 639 2-character language code;
-* when translation is complete, create a pull request.
+* fork the {openehr_terminology_resources}[`specifications-TERM` repository^];
+* create the new file `openehr_terminology.xml` in a directory `/computable/XML/xx`, where `xx` is a ISO 639-1 two-character language code;
+* when translation is complete, create a Pull Request.
+* raise a new issue on the {component_prs}[specifications Problem Report tracker^] with 'Component' field must be set to 'TERM - openEHR Terminology'.
 
-Translations are maintained when new codes are added by means of notifications to the GitHub authors of current translations.
+Translations are maintained when new codes are added by means of notifications to editor or the GitHub authors of current translations.

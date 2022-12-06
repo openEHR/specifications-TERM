@@ -2,10 +2,10 @@
 
 == Concrete Format
 
-The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the {openehr_terminology_resources}/tree/master/computable/XML[openEHR `specifications-TERM` repository^], which has the following structure.
+The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the {openehr_terminology_resources}/tree/master/computable/XML[openEHR `specifications-TERM` repository^], which has the following structure under the `/computable/XML` directory.
 
 [.text-center]
-.Repository Structure
+.The structure of XML computable expressions in the repository
 image::{images_uri}/repo_structure.png[id=repo_structure, align="center"]
 
 The concrete representation model is shown in the UML diagram below. Note that this model is not intended as a normative model and does not directly correspond to the normative terminology classes defined in the {openehr_rm_data_types}#_text_package[openEHR Data Types^] or {openehr_base_types}#_terminology_package[openEHR Base Types^] specifications.

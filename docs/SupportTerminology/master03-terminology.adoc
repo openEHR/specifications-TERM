@@ -8,11 +8,11 @@ The following subsections describe the purpose of the openEHR Terminology Code s
 |===
 |Code Set                       |Description                                 |openEHR Usage                                |Source Reference
 
-|Countries                      |This ISO code set defined by the ISO 3166-1 standard consists of 2-character names 
+|Countries                      |This code set defined by the {iso_3166_1_codes_alpha_2_codes}[ISO 3166-1 "alpha-2"] standard consists of two-character names
                                  of countries and country subdivisions.
                                 |{openehr_rm_ehr}#_composition_class[`COMPOSITION`^] +
                                  `__.territory__`
-                                |{unicode_countries_list}[Unicode countries list].
+                                |{iso_3166_1_codes_alpha_2_codes}[ISO Countries list].
                                  
 |Character Sets                 |This IANA (Internet Naming Authority) code set consists of the names of recognised character sets. 
                                 |{openehr_rm_ehr}#_entry_class[`ENTRY`^] +
@@ -32,25 +32,26 @@ The following subsections describe the purpose of the openEHR Terminology Code s
                                  `__.integrity_check_algorithm__`
                                 |{hl7_integrity_check_algorithms}[HL7 IntegrityCheckAlgorithm domain^]
                                  
-|Languages                      |This code set defined by the consists of the "alpha-2" form of names of languages
-                                 from the ISO 639-1 standard. +
+|Languages                      |This code set consists of the language tags defined by {rfc5646}[RFC-5646].
+                                 The syntax consists of the {iso_639_1_codes}[ISO 639-1 "alpha-2"] form of names of languages,
+                                 often followed by a region subtag from the {iso_3166_1_codes_alpha_2_codes}[ISO 3166-1 "alpha-2"] country list.
+                                 These are maintained by the {iana_language_subtag_registry}[IANA Language Subtag Registry]. +
 
-                                 Note: This does not cover all languages, whereas ISO 639-2 "alpha-3" covers many more 
+                                 Note: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" covers many more
                                  languages of cultural or indigenous interest, but which nevertheless are unlikely 
                                  to be supported by current software or operating systems. 
-                                 See {loc_lang_codes}[Library of Congress codes] for the latter.
                                 |{openehr_rm_ehr}#_entry_class[`ENTRY`^] +
                                  `__.language__` +
                                  {openehr_rm_ehr}#_composition_class[`COMPOSITION`^] +
                                  `__.language__` +
                                  {openehr_rm_data_types}#_dv_encapsulated_class[`DV_ENCAPSULATED`^] + 
                                  `__.language__`
-                                |{iso_639_1_codes}[ISO 639-1 codes] 
+                                |{iso_639_1_codes}[ISO Language codes]
                                  
-|Media Types                    |This IANA (Internet Naming Authority) code set consists of the names of edia types.
+|Media Types                    |This IANA (Internet Naming Authority) code set consists of the names of media types.
                                 |{openehr_rm_data_types}#_dv_multimedia_class[`DV_MULTIMEDIA`^] +
                                  `__.media_type__`
-                                |{iana_media_types}[names of MIME media types^]
+                                |{iana_media_types}[IANA Media Types^]
 
 |Normal Status                  |This code set codifies statuses of quantitative values with respect to a normal 
                                  range for the measured analyte or phenomenon. 

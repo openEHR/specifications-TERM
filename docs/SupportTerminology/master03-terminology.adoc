@@ -59,7 +59,7 @@ The following subsections describe the purpose of the openEHR Terminology Code s
                                  User-defined table 0078 - Abnormal flags.
                                 |{openehr_rm_data_types}#_dv_ordered_class[`DV_ORDERED`^] +
                                  `__.normal_status__`
-                                |{hl7_observation_statuses}[HL7v3 ObservationInterpretation vocabulary^]
+                                |{hl7_observation_statuses}[HL7 Observation-Interpretation vocabulary^]
 |===
 
 == Vocabularies
@@ -125,7 +125,7 @@ Within the openEHR vocabularies, terms are identified in groups, each with its o
                                  specifications, and allows comparison of Quantities with different units but which measure 
                                  the same property.
                                 |
-                                |{ucum}[Regenstrief Unified Codes for Units of Measure^].
+                                |{ucum}[Regenstrief Institute - Unified Codes for Units of Measure^].
 
 |Setting                        |This vocabulary codifies broad types of settings in which clinical care is delivered. 
                                  It is not intended to be a perfect classification of the real world, but instead a practical 

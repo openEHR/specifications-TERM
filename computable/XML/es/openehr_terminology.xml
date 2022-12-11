@@ -1,10 +1,10 @@
 <terminology name="openehr" language="es">
     <codeset issuer="openehr" openehr_id="compression algorithms" external_id="openehr_compression_algorithms">
-        <code value="compresión"/>
-        <code value="deflación"/>
+		<code value="compress"/>
+		<code value="deflate"/>
         <code value="gzip"/>
         <code value="zlib"/>
-        <code value="otro"/>
+		<code value="other"/>
     </codeset>
     <codeset issuer="openehr" openehr_id="integrity check algorithms" external_id="openehr_integrity_check_algorithms">
         <code value="SHA-1"/>

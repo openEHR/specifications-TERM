@@ -321,4 +321,20 @@
 		<concept id="237" rubric="nursing home care"/>
 		<concept id="238" rubric="other care"/>
 	</group>
+	<group name="extract content type">
+		<concept id="680" rubric="openEHR EHR"/>
+		<concept id="681" rubric="openEHR Demographic"/>
+		<concept id="682" rubric="generic EMR"/>
+		<concept id="683" rubric="other"/>
+	</group>
+	<group name="extract action type">
+		<concept id="166" rubric="cancel"/>
+		<concept id="684" rubric="resend"/>
+		<concept id="685" rubric="send new"/>
+	</group>
+	<group name="extract update trigger event type">
+		<concept id="686" rubric="any change"/>
+		<concept id="687" rubric="correction"/>
+		<concept id="688" rubric="update"/>
+	</group>
 </terminology>

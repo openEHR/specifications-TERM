@@ -7,6 +7,21 @@ openEHR reference model terminology, and artefacts for binding or using standard
 
 == latest
 
+- Added missing SHA-* integrity check algorithms
+See https://openehr.atlassian.net/browse/SPECTERM-22
+
+- Corrected terminology rubric typos inside "property" group
+See https://openehr.atlassian.net/browse/SPECPR-404, https://openehr.atlassian.net/browse/SPECTERM-21
+
+- Added new vocabulary groups for EHR Extract related to Release 1.0.3
+See https://openehr.atlassian.net/browse/SPECPR-370, https://openehr.atlassian.net/browse/SPECTERM-4
+
+- Added "inactive" and "abandoned" to "version lifecycle state" group
+See https://openehr.atlassian.net/browse/SPECPR-383, https://openehr.atlassian.net/browse/SPECTERM-10
+
+- Added "mental health care" to "setting" group
+See https://openehr.atlassian.net/browse/SPECPR-382, https://openehr.atlassian.net/browse/SPECTERM-20
+
 - Documented known issue concept id 532 with two different rubrics (complete, completed)
 See https://openehr.atlassian.net/browse/SPECPR-51, https://openehr.atlassian.net/browse/SPECTERM-9
 

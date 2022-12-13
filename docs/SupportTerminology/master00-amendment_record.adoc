@@ -5,10 +5,39 @@
 |Issue|Details|Raiser|Completed
 
 |[[latest_issue]]latest
+|{spec_tickets}/SPECTERM-22[SPECTERM-22]: Added missing SHA-* integrity check algorithms.
+|S Iancu
+|[[latest_issue_date]]13 Dec 2022
+
+|
+|{spec_tickets}/SPECTERM-21[SPECTERM-21]: Corrected terminology rubric typos inside "property" group (fixes {spec_tickets}/SPECPR-404[SPECPR-404^]).
+|S Iancu, +
+ P Pazos
+|13 Dec 2022
+
+|
+|{spec_tickets}/SPECTERM-4[SPECTERM-4]: Added new vocabulary groups for EHR Extract related to Release 1.0.3 (fixes {spec_tickets}/SPECPR-370[SPECPR-370^]).
+|S Iancu, +
+ T Beale
+|13 Dec 2022
+
+|
+|{spec_tickets}/SPECTERM-10[SPECTERM-10]: Added "inactive" and "abandoned" to "version lifecycle state" group (fixes {spec_tickets}/SPECPR-383[SPECPR-383^]).
+|S Iancu, +
+ T Beale
+|13 Dec 2022
+
+|
+|{spec_tickets}/SPECTERM-20[SPECTERM-20]: Added "mental health care" to "setting" group (fixes {spec_tickets}/SPECPR-382[SPECPR-382^]).
+|S Iancu, +
+ J Holslag
+|13 Dec 2022
+
+|2.4.1
 |{spec_tickets}/SPECTERM-19[SPECTERM-19]: Correcting code for 'episodic' in Composition.category vocabulary (fixes {spec_tickets}/SPECPR-367[SPECPR-367^]).
 |S Iancu, +
  M Polajnar
-|[[latest_issue_date]]06 Dec 2022
+|06 Dec 2022
 
 |
 |{spec_tickets}/SPECTERM-18[SPECTERM-18]: Updating external terminology code-sets and cleanup duplicates (fixes {spec_tickets}/SPECPR-95[SPECPR-95^], {spec_tickets}/SPECPR-403[SPECPR-403^]).

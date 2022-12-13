@@ -324,4 +324,22 @@
 		<concept id="802" rubric="mental care"/>
 		<concept id="238" rubric="other care"/>
 	</group>
+	<group name="extract content type">
+		<concept id="803" rubric="openEHR EHR"/>
+		<concept id="804" rubric="openEHR Demographic"/>
+		<concept id="805" rubric="openEHR synchronisation"/>
+		<concept id="806" rubric="openEHR generic"/>
+		<concept id="807" rubric="generic EMR"/>
+		<concept id="808" rubric="other"/>
+	</group>
+	<group name="extract action type">
+		<concept id="809" rubric="cancel"/>
+		<concept id="810" rubric="resend"/>
+		<concept id="811" rubric="send new"/>
+	</group>
+	<group name="extract update trigger event type">
+		<concept id="812" rubric="any change"/>
+		<concept id="813" rubric="correction"/>
+		<concept id="814" rubric="update"/>
+	</group>
 </terminology>

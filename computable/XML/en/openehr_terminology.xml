@@ -8,7 +8,12 @@
 	</codeset>
 	<codeset issuer="openehr" openehr_id="integrity check algorithms" external_id="openehr_integrity_check_algorithms">
 		<code value="SHA-1"/>
+		<code value="SHA-224"/>
 		<code value="SHA-256"/>
+		<code value="SHA-384"/>
+		<code value="SHA-512"/>
+		<code value="SHA-512/224"/>
+		<code value="SHA-512/256"/>
 	</codeset>
 	<codeset issuer="openehr" openehr_id="normal statuses" external_id="openehr_normal_statuses">
 		<code value="HHH"/>

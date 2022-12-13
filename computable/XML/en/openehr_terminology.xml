@@ -101,12 +101,12 @@
 		<concept id="119" rubric="Concentration"/>
 		<concept id="350" rubric="Density"/>
 		<concept id="362" rubric="Diffusion coefficient"/>
-		<concept id="501" rubric="Electrical capacitance"/>
-		<concept id="498" rubric="Electrical charge"/>
-		<concept id="502" rubric="Electrical conductance"/>
-		<concept id="334" rubric="Electrical current"/>
-		<concept id="377" rubric="Electrical field strength"/>
-		<concept id="655" rubric="Electrical potential time"/>
+		<concept id="501" rubric="Electric capacitance"/>
+		<concept id="498" rubric="Electric charge"/>
+		<concept id="502" rubric="Electric conductance"/>
+		<concept id="334" rubric="Electric current"/>
+		<concept id="377" rubric="Electric field strength"/>
+		<concept id="655" rubric="Electric potential level"/>
 		<concept id="121" rubric="Energy"/>
 		<concept id="366" rubric="Energy density"/>
 		<concept id="508" rubric="Energy dose"/>

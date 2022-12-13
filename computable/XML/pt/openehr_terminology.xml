@@ -326,4 +326,22 @@
 		<concept id="237" rubric="enfermagem domiciliar"/>
 		<concept id="238" rubric="outro cuidado"/>
 	</group>
+	<group name="extract content type">
+		<concept id="803" rubric="*openEHR EHR(en)"/>
+		<concept id="804" rubric="*openEHR Demographic(en)"/>
+		<concept id="805" rubric="*openEHR synchronisation(en)"/>
+		<concept id="806" rubric="*openEHR generic(en)"/>
+		<concept id="807" rubric="*generic EMR(en)"/>
+		<concept id="808" rubric="*other(en)"/>
+	</group>
+	<group name="extract action type">
+		<concept id="809" rubric="*cancel(en)"/>
+		<concept id="810" rubric="*resend(en)"/>
+		<concept id="811" rubric="*send new(en)"/>
+	</group>
+	<group name="extract update trigger event type">
+		<concept id="812" rubric="*any change(en)"/>
+		<concept id="813" rubric="*correction(en)"/>
+		<concept id="814" rubric="*update(en)"/>
+	</group>
 </terminology>

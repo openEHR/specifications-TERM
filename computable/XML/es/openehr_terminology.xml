@@ -177,6 +177,8 @@
         <concept id="532" rubric="completo"/><!-- warning: the rubric for this concept is 'completed' in the 'instruction states' group (known issue, see SPECPR-51) -->
         <concept id="553" rubric="incompleto"/>
         <concept id="523" rubric="eliminado"/>
+        <concept id="800" rubric="*inactive(en)"/>
+        <concept id="801" rubric="*abandoned(en)"/>
     </group>
     <group name="participation function">
         <concept id="253" rubric="desconocido"/>

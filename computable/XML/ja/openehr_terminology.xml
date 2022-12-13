@@ -177,6 +177,8 @@
 		<concept id="532" rubric="完了"/>
 		<concept id="553" rubric="未完"/>
 		<concept id="523" rubric="削除済み"/>
+		<concept id="800" rubric="*inactive(en)"/>
+		<concept id="801" rubric="*abandoned(en)"/>
 	</group>
 	<group name="participation function">
 		<concept id="253" rubric="未知"/>

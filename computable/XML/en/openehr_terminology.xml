@@ -326,7 +326,7 @@
 		<concept id="235" rubric="complementary health care"/>
 		<concept id="236" rubric="dental care"/>
 		<concept id="237" rubric="nursing home care"/>
-		<concept id="802" rubric="mental care"/>
+		<concept id="802" rubric="mental healthcare"/>
 		<concept id="238" rubric="other care"/>
 	</group>
 	<group name="extract content type">

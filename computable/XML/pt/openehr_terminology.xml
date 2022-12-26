@@ -326,7 +326,7 @@
 		<concept id="235" rubric="cuidado complementar"/>
 		<concept id="236" rubric="cuidado odontológico"/>
 		<concept id="237" rubric="enfermagem domiciliar"/>
-		<concept id="802" rubric="*mental care(en)"/>
+		<concept id="802" rubric="*mental healthcare(en)"/>
 		<concept id="238" rubric="outro cuidado"/>
 	</group>
 	<group name="extract content type">

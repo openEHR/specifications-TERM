@@ -19,7 +19,7 @@ See https://openehr.atlassian.net/browse/SPECPR-370, https://openehr.atlassian.n
 - Added "inactive" and "abandoned" to "version lifecycle state" group
 See https://openehr.atlassian.net/browse/SPECPR-383, https://openehr.atlassian.net/browse/SPECTERM-10
 
-- Added "mental health care" to "setting" group
+- Added "mental healthcare" to "setting" group
 See https://openehr.atlassian.net/browse/SPECPR-382, https://openehr.atlassian.net/browse/SPECTERM-20
 
 - Documented known issue concept id 532 with two different rubrics (complete, completed)

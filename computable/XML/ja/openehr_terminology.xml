@@ -326,7 +326,7 @@
 		<concept id="235" rubric="代替医療 "/>
 		<concept id="236" rubric="歯科治療"/>
 		<concept id="237" rubric="在宅介護"/>
-		<concept id="802" rubric="*mental care(en)"/>
+		<concept id="802" rubric="*mental healthcare(en)"/>
 		<concept id="238" rubric="その他のケア"/>
 	</group>
 	<group name="extract content type">

@@ -28,7 +28,7 @@
 |13 Dec 2022
 
 |
-|{spec_tickets}/SPECTERM-20[SPECTERM-20]: Added "mental health care" to "setting" group (fixes {spec_tickets}/SPECPR-382[SPECPR-382^]).
+|{spec_tickets}/SPECTERM-20[SPECTERM-20]: Added "mental healthcare" to "setting" group (fixes {spec_tickets}/SPECPR-382[SPECPR-382^]).
 |S Iancu, +
  J Holslag
 |13 Dec 2022

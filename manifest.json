@@ -59,7 +59,7 @@
             "type": "url",
             "title": "Terminology XML Schema",
             "description": "XML Schema files (XSD) for external and openEHR Terminology XML source files.",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.4.0/computable/XMLx`/schema"
+            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.4.0/computable/XML/schema"
         },
         {
             "id": "openEHR_UML-TERM.mdzip",

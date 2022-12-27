@@ -16,7 +16,7 @@
             "keywords": "terminology, code-set, vocabulary, openehr",
             "notes": [
                 {
-                    "link": "Release-2.4.0/SupportTerminology.html#_creating_and_maintaining_translations",
+                    "link": "latest/SupportTerminology.html#_creating_and_maintaining_translations",
                     "text": "Terminology translations"
                 }
             ]
@@ -52,14 +52,14 @@
             "type": "url",
             "title": "Terminology XML",
             "description": "External and openEHR Terminology XML source files (in English and translated in other languages).",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.4.0/computable/XML"
+            "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/XML"
         },
         {
             "id": "Terminology-XSD",
             "type": "url",
             "title": "Terminology XML Schema",
             "description": "XML Schema files (XSD) for external and openEHR Terminology XML source files.",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/Release-2.4.0/computable/XML/schema"
+            "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/XML/schema"
         },
         {
             "id": "openEHR_UML-TERM.mdzip",
@@ -73,6 +73,14 @@
         "roadmap": "SPECTERM"
     },
     "releases": [
+        {
+            "id": "3.0.0",
+            "date": "",
+            "jira": {
+                "crs": "SPECTERM/versions/12571",
+                "prs": "SPECPR/versions/12572"
+            }
+        },
         {
             "id": "2.4.0",
             "date": "2022-12-27",

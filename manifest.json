@@ -75,7 +75,7 @@
     "releases": [
         {
             "id": "2.4.0",
-            "date": "",
+            "date": "2022-12-27",
             "jira": {
                 "crs": "SPECTERM/versions/12568",
                 "prs": "SPECPR/versions/12570"

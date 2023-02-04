@@ -5,9 +5,16 @@
 |Issue|Details|Raiser|Completed
 
 |[[latest_issue]]latest
+|{spec_tickets}/SPECTERM-23[SPECTERM-23]: Improving translations.
+|S Kobayashi
+|[[latest_issue_date]]04 Feb 2023
+
+4+^h|*TERM Release 2.4.0*
+
+|2.4.2
 |{spec_tickets}/SPECTERM-22[SPECTERM-22]: Added missing SHA-* integrity check algorithms.
 |S Iancu
-|[[latest_issue_date]]13 Dec 2022
+|13 Dec 2022
 
 |
 |{spec_tickets}/SPECTERM-21[SPECTERM-21]: Corrected terminology rubric typos inside "property" group (fixes {spec_tickets}/SPECPR-404[SPECPR-404^]).

@@ -326,25 +326,25 @@
 		<concept id="235" rubric="代替医療 "/>
 		<concept id="236" rubric="歯科治療"/>
 		<concept id="237" rubric="在宅介護"/>
-		<concept id="802" rubric="*mental healthcare(en)"/>
+		<concept id="802" rubric="メンタルケア"/>
 		<concept id="238" rubric="その他のケア"/>
 	</group>
 	<group name="extract content type">
-		<concept id="803" rubric="*openEHR EHR(en)"/>
-		<concept id="804" rubric="*openEHR Demographic(en)"/>
-		<concept id="805" rubric="*openEHR synchronisation(en)"/>
-		<concept id="806" rubric="*openEHR generic(en)"/>
-		<concept id="807" rubric="*generic EMR(en)"/>
-		<concept id="808" rubric="*other(en)"/>
+		<concept id="803" rubric="openEHR EHR"/>
+		<concept id="804" rubric="openEHR Demographic"/>
+		<concept id="805" rubric="openEHR synchronisation"/>
+		<concept id="806" rubric="openEHR generic"/>
+		<concept id="807" rubric="generic EMR"/>
+		<concept id="808" rubric="other"/>
 	</group>
 	<group name="extract action type">
-		<concept id="809" rubric="*cancel(en)"/>
-		<concept id="810" rubric="*resend(en)"/>
-		<concept id="811" rubric="*send new(en)"/>
+		<concept id="809" rubric="キャンセル"/>
+		<concept id="810" rubric="再送"/>
+		<concept id="811" rubric="新規送信"/>
 	</group>
 	<group name="extract update trigger event type">
-		<concept id="812" rubric="*any change(en)"/>
-		<concept id="813" rubric="*correction(en)"/>
-		<concept id="814" rubric="*update(en)"/>
+		<concept id="812" rubric="変更"/>
+		<concept id="813" rubric="訂正"/>
+		<concept id="814" rubric="更新"/>
 	</group>
 </terminology>

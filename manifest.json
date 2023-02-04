@@ -44,6 +44,18 @@
             "copyright_year": "2008",
             "spec_status": "STABLE",
             "keywords": "external-terminology, code-set, ISO, IANA"
+        },
+        {
+            "id": "PropertyUnitData.xml",
+            "title": "PropertyUnitData.xml",
+            "title_short": "PropertyUnitData.xml",
+            "description": "PropertyUnitData.xml specification",
+            "summary": "The file containing UCUM related Properties and Units used by ADL-tools.",
+            "micro_summary": "Properties and Units used by ADL-tools",
+            "link": "computable/XML/PropertyUnitData.xml",
+            "copyright_year": "2023",
+            "spec_status": "STABLE",
+            "keywords": "external-terminology, property-unit, UCUM, adl-tools"
         }
     ],
     "expressions": [

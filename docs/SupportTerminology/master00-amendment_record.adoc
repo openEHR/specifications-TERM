@@ -9,6 +9,12 @@
 |S Kobayashi
 |[[latest_issue_date]]04 Feb 2023
 
+|
+|{spec_tickets}/SPECTERM-24[SPECTERM-24]: Added PropertyUnitData.xml file to openEHR terminologies (fixes {spec_tickets}/SPECPR-408[SPECPR-408^]).
+|V Pereira, +
+ S Ljosland Bakke
+|04 Feb 2023
+
 4+^h|*TERM Release 2.4.0*
 
 |2.4.2

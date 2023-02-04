@@ -37,13 +37,13 @@
             "id": "openehr_external_terminologies.xml",
             "title": "External terminologies",
             "title_short": "External terminologies",
-            "description": "openEHR Terminology (en) specification",
+            "description": "External terminologies specification",
             "summary": "The file containing external terminologies (e.g. Countries ISO 3166, Languages ISO 639-1, Media types IANA, etc) used by RM, AM and SM.",
             "micro_summary": "External Terminologies",
             "link": "computable/XML/openehr_external_terminologies.xml",
             "copyright_year": "2008",
             "spec_status": "STABLE",
-            "keywords": "terminology, code-set, vocabulary, openehr"
+            "keywords": "external-terminology, code-set, ISO, IANA"
         }
     ],
     "expressions": [

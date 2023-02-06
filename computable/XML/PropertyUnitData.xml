@@ -89,8 +89,8 @@
   <Property id="70" Text="Electric capacitance" openEHR="501" />
   <Property id="71" Text="Electric conductance" openEHR="502" />
   <Property id="72" Text="Magnetic flux density" openEHR="503" />
-  <Property id="73" Text="Luminous flux" openEHR="503" />
-  <Property id="74" Text="Illuminance" openEHR="504" />
+  <Property id="73" Text="Luminous flux" openEHR="504" />
+  <Property id="74" Text="Illuminance" openEHR="505" />
   <Property id="75" Text="Radioactivity" openEHR="506" />
   <Property id="76" Text="Energy dose" openEHR="508" />
   <Property id="77" Text="Proportion" openEHR="507" />

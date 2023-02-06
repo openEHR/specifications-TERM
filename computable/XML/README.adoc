@@ -7,6 +7,12 @@ openEHR reference model terminology, and artefacts for binding or using standard
 
 == latest
 
+- improving terminology translations
+See https://openehr.atlassian.net/browse/SPECTERM-23
+
+- Add PropertyUnitData.xml to openEHR terminologies
+See https://openehr.atlassian.net/browse/SPECTERM-24
+
 == RELEASE-2.4.0
 
 - Added missing SHA-* integrity check algorithms

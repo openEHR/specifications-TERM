@@ -24,7 +24,7 @@
   <Property id="1" Text="Mass" openEHR="124" />
   <Property id="2" Text="Time" openEHR="128" />
   <Property id="3" Text="Temperature" openEHR="127" />
-  <Property id="4" Text="Electrical current" openEHR="334" />
+  <Property id="4" Text="Electric current" openEHR="334" />
   <Property id="5" Text="Area" openEHR="335" />
   <Property id="6" Text="Volume" openEHR="129" />
   <Property id="7" Text="Flow Rate, Volume" openEHR="126" />
@@ -67,9 +67,9 @@
   <Property id="46" Text="Specific Heat, Gas Constant" openEHR="371" />
   <Property id="47" Text="Thermal Conductivity" openEHR="372" />
   <Property id="48" Text="Heat Transfer Coefficient" openEHR="373" />
-  <Property id="49" Text="Electrical Potential" openEHR="374" />
+  <Property id="49" Text="Electric Potential" openEHR="374" />
   <Property id="50" Text="Resistance" openEHR="375" />
-  <Property id="52" Text="Electrical Field Strength" openEHR="377" />
+  <Property id="52" Text="Electric Field Strength" openEHR="377" />
   <Property id="53" Text="Magnetic Flux" openEHR="378" />
   <Property id="54" Text="Inductance" openEHR="379" />
   <Property id="56" Text="Qualified real" openEHR="380" />
@@ -82,12 +82,12 @@
   <Property id="63" Text="Work" openEHR="130" />
   <Property id="64" Text="&lt;not set&gt;" openEHR="118" />
   <Property id="65" Text="Mass (Units)" openEHR="445" />
-  <Property id="66" Text="Electrical charge" openEHR="498" />
+  <Property id="66" Text="Electric charge" openEHR="498" />
   <Property id="67" Text="Light intensity" openEHR="499" />
   <Property id="68" Text="Angle, plane" openEHR="497" />
   <Property id="69" Text="Angle, solid" openEHR="500" />
-  <Property id="70" Text="Electrical capacitance" openEHR="501" />
-  <Property id="71" Text="Electrical conductance" openEHR="502" />
+  <Property id="70" Text="Electric capacitance" openEHR="501" />
+  <Property id="71" Text="Electric conductance" openEHR="502" />
   <Property id="72" Text="Magnetic flux density" openEHR="503" />
   <Property id="73" Text="Luminous flux" openEHR="503" />
   <Property id="74" Text="Illuminance" openEHR="504" />
@@ -95,7 +95,7 @@
   <Property id="76" Text="Energy dose" openEHR="508" />
   <Property id="77" Text="Proportion" openEHR="507" />
   <Property id="78" Text="Glomerular filtration rate" openEHR="586" />
-  <Property id="79" Text="Electrical Potential Time" openEHR="655" />
+  <Property id="79" Text="Electric Potential Time" openEHR="655" />
   <Property id="80" Text="Time Fraction" openEHR="709" />
   <Property id="81" Text="Refractive power" openEHR="685" />
   <Property id="82" Text="Rate of Change - Pressure" openEHR="708" />

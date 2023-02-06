@@ -7,6 +7,8 @@ openEHR reference model terminology, and artefacts for binding or using standard
 
 == latest
 
+== RELEASE-2.4.0
+
 - Added missing SHA-* integrity check algorithms
 See https://openehr.atlassian.net/browse/SPECTERM-22
 

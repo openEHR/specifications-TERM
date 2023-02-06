@@ -98,8 +98,8 @@
   <Property id="79" Text="Electric Potential Time" openEHR="655" />
   <Property id="80" Text="Time Fraction" openEHR="709" />
   <Property id="81" Text="Refractive power" openEHR="685" />
-  <Property id="82" Text="Rate of Change - Pressure" openEHR="708" />
-  <Property id="84" Text="Rate of Change - Frequency" openEHR="754" />
+  <Property id="82" Text="Rate of Change, Pressure" openEHR="708" />
+  <Property id="84" Text="Rate of Change, Frequency" openEHR="754" />
   <Property id="85" Text="Arbitrary" openEHR="755" />
   <Property id="86" Text="Medication dose rate" openEHR="756" />
   <Property id="87" Text="Spectral power" openEHR="757" />

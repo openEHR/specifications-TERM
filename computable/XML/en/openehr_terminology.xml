@@ -143,7 +143,7 @@
 		<concept id="344" rubric="Moment inertia, area"/>
 		<concept id="345" rubric="Moment inertia, mass"/>
 		<concept id="340" rubric="Momentum"/>
-		<concept id="346" rubric="Momentum, flow rate"/>
+		<concept id="346" rubric="Momentum flow rate"/>
 		<concept id="343" rubric="Momentum, angular"/>
 		<concept id="363" rubric="Power"/>
 		<concept id="369" rubric="Power density"/>
@@ -166,9 +166,9 @@
 		<concept id="359" rubric="Torque"/>
 		<concept id="338" rubric="Velocity"/>
 		<concept id="341" rubric="Velocity, angular"/>
-		<concept id="360" rubric="Velocity, dynamic"/>
-		<concept id="361" rubric="Velocity, kinematic"/>
-		<concept id="374" rubric="Voltage, electrical"/>
+		<concept id="360" rubric="Viscosity, dynamic"/>
+		<concept id="361" rubric="Viscosity, kinematic"/>
+		<concept id="374" rubric="Electric potential"/>
 		<concept id="129" rubric="Volume"/>
 		<concept id="130" rubric="Work"/>
 		<concept id="685" rubric="Refractive power"/>

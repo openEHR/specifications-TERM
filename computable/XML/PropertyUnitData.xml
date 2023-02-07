@@ -603,7 +603,7 @@
   <Unit property_id="71" Text="S" name="siemens" conversion="1" primary="true" UCUM="S"/>
   <Unit property_id="72" Text="T" name="Tesla" conversion="1" primary="true" UCUM="T"/>
   <Unit property_id="73" Text="lm" name="lumen" conversion="1" primary="true" UCUM="lm"/>
-  <Unit property_id="74" Text="lm/m2" name="Lux" conversion="1" primary="true" UCUM="lx"/>
+  <Unit property_id="74" Text="lx" name="lux" conversion="1" primary="true" UCUM="lx"/>
   <Unit property_id="75" Text="Bq" name="Becquerel" conversion="1" primary="true" UCUM="Bq"/>
   <Unit property_id="76" Text="Gy" name="Gray" conversion="1" primary="true" UCUM="Gy"/>
   <Unit property_id="76" Text="cGy" name="centigray" conversion="1" coefficient="-2" primary="false" UCUM="cGy"/>

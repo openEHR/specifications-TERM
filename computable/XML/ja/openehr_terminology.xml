@@ -166,12 +166,22 @@
 		<concept id="359" rubric="トルク"/>
 		<concept id="338" rubric="速度"/>
 		<concept id="341" rubric="角速度"/>
-		<concept id="360" rubric="速度（動的）"/>
-		<concept id="361" rubric="速度（運動）"/>
+		<concept id="360" rubric="Viscosity, dynamic (en)"/>
+		<concept id="361" rubric="Viscosity, kinematic (en)"/>
 		<concept id="374" rubric="電圧"/>
 		<concept id="129" rubric="容積"/>
 		<concept id="130" rubric="仕事量"/>
 		<concept id="685" rubric="屈折力"/>
+		<concept id="118" rubric="&lt;not set&gt; (en)"/>
+		<concept id="709" rubric="Time fraction (en)"/>
+		<concept id="708" rubric="Rate of change, pressure (en)"/>
+		<concept id="754" rubric="Rate of change, frequency (en)"/>
+		<concept id="755" rubric="Arbitrary (en)"/>
+		<concept id="756" rubric="Medication dose rate (en)"/>
+		<concept id="757" rubric="Spectral power (en)"/>
+		<concept id="758" rubric="Spectral power density (en)"/>
+		<concept id="759" rubric="Pace (en)"/>
+		<concept id="760" rubric="Enzyme activity (en)"/>
 	</group>
 	<group name="version lifecycle state">
 		<concept id="532" rubric="完了"/>

@@ -2,7 +2,7 @@
 
 == Concrete Format
 
-The concrete representation of the openEHR code-sets and vocabularies is in the XML format found in the {openehr_terminology_resources}/tree/master/computable/XML[openEHR `specifications-TERM` repository^], which has the following structure under the `/computable/XML` directory.
+The concrete representation of the openEHR code sets and vocabularies is in the XML format found in the {openehr_terminology_resources}/tree/master/computable/XML[openEHR `specifications-TERM` repository^], which has the following structure under the `/computable/XML` directory.
 
 [.text-center]
 .The structure of XML computable expressions in the repository
@@ -18,7 +18,7 @@ The `TERMINOLOGY` type above may include both code sets and vocabularies, howeve
 
 The concrete artefacts based on this model are accordingly as follows:
 
-* single file for all code-sets (no translations needed - codes are self-describing, e.g. 'UTF-8', 'text/plain' etc)
+* single file for all code sets (no translations needed - codes are self-describing, e.g. 'UTF-8', 'text/plain' etc)
 * single file for _each translation_ of the vocabularies.
 
 The code sets terminology file looks as follows:

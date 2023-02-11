@@ -10,6 +10,12 @@
 |[[latest_issue_date]]04 Feb 2023
 
 |
+|{spec_tickets}/SPECTERM-17[SPECTERM-17]: Improving terminology XML file format by adding unique identifiers,
+version and date attributes; updating XSD.
+|S Iancu
+|11 Feb 2023
+
+|
 |{spec_tickets}/SPECTERM-24[SPECTERM-24]: Added PropertyUnitData.xml file to openEHR terminologies (fixes {spec_tickets}/SPECPR-408[SPECPR-408^]).
 |V Pereira, +
  S Ljosland Bakke

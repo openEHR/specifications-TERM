@@ -7,6 +7,8 @@
       </xs:sequence>
       <xs:attribute name="language" use="required" type="xs:NCName"/>
       <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="version" type="xs:string"/>
+      <xs:attribute name="date" type="xs:date"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="codeset">
@@ -16,13 +18,16 @@
       </xs:sequence>
       <xs:attribute name="external_id" use="required" type="xs:NCName"/>
       <xs:attribute name="issuer" use="required" type="xs:NCName"/>
-      <xs:attribute name="openehr_id" use="required"/>
+      <xs:attribute name="openehr_id" use="required" type="xs:NCName"/><!-- breaking change -->
+      <xs:attribute name="name"/>
+      <xs:attribute name="status"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="code">
     <xs:complexType>
-      <xs:attribute name="description"/>
       <xs:attribute name="value" use="required"/>
+      <xs:attribute name="description"/>
+      <xs:attribute name="status"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>

@@ -74,6 +74,13 @@
             "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/XML/schema"
         },
         {
+            "id": "openehr-terminology-fhir",
+            "type": "url",
+            "title": "FHIR CodeSystem and ValueSet",
+            "description": "The openEHR Terminology as FHIR CodeSystem and ValueSet files.",
+            "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/fhir"
+        },
+        {
             "id": "openEHR_UML-TERM.mdzip",
             "type": "uml",
             "title": "TERM UML",

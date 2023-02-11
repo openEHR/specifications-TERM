@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <url value="https://specifications.openehr.org/fhir/codesystem-extract_update_trigger_event_type"/>
+  <version value="3.0.0"/>
+  <name value="extract_update_trigger_event_type"/>
+  <title value="Extract Update Trigger Event Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-02-11"/>
+  <publisher value="openEHR International"/>
+  <contact>
+    <name value="openEHR TERM specifications"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://specifications.openehr.org/releases/TERM/Release-3.0.0"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="812"/>
+    <display value="any change"/>
+    <designation>
+      <language value="es"/>
+      <value value="*any change(en)"/>
+    </designation>
+    <designation>
+      <language value="ja"/>
+      <value value="変更"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="*any change(en)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="813"/>
+    <display value="correction"/>
+    <designation>
+      <language value="es"/>
+      <value value="*correction(en)"/>
+    </designation>
+    <designation>
+      <language value="ja"/>
+      <value value="訂正"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="*correction(en)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="814"/>
+    <display value="update"/>
+    <designation>
+      <language value="es"/>
+      <value value="*update(en)"/>
+    </designation>
+    <designation>
+      <language value="ja"/>
+      <value value="更新"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="*update(en)"/>
+    </designation>
+  </concept>
+</CodeSystem>

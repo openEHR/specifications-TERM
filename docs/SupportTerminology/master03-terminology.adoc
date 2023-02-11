@@ -1,161 +1,18 @@
 = Terminology
 
-The following subsections describe the purpose of the openEHR Terminology Code sets and Vocabularies. The computable definition may be found in the {openehr_terminology_resources}[openEHR `specifications-TERM` repository^].
+The following subsections describe the purpose of the openEHR Terminology code sets and vocabularies. The computable definition may be found in the {openehr_terminology_resources}[openEHR `specifications-TERM` repository^].
 
 == Code Sets
 
-[cols="1,4,2,1", options="header"]
-|===
-|Code Set                       |Description                                 |openEHR Usage                                |Source Reference
+include::codesets/openehr_external_terminologies-codesets.adoc[]
 
-|Countries                      |This code set defined by the {iso_3166_1_codes_alpha_2_codes}[ISO 3166-1 "alpha-2"] standard consists of two-character names
-                                 of countries and country subdivisions.
-                                |{openehr_rm_ehr}#_composition_class[`COMPOSITION`^] +
-                                 `__.territory__`
-                                |{iso_3166_1_codes_alpha_2_codes}[ISO Countries list].
-                                 
-|Character Sets                 |This IANA (Internet Naming Authority) code set consists of the names of recognised character sets. 
-                                |{openehr_rm_ehr}#_entry_class[`ENTRY`^] +
-                                 `__.encoding__` +
-                                 {openehr_rm_data_types}#_dv_encapsulated_class[`DV_ENCAPSULATED`^] +
-                                 `__.charset__`
-                                |{iana_character_sets}[IANA Character Sets].
-                                 
-|Compression algorithms         |This code set consists of the names of algorithms used to compress data.
-                                |{openehr_rm_data_types}#_dv_multimedia_class[`DV_MULTIMEDIA`^] +
-                                 `__.compression_algorithm__`
-                                |{hl7_compression_algorithms}[HL7 CompressionAlgorithms domain^].
-                                 
-|Integrity check algorithms     |This code set consists of the names of algorithms used to generate hashes for the 
-                                 purpose of integrity checks on data.
-                                |{openehr_rm_data_types}#_dv_multimedia_class[`DV_MULTIMEDIA`^] +
-                                 `__.integrity_check_algorithm__`
-                                |{hl7_integrity_check_algorithms}[HL7 IntegrityCheckAlgorithm domain^]
-                                 
-|Languages                      |This code set consists of the language tags defined by {rfc5646}[RFC-5646].
-                                 The syntax consists of the {iso_639_1_codes}[ISO 639-1 "alpha-2"] form of names of languages,
-                                 often followed by a region subtag from the {iso_3166_1_codes_alpha_2_codes}[ISO 3166-1 "alpha-2"] country list.
-                                 These are maintained by the {iana_language_subtag_registry}[IANA Language Subtag Registry]. +
-
-                                 Note: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" covers many more
-                                 languages of cultural or indigenous interest, but which nevertheless are unlikely 
-                                 to be supported by current software or operating systems. 
-                                |{openehr_rm_ehr}#_entry_class[`ENTRY`^] +
-                                 `__.language__` +
-                                 {openehr_rm_ehr}#_composition_class[`COMPOSITION`^] +
-                                 `__.language__` +
-                                 {openehr_rm_data_types}#_dv_encapsulated_class[`DV_ENCAPSULATED`^] + 
-                                 `__.language__`
-                                |{iso_639_1_codes}[ISO Language codes]
-                                 
-|Media Types                    |This IANA (Internet Naming Authority) code set consists of the names of media types.
-                                |{openehr_rm_data_types}#_dv_multimedia_class[`DV_MULTIMEDIA`^] +
-                                 `__.media_type__`
-                                |{iana_media_types}[IANA Media Types^]
-
-|Normal Status                  |This code set codifies statuses of quantitative values with respect to a normal 
-                                 range for the measured analyte or phenomenon. 
-                                 Use generally restricted to laboratory results. Maps to some codes in HL7v2 
-                                 User-defined table 0078 - Abnormal flags.
-                                |{openehr_rm_data_types}#_dv_ordered_class[`DV_ORDERED`^] +
-                                 `__.normal_status__`
-                                |{hl7_observation_statuses}[HL7 Observation-Interpretation vocabulary^]
-|===
+include::codesets/openehr_terminology-codesets.adoc[]
 
 == Vocabularies
 
 Within the openEHR vocabularies, terms are identified in groups, each with its own identifier. The identifiers of the groups is defined in the Support Information Model, Terminology package. Each set of terms is described below on a per-group basis.
 
-[cols="1,4,2,1", options="header"]
-|===
-|Vocabulary                     |Description                                                    |openEHR Usage                      |External Reference
-
-|Attestation Reason             |This vocabulary codifies attestation statuses of Compositions 
-                                 or other elements of the health record.
-                                |{openehr_rm_common}#_attestation_class[`ATTESTATION`^] +
-                                 `__.reason__`
-                                |{hl7_participation_signature}[HL7 ParticipationSignature domain^].
-                                 
-|Audit Change Type              |This vocabulary codifies the kinds of changes to data which are
-                                 recorded in audit trails.
-                                |{openehr_rm_common}#_audit_details_class[`AUDIT_DETAILS`^] +
-                                 `__.change_type__`
-                                |
-                                 
-|Composition Category           |This vocabulary codifies the values of the `_category_` attribute 
-                                 in Compositions.
-                                |{openehr_rm_ehr}#_composition_class[`COMPOSITION`^] +
-                                 `__.category__`
-                                |
-                                 
-|Event Math Function            |This vocabulary codifies mathematical functions applied to 
-                                 non-instantaneous time series events.
-                                |{openehr_rm_data_structures}#_interval_class[`INTERVAL_EVENT`^] +
-                                 `__.math_function__`
-                                |
-                                 
-|Instruction States             |This vocabulary codifies the names of the states in the
-                                 {openehr_rm_ehr}#_the_standard_instruction_state_machine_ism[standard Instruction state machine^].
-                                |{openehr_rm_ehr}#_ism_transition_class[`ISM_TRANSITION`^] +
-                                 `__.current_state__`
-                                |
-                                 
-|Instruction Transitions        |This vocabulary codifies the names of the transitions in the 
-                                 {openehr_rm_ehr}#_the_standard_instruction_state_machine_ism[standard Instruction state machine^]
-                                |{openehr_rm_ehr}#_ism_transition_class[`ISM_TRANSITION`^] +
-                                 `__.transition__`
-                                |
-
-|Null Flavours                  |This vocabulary codifies 'flavours of null' for missing data items.
-                                |{openehr_rm_data_structures}#_element_class[`ELEMENT`^] +
-                                 `__.null_flavour__`
-                                |
-
-|Participation Function         |This vocabulary codifies functions of participation of parties in an interaction.
-                                |{openehr_rm_common}#_participation_class[`PARTICIPATION`^] +
-                                 `__.function__`
-                                |
-
-|Participation Mode             |This vocabulary codifies modes of participation of parties in an interaction.
-                                |{openehr_rm_common}#_participation_class[`PARTICIPATION`^] +
-                                 `__.mode__`
-                                |{hl7_participation_mode}[HL7 ParticipationMode domain^]
-
-|Property                       |This vocabulary codifies purposes for physical properties corresponding to formal unit 
-                                 specifications, and allows comparison of Quantities with different units but which measure 
-                                 the same property.
-                                |
-                                |{ucum}[Regenstrief Institute - Unified Codes for Units of Measure^].
-
-|Setting                        |This vocabulary codifies broad types of settings in which clinical care is delivered. 
-                                 It is not intended to be a perfect classification of the real world, but instead a practical 
-                                 coarse-grained categorisation to aid querying.
-                                |{openehr_rm_ehr}#_event_context_class[`EVENT_CONTEXT`^] +
-                                 `__.setting__`
-                                |
-
-|Subject relationship           |This vocabulary codifies the relationship between the subject of care and some other party mentioned in the health record.
-                                |{openehr_rm_common}#_party_related_class[`PARTY_RELATED`^] +
-                                 `__.relationship__`
-                                |
-
-|Term Mapping Purpose           |This vocabulary codifies purposes for term mappings as used in openEHR coded text data.
-                                |{openehr_rm_data_types}#_term_mapping_class[`TERM_MAPPING`^] +
-                                 `__.purpose__`
-                                |
-
-|Version Lifecycle State        |This vocabulary codifies lifecycle states of Compositions or other elements of the health record.
-                                |{openehr_rm_common}#_original_version_class[`ORIGINAL_VERSION`^] +
-                                 `__.lifecycle_state__` +
-                                 {openehr_rm_common}#_imported_version_class[`IMPORTED_VERSION`^] +
-                                 `__.lifecycle_state__` +
-                                 {openehr_rm_common}#_versioned_object_class[`VERSIONED_OBJECT`^] +
-                                 `__.lifecycle_state__`
-                                |
-
-|===
-
-
+include::codesets/openehr_terminology-vocabularies.adoc[]
 
 
 

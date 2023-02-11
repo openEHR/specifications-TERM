@@ -10,6 +10,11 @@
 |[[latest_issue_date]]04 Feb 2023
 
 |
+|{spec_tickets}/SPECTERM-15[SPECTERM-15]: Rendering terminology code sets and vocabulary in the SupportTerminology document.
+|S Iancu
+|11 Feb 2023
+
+|
 |{spec_tickets}/SPECTERM-16[SPECTERM-16]: Rendering terminology code sets and vocabulary as FHIR CodeSystem and ValueSet.
 |S Iancu
 |11 Feb 2023

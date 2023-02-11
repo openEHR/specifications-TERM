@@ -1,0 +1,27 @@
+#!/bin/bash
+
+case "${1:-}" in
+  install)
+    docker-compose run --rm php composer install
+    ;;
+  composer)
+    shift
+    docker-compose run --rm php composer "$@"
+    ;;
+  generate)
+    docker-compose run --rm php composer exec generate_all
+    ;;
+  ""|--help|help)
+    echo
+    echo "Usage: run ACTION [OPTIONS]"
+    echo
+    echo "Development utility wrapper for [docker-compose]."
+    echo
+    echo "Actions:"
+    echo "    install         Installs local packages (composer install)"
+    echo "    composer        Run composer command"
+    echo "    generate        Parses main terminology files and generate all other TERM files"
+    echo "    help            This help"
+    echo
+    ;;
+esac

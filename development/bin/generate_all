@@ -1,0 +1,64 @@
+#!/usr/bin/env php
+<?php
+
+use OpenEHR\Specifications\Tools\Terminology\Model\Aggregate;
+use OpenEHR\Specifications\Tools\Terminology\Parser;
+use OpenEHR\Specifications\Tools\Terminology\Writer;
+use OpenEHR\Specifications\Tools\Terminology\Serializer;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+// Send all errors to stderr
+ini_set('display_errors', 'stderr');
+
+//==================================
+//
+// Parsing openEHR terminologies
+//
+//==================================
+
+$languages = ['en', 'es', 'ja', 'pt'];
+$aggregate = new Aggregate();
+foreach ($languages as $lang) {
+    $inputFile = "/data/computable/XML/$lang/openehr_terminology.xml";
+    $terminology = Parser::parse($inputFile);
+    if ($lang === 'en') {
+        $aggregate->base($terminology);
+    }
+    $aggregate->import($terminology);
+}
+$aggregate->analyse();
+
+$content = Serializer\V3::asXml($aggregate);
+Writer::save('/data/computable/XML/openehr_terminology.v3.xml', $content);
+
+$content = Serializer\Adoc::asAdoc($aggregate, 'codesets');
+Writer::save('/data/docs/SupportTerminology/codesets/openehr_terminology-codesets.adoc', $content);
+$content = Serializer\Adoc::asAdoc($aggregate, 'vocabularies');
+Writer::save('/data/docs/SupportTerminology/codesets/openehr_terminology-vocabularies.adoc', $content);
+
+foreach ($aggregate->codeSets as $codeSet) {
+    $pathSegment = Serializer\Fhir::CodeSystemPath . $codeSet->openehr_id;
+    $content = Serializer\Fhir::asCodeSystemXml($codeSet, $aggregate);
+    Writer::save("/data/computable/$pathSegment.xml", $content);
+    $pathSegment = Serializer\Fhir::ValueSetPath . $codeSet->openehr_id;
+    $content = Serializer\Fhir::asValueSetXml($codeSet, $aggregate);
+    Writer::save("/data/computable/$pathSegment.xml", $content);
+}
+
+//==================================
+//
+// Parsing external terminologies
+//
+//==================================
+
+$aggregate = new Aggregate();
+$inputFile = "/data/computable/XML/openehr_external_terminologies.xml";
+$terminology = Parser::parse($inputFile);
+$aggregate->base($terminology);
+$aggregate->analyse();
+$content = Serializer\V3::asXml($aggregate);
+Writer::save('/data/computable/XML/openehr_external_terminologies.v3.xml', $content);
+
+$content = Serializer\Adoc::asAdoc($aggregate, 'codesets');
+Writer::save('/data/docs/SupportTerminology/codesets/openehr_external_terminologies-codesets.adoc', $content);

@@ -1,1 +1,4 @@
 *.bak
+.idea
+/development/vendor/
+/development/composer.lock

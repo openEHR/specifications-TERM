@@ -47,6 +47,11 @@ The work reported in this specification and related artefacts has been funded in
 //
 
 :sectnums:
+
+ifdef::package_qualifiers[]
+:pkg: org.openehr.term.terminology.
+endif::[]
+
 include::master01-preface.adoc[leveloffset=+1]
 include::master02-overview.adoc[leveloffset=+1]
 include::terminology_code_sets_vars.adoc[]

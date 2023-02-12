@@ -16,7 +16,8 @@ h|*1..1*
 |*value*: `String`
 a|The code string for this code entity.
 
-h|*1..1*
-|*description*: `String`
-a|
+h|*0..1*
+|*status*: `String +
+{default{nbsp}={nbsp}"active"}`
+a|Status of this code set. Valid values: "trial", "active", "retired".
 |===

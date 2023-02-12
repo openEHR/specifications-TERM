@@ -1,20 +1,36 @@
 = Representation
 
-== Concrete Format
+== Model
 
-The concrete representation of the openEHR code sets and vocabularies is in the XML format found in the {openehr_terminology_resources}/tree/master/computable/XML[openEHR `specifications-TERM` repository^], which has the following structure under the `/computable/XML` directory.
+The UML model of the openEHR code sets and vocabularies is shown below. Note that this model is not intended as a normative model for internal terminology representation in openEHR services. Accordingly it does not directly correspond to the terminology classes defined in the {openehr_rm_data_types}#_text_package[openEHR Data Types^] or {openehr_base_types}#_terminology_package[openEHR Base Types^] specifications.
+
+[.text-center]
+.openEHR Terminology Model
+image::{uml_diagrams_uri}/TERM-term.terminology.svg[id=openehr_terminology_model, align="center"]
+
+The `TERMINOLOGY` type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translation of the vocabularies has its own instance.
+
+=== Class Definitions
+
+include::{uml_export_dir}/classes/{pkg}terminology.adoc[leveloffset=+1]
+
+include::{uml_export_dir}/classes/{pkg}code_set.adoc[leveloffset=+1]
+
+include::{uml_export_dir}/classes/{pkg}code.adoc[leveloffset=+1]
+
+include::{uml_export_dir}/classes/{pkg}terminology_group.adoc[leveloffset=+1]
+
+include::{uml_export_dir}/classes/{pkg}terminology_concept.adoc[leveloffset=+1]
+
+== XML Representation
+
+The concrete representation of the openEHR code sets and vocabularies is in the XML format described by the XML Schema found in the {openehr_terminology_resources}/tree/master/computable/XML[openEHR `specifications-TERM` repository^], which has the following structure under the `/computable/XML` directory.
 
 [.text-center]
 .The structure of XML computable expressions in the repository
 image::{images_uri}/repo_structure.png[id=repo_structure, align="center"]
 
-The concrete representation model is shown in the UML diagram below. Note that this model is not intended as a normative model and does not directly correspond to the normative terminology classes defined in the {openehr_rm_data_types}#_text_package[openEHR Data Types^] or {openehr_base_types}#_terminology_package[openEHR Base Types^] specifications.
-
-[.text-center]
-.openEHR Terminology Model
-image::{uml_diagrams_uri}/TERM-terminology.svg[id=openehr_terminology_model, align="center"]
-
-The `TERMINOLOGY` type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translation of the vocabularies has its own instance.
+== Content Artefacts
 
 The concrete artefacts based on this model are accordingly as follows:
 

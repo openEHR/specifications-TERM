@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.17">
 <meta name="description" content="openEHR Support Terminology specification">
 <meta name="keywords" content="terminology, code-set, vocabulary, openehr">
 <title>Support Terminology specification</title>
@@ -73,7 +73,21 @@
 </li>
 <li><a href="#_representation">4. Representation</a>
 <ul class="sectlevel2">
-<li><a href="#_concrete_format">4.1. Concrete Format</a></li>
+<li><a href="#_model">4.1. Model</a>
+<ul class="sectlevel3">
+<li><a href="#_class_definitions">4.1.1. Class Definitions</a>
+<ul class="sectlevel4">
+<li><a href="#_terminology_class">4.1.1.1. TERMINOLOGY Class</a></li>
+<li><a href="#_code_set_class">4.1.1.2. CODE_SET Class</a></li>
+<li><a href="#_code_class">4.1.1.3. CODE Class</a></li>
+<li><a href="#_terminology_group_class">4.1.1.4. TERMINOLOGY_GROUP Class</a></li>
+<li><a href="#_terminology_concept_class">4.1.1.5. TERMINOLOGY_CONCEPT Class</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_xml_representation">4.2. XML Representation</a></li>
+<li><a href="#_content_artefacts">4.3. Content Artefacts</a></li>
 </ul>
 </li>
 </ul>
@@ -7242,28 +7256,341 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <h2 id="_representation"><a class="anchor" href="#_representation"></a>4. Representation</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_concrete_format"><a class="anchor" href="#_concrete_format"></a>4.1. Concrete Format</h3>
+<h3 id="_model"><a class="anchor" href="#_model"></a>4.1. Model</h3>
 <div class="paragraph">
-<p>The concrete representation of the openEHR code sets and vocabularies is in the XML format found in the <a href="https://github.com/openEHR/specifications-TERM/tree/master/computable/XML" target="_blank" rel="noopener">openEHR <code>specifications-TERM</code> repository</a>, which has the following structure under the <code>/computable/XML</code> directory.</p>
+<p>The UML model of the openEHR code sets and vocabularies is shown below. Note that this model is not intended as a normative model for internal terminology representation in openEHR services. Accordingly it does not directly correspond to the terminology classes defined in the <a href="https://specifications.openehr.org/releases/RM/latest/data_types.html#_text_package" target="_blank" rel="noopener">openEHR Data Types</a> or <a href="https://specifications.openehr.org/releases/BASE/latest/base_types.html#_terminology_package" target="_blank" rel="noopener">openEHR Base Types</a> specifications.</p>
+</div>
+<div id="openehr_terminology_model" class="imageblock text-center text-center">
+<div class="content">
+<img src="UML/diagrams/TERM-term.terminology.svg" alt="TERM term.terminology">
+</div>
+<div class="title">Figure 1. openEHR Terminology Model</div>
+</div>
+<div class="paragraph">
+<p>The <code>TERMINOLOGY</code> type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translation of the vocabularies has its own instance.</p>
+</div>
+<div class="sect3">
+<h4 id="_class_definitions"><a class="anchor" href="#_class_definitions"></a>4.1.1. Class Definitions</h4>
+<div class="sect4">
+<h5 id="_terminology_class"><a class="anchor" href="#_terminology_class"></a>4.1.1.1. TERMINOLOGY Class</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Class</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>TERMINOLOGY</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>Container for code sets and/or vocabularies that belong to a given logical terminology.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>name</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Name of this terminology.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>language</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Language of this terminology, as an ISO:639 2-letter code.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>code_sets</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_list_class" target="_blank" rel="noopener">List</a>&lt;<a href="#_code_set_class">CODE_SET</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Code sets in this Terminology.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vocabularies</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_list_class" target="_blank" rel="noopener">List</a>&lt;<a href="#_terminology_group_class">TERMINOLOGY_GROUP</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Vocabularies of coded terms in this terminology.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_code_set_class"><a class="anchor" href="#_code_set_class"></a>4.1.1.2. CODE_SET Class</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Class</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>CODE_SET</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>A code set.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>name</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Name of this code set.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>openehr_id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Identifier used for code set in the openEHR Reference Model. The value is inferred from the <code><em>name</em></code> attribute.</p>
+</div>
+<div class="paragraph">
+<p>Valid values take the form of an xs:NCName value, i.e. cannot contain:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>symbol characters <code>:, @, $, %, &amp;, /, +, ,, ;</code>;</p>
+</li>
+<li>
+<p>whitespace characters or different parentheses.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>An NCName cannot begin with a number, dot or minus character although these can appear later in the value.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>issuer</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Name of the issuing organisation.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>codes</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_list_class" target="_blank" rel="noopener">List</a>&lt;<a href="#_code_class">CODE</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Codes in this code set.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>external_id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>An optional identifier assumed by openEHR to be the identifier of this code set, based on its published name, with spaces replaced by underscores.</p>
+</div>
+<div class="paragraph">
+<p>Valid values take the form of an xs:NCName value, i.e. cannot contain:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>symbol characters <code>:, @, $, %, &amp;, /, +, ,, ;</code>;</p>
+</li>
+<li>
+<p>whitespace characters or different parentheses.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>An NCName cannot begin with a number, dot or minus character although these can appear later in the value.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code>String<br>
+{default&#160;=&#160;"active"}</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Status of this code set. Valid values: "trial", "active", "retired".</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_code_class"><a class="anchor" href="#_code_class"></a>4.1.1.3. CODE Class</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Class</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>CODE</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>A single code entity in a code set.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>value</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The code string for this code entity.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code>String<br>
+{default&#160;=&#160;"active"}</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Status of this code set. Valid values: "trial", "active", "retired".</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_terminology_group_class"><a class="anchor" href="#_terminology_group_class"></a>4.1.1.4. TERMINOLOGY_GROUP Class</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Class</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>TERMINOLOGY_GROUP</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>A single vocabulary, in a particular language, within a Terminology.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>name</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Name of this vocabulary.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>concepts</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_list_class" target="_blank" rel="noopener">List</a>&lt;<a href="#_terminology_concept_class">TERMINOLOGY_CONCEPT</a>&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>List of concepts (i.e. coded terms) in this vocabulary.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>openehr_id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Identifier used for terminology group in the openEHR Reference Model. The value is inferred from the <code><em>name</em></code> attribute.</p>
+</div>
+<div class="paragraph">
+<p>Valid values take the form of an xs:NCName value, i.e. cannot contain:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>symbol characters <code>:, @, $, %, &amp;, /, +, ,, ;</code>;</p>
+</li>
+<li>
+<p>whitespace characters or different parentheses.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>An NCName cannot begin with a number, dot or minus character although these can appear later in the value.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_terminology_concept_class"><a class="anchor" href="#_terminology_concept_class"></a>4.1.1.5. TERMINOLOGY_CONCEPT Class</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Class</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>TERMINOLOGY_CONCEPT</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>A single terminology concept in a vocabulary.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The code of this concept.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>rubric</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_xml_representation"><a class="anchor" href="#_xml_representation"></a>4.2. XML Representation</h3>
+<div class="paragraph">
+<p>The concrete representation of the openEHR code sets and vocabularies is in the XML format described by the XML Schema found in the <a href="https://github.com/openEHR/specifications-TERM/tree/master/computable/XML" target="_blank" rel="noopener">openEHR <code>specifications-TERM</code> repository</a>, which has the following structure under the <code>/computable/XML</code> directory.</p>
 </div>
 <div id="repo_structure" class="imageblock text-center text-center">
 <div class="content">
 <img src="SupportTerminology/images/repo_structure.png" alt="repo structure">
 </div>
-<div class="title">Figure 1. The structure of XML computable expressions in the repository</div>
+<div class="title">Figure 2. The structure of XML computable expressions in the repository</div>
 </div>
-<div class="paragraph">
-<p>The concrete representation model is shown in the UML diagram below. Note that this model is not intended as a normative model and does not directly correspond to the normative terminology classes defined in the <a href="https://specifications.openehr.org/releases/RM/latest/data_types.html#_text_package" target="_blank" rel="noopener">openEHR Data Types</a> or <a href="https://specifications.openehr.org/releases/BASE/latest/base_types.html#_terminology_package" target="_blank" rel="noopener">openEHR Base Types</a> specifications.</p>
 </div>
-<div id="openehr_terminology_model" class="imageblock text-center text-center">
-<div class="content">
-<img src="UML/diagrams/TERM-terminology.svg" alt="TERM terminology">
-</div>
-<div class="title">Figure 2. openEHR Terminology Model</div>
-</div>
-<div class="paragraph">
-<p>The <code>TERMINOLOGY</code> type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translation of the vocabularies has its own instance.</p>
-</div>
+<div class="sect2">
+<h3 id="_content_artefacts"><a class="anchor" href="#_content_artefacts"></a>4.3. Content Artefacts</h3>
 <div class="paragraph">
 <p>The concrete artefacts based on this model are accordingly as follows:</p>
 </div>
@@ -7347,7 +7674,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-02-10 22:55:56 UTC
+Last updated 2023-02-12 11:33:40 UTC
 </div>
 </div>
 </body>

@@ -1,29 +1,17 @@
 
 == Component TERM
 
-=== Model org.openehr.terminology
+=== Model org.openehr.term
 
-==== Package CODE
-
-[.xcode]
-* link:/releases/TERM/{term_release}/CODE.html#_code_class[CODE^]
-
-==== Package CODE_SET
+==== Package terminology
 
 [.xcode]
-* link:/releases/TERM/{term_release}/CODE_SET.html#_code_set_class[CODE_SET^]
-
-==== Package TERMINOLOGY
-
+* link:/releases/TERM/{term_release}/terminology.html#_code_class[CODE^]
 [.xcode]
-* link:/releases/TERM/{term_release}/TERMINOLOGY.html#_terminology_class[TERMINOLOGY^]
-
-==== Package TERMINOLOGY_CONCEPT
-
+* link:/releases/TERM/{term_release}/terminology.html#_code_set_class[CODE_SET^]
 [.xcode]
-* link:/releases/TERM/{term_release}/TERMINOLOGY_CONCEPT.html#_terminology_concept_class[TERMINOLOGY_CONCEPT^]
-
-==== Package TERMINOLOGY_GROUP
-
+* link:/releases/TERM/{term_release}/terminology.html#_terminology_class[TERMINOLOGY^]
 [.xcode]
-* link:/releases/TERM/{term_release}/TERMINOLOGY_GROUP.html#_terminology_group_class[TERMINOLOGY_GROUP^]
+* link:/releases/TERM/{term_release}/terminology.html#_terminology_concept_class[TERMINOLOGY_CONCEPT^]
+[.xcode]
+* link:/releases/TERM/{term_release}/terminology.html#_terminology_group_class[TERMINOLOGY_GROUP^]

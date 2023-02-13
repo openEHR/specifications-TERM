@@ -22,6 +22,8 @@ include::{uml_export_dir}/classes/{pkg}terminology_group.adoc[leveloffset=+1]
 
 include::{uml_export_dir}/classes/{pkg}terminology_concept.adoc[leveloffset=+1]
 
+include::{uml_export_dir}/classes/{pkg}terminology_status.adoc[leveloffset=+1]
+
 == XML Representation
 
 The concrete representation of the openEHR code sets and vocabularies is in the XML format described by the XML Schema found in the {openehr_terminology_resources}/tree/master/computable/XML[openEHR `specifications-TERM` repository^], which has the following structure under the `/computable/XML` directory.

@@ -82,6 +82,7 @@
 <li><a href="#_code_class">4.1.1.3. CODE Class</a></li>
 <li><a href="#_terminology_group_class">4.1.1.4. TERMINOLOGY_GROUP Class</a></li>
 <li><a href="#_terminology_concept_class">4.1.1.5. TERMINOLOGY_CONCEPT Class</a></li>
+<li><a href="#_terminology_status_enumeration">4.1.1.6. TERMINOLOGY_STATUS Enumeration</a></li>
 </ul>
 </li>
 </ul>
@@ -7323,6 +7324,20 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <p>Vocabularies of coded terms in this terminology.</p>
 </div></div></td>
 </tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>version</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Version of this instance of the terminology.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>date</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_iso8601_date_class" target="_blank" rel="noopener">Iso8601_date</a></code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Date of issue of this version of the terminology.</p>
+</div></div></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -7419,10 +7434,10 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code>String<br>
-{default&#160;=&#160;"active"}</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
+{default&#160;=&#160;}</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Status of this code set. Valid values: "trial", "active", "retired".</p>
+<p>Status of this code set.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -7456,15 +7471,25 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>value</strong>: <code>String</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The code string for this code entity.</p>
+<p>The code string for this code entity, e.g. <code>"AF"</code>.</p>
 </div></div></td>
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code>String<br>
-{default&#160;=&#160;"active"}</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>description</strong>: <code>String</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Status of this code set. Valid values: "trial", "active", "retired".</p>
+<p>Optional description of this code, e.g. <code>"AFGHANISTAN"</code>.</p>
+</div>
+<div class="paragraph">
+<p>This field may be used to hold translations of the description in a language-specific copy of the English language original code set.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
+{default&#160;=&#160;}</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Status of this code within the code set.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -7531,6 +7556,14 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <p>An NCName cannot begin with a number, dot or minus character although these can appear later in the value.</p>
 </div></div></td>
 </tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
+{default&#160;=&#160;}</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Status of this vocabulary.</p>
+</div></div></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -7570,6 +7603,62 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>rubric</strong>: <code>String</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
+{default&#160;=&#160;}</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Status of this concept within the vocabulary.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_terminology_status_enumeration"><a class="anchor" href="#_terminology_status_enumeration"></a>4.1.1.6. TERMINOLOGY_STATUS Enumeration</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Enumeration</strong></p></th>
+<th class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong>TERMINOLOGY_STATUS</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Description</strong></p></th>
+<td class="tableblock halign-left valign-top" colspan="2"><div class="content"><div class="paragraph">
+<p>Enumeration of possible lifecycle states of any part of the terminomlogy.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">trial</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Terminology element is in Trial state.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Terminology element is in Active state, i.e. published and in use.</p>
+</div></div></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top"></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">retired</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Terminology element has been Retired, i.e. deprecated.</p>
 </div></div></td>
 </tr>
 </tbody>

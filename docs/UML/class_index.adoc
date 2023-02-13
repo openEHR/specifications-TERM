@@ -15,3 +15,5 @@
 * link:/releases/TERM/{term_release}/terminology.html#_terminology_concept_class[TERMINOLOGY_CONCEPT^]
 [.xcode]
 * link:/releases/TERM/{term_release}/terminology.html#_terminology_group_class[TERMINOLOGY_GROUP^]
+[.xcode]
+* link:/releases/TERM/{term_release}/terminology.html#_terminology_status_enumeration[TERMINOLOGY_STATUS^]

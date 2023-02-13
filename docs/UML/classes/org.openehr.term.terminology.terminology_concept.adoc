@@ -22,6 +22,6 @@ a|The rubric, i.e. linguistic expression, of this concept, in the language of th
 
 h|*0..1*
 |*status*: `<<_terminology_status_enumeration,TERMINOLOGY_STATUS>> +
-{default{nbsp}={nbsp}}`
+{default{nbsp}={nbsp}active}`
 a|Status of this concept within the vocabulary.
 |===

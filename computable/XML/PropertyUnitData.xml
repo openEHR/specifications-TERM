@@ -1,23 +1,4 @@
 <?xml version="1.0" standalone="yes"?>
-<!--
-  ~ ADL Designer
-  ~ Copyright (c) 2013-2014 Marand d.o.o. (www.marand.com)
-  ~
-  ~ This file is part of ADL2-tools.
-  ~
-  ~ ADL2-tools is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU Affero General Public License as
-  ~ published by the Free Software Foundation, either version 3 of the
-  ~ License, or (at your option) any later version.
-  ~
-  ~ This program is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU Affero General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU Affero General Public License
-  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
-  -->
 
 <PropertyUnits xmlns="http://tempuri.org/PropertyUnits.xsd">
   <Property id="0" Text="Length" openEHR="122" />
@@ -181,7 +162,7 @@
   <Unit property_id="5" Text="m²" name="square meter" conversion="1" primary="true" UCUM="m2"/>
   <Unit property_id="5" Text="yd²" conversion="0.8361" primary="false" UCUM="[syd_i]"/>
   <Unit property_id="5" Text="µm²" conversion="1" coefficient="-12" primary="false" UCUM="um2"/>
-  <Unit property_id="6" Text="cc" name="cubic centimeter" conversion="1" coefficient="-6" primary="false" UCUM="cm2"/>
+  <Unit property_id="6" Text="cc" name="cubic centimeter" conversion="1" coefficient="-6" primary="false" UCUM="cm3"/>
   <Unit property_id="6" Text="cl" name="centilitre" conversion="1" coefficient="-5" primary="false" UCUM="cL"/>
   <Unit property_id="6" Text="dl" name="decilitre" conversion="1" coefficient="-4" primary="false" UCUM="dL"/>
   <Unit property_id="6" Text="fl oz (US)" name="fluid ounce (US)" primary="false" UCUM="[foz_us]"/>
@@ -301,7 +282,7 @@
   <Unit property_id="20" Text="lbm/ft²·min" conversion="0.0814" primary="false" UCUM="[lb_av]/[sft_i].min"/>
   <Unit property_id="20" Text="lbm/ft²·s" conversion="4.883" primary="false" UCUM="[lb_av]/[sft_i].s"/>
   <Unit property_id="21" Text="g/cm²" conversion="1" coefficient="1" primary="false" UCUM="g/cm2"/>
-  <Unit property_id="21" Text="g/m²" conversion="1" coefficient="3" primary="false" UCUM="g/m2"/>
+  <Unit property_id="21" Text="g/m²" conversion="1" coefficient="-3" primary="false" UCUM="g/m2"/>
   <Unit property_id="21" Text="g/m^2.7" name="mass per height^2.7 (BSA)" conversion="0" primary="false"
         UCUM="g/m27.10-1"/>
   <Unit property_id="21" Text="kg/m²" conversion="1" primary="true" UCUM="kg/m2"/>

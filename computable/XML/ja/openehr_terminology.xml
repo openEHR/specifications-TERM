@@ -40,7 +40,7 @@
 	<group name="コンポジションカテゴリ">
 		<concept id="431" rubric="永続"/>
 		<concept id="433" rubric="イベント"/>
-		<concept id="451" rubric="*episodic(en)"/>
+		<concept id="451" rubric="一時的"/>
 	</group>
 	<!--
 	<group name="MultiMedia">
@@ -177,8 +177,8 @@
 		<concept id="532" rubric="完了"/>
 		<concept id="553" rubric="未完"/>
 		<concept id="523" rubric="削除済み"/>
-		<concept id="800" rubric="*inactive(en)"/>
-		<concept id="801" rubric="*abandoned(en)"/>
+		<concept id="800" rubric="非アクティブ"/>
+		<concept id="801" rubric="破棄"/>
 	</group>
 	<group name="participation function">
 		<concept id="253" rubric="未知"/>
@@ -243,7 +243,7 @@
 		<concept id="166" rubric="キャンセルする"/>
 		<concept id="542" rubric="延期されたステップ"/>
 		<concept id="539" rubric="計画する"/>
-		<concept id="534" rubric="*scheduled step(en)"/>	
+		<concept id="534" rubric="計画されたステップ"/>	
 		<concept id="540" rubric="開始する"/>
 		<concept id="541" rubric="実施する"/>
 		<concept id="543" rubric="実行中のステップ"/>

@@ -41,6 +41,7 @@
 		<concept id="431" rubric="persistente"/>
 		<concept id="433" rubric="evento"/>
 		<concept id="451" rubric="*episodic(en)"/>
+		<concept id="815" rubric="*report(en)"/>
 	</group>
 	<group openehr_id="property" name="propriedade">
 		<concept id="339" rubric="aceleração"/>

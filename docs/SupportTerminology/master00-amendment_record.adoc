@@ -10,6 +10,12 @@
 |[[latest_issue_date]]04 Feb 2023
 
 |
+|{spec_tickets}/SPECTERM-5[SPECTERM-5]: Adding "report" to Composition Category to support report Compositions.
+|B Næss, +
+ S Iancu
+|05 Mar 2023
+
+|
 |{spec_tickets}/SPECTERM-15[SPECTERM-15]: Rendering terminology code sets and vocabulary in the SupportTerminology document.
 |S Iancu
 |11 Feb 2023

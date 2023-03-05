@@ -41,6 +41,7 @@
 		<concept id="431" rubric="永続"/>
 		<concept id="433" rubric="イベント"/>
 		<concept id="451" rubric="一時的"/>
+		<concept id="815" rubric="*report(en)"/>
 	</group>
 	<group openehr_id="property" name="プロパティ">
 		<concept id="339" rubric="加速度"/>

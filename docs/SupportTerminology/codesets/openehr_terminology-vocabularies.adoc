@@ -62,6 +62,7 @@ h| *Code*      h| *Description*       h| *Status*
 | *431*      a| persistent       | active
 | *451*      a| episodic       | active
 | *433*      a| event       | active
+| *815*      a| report       | active
 |===
 
 === Property

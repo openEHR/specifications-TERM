@@ -17,7 +17,7 @@
   </contact>
   <caseSensitive value="true"/>
   <content value="complete"/>
-  <count value="3"/>
+  <count value="4"/>
   <concept>
     <code value="431"/>
     <display value="persistent"/>
@@ -43,7 +43,7 @@
     </designation>
     <designation>
       <language value="ja"/>
-      <value value="*episodic(en)"/>
+      <value value="一時的"/>
     </designation>
     <designation>
       <language value="pt"/>
@@ -64,6 +64,22 @@
     <designation>
       <language value="pt"/>
       <value value="evento"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="815"/>
+    <display value="report"/>
+    <designation>
+      <language value="es"/>
+      <value value="*report(en)"/>
+    </designation>
+    <designation>
+      <language value="ja"/>
+      <value value="*report(en)"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="*report(en)"/>
     </designation>
   </concept>
 </CodeSystem>

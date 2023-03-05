@@ -6,7 +6,7 @@
   <title value="Extract Action Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-02-11"/>
+  <date value="2023-03-05"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -17,7 +17,7 @@
   </contact>
   <caseSensitive value="true"/>
   <compose>
-    <lockedDate value="2023-02-11"/>
+    <lockedDate value="2023-03-05"/>
     <include>
       <system value="https://specifications.openehr.org/fhir/codesystem-extract_action_type"/>
       <version value="3.0.0"/>

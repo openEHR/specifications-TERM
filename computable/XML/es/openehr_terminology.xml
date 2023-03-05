@@ -1,4 +1,4 @@
-<terminology name="openehr" language="es" version="3.0.0" date="2023-02-11">
+<terminology name="openehr" language="es" version="3.0.0" date="2023-03-05">
     <codeset issuer="openehr" openehr_id="compression_algorithms" name="compression algorithms" external_id="openehr_compression_algorithms">
         <code value="compress" description="compresión"/>
         <code value="deflate" description="deflación"/>
@@ -35,6 +35,8 @@
         <concept id="252" rubric="síntesis"/>
         <concept id="523" rubric="eliminado"/>
         <concept id="666" rubric="testimonio"/>
+        <concept id="816" rubric="*restoration(en)"/>
+        <concept id="817" rubric="*format conversion(en)"/>
         <concept id="253" rubric="desconocido"/>
     </group>
     <group openehr_id="composition_category" name="composition category">

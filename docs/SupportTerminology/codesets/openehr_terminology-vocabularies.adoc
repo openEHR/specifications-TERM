@@ -40,6 +40,8 @@ h| *Code*      h| *Description*       h| *Status*
 | *252*      a| synthesis       | active
 | *523*      a| deleted       | active
 | *666*      a| attestation       | active
+| *816*      a| restoration       | active
+| *817*      a| format conversion       | active
 | *253*      a| unknown       | active
 |===
 

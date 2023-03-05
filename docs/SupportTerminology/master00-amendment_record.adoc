@@ -6,8 +6,14 @@
 
 |[[latest_issue]]latest
 |{spec_tickets}/SPECTERM-23[SPECTERM-23]: Improving translations.
-|S Kobayashi
-|[[latest_issue_date]]04 Feb 2023
+|S Kobayashi, +
+ D Bosca
+|[[latest_issue_date]]05 Mar 2023
+
+|
+|{spec_tickets}/SPECTERM-25[SPECTERM-25]: Adding "format conversion" and "restoration" new types to the audit_change_type group.
+|S Iancu
+|05 Mar 2023
 
 |
 |{spec_tickets}/SPECTERM-5[SPECTERM-5]: Adding "report" to Composition Category to support report Compositions.

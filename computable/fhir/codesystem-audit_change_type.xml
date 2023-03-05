@@ -17,7 +17,7 @@
   </contact>
   <caseSensitive value="true"/>
   <content value="complete"/>
-  <count value="7"/>
+  <count value="9"/>
   <concept>
     <code value="249"/>
     <display value="creation"/>
@@ -112,6 +112,38 @@
     <designation>
       <language value="pt"/>
       <value value="atestação"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="816"/>
+    <display value="restoration"/>
+    <designation>
+      <language value="es"/>
+      <value value="*restoration(en)"/>
+    </designation>
+    <designation>
+      <language value="ja"/>
+      <value value="*restoration(en)"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="*restoration(en)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="817"/>
+    <display value="format conversion"/>
+    <designation>
+      <language value="es"/>
+      <value value="*format conversion(en)"/>
+    </designation>
+    <designation>
+      <language value="ja"/>
+      <value value="*format conversion(en)"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="*format conversion(en)"/>
     </designation>
   </concept>
   <concept>

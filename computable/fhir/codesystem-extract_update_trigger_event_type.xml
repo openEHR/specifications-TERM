@@ -31,7 +31,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*any change(en)"/>
+      <value value="qualquer alteração"/>
     </designation>
   </concept>
   <concept>
@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*correction(en)"/>
+      <value value="correcção"/>
     </designation>
   </concept>
   <concept>
@@ -63,7 +63,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*update(en)"/>
+      <value value="actualização"/>
     </designation>
   </concept>
 </CodeSystem>

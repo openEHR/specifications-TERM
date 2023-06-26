@@ -31,7 +31,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="aceleração"/>
+      <value value="Aceleração"/>
     </designation>
   </concept>
   <concept>
@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="aceleração, angular"/>
+      <value value="Aceleração, angular"/>
     </designation>
   </concept>
   <concept>
@@ -63,7 +63,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="quantidade (Eq)"/>
+      <value value="Quantidade (Eq)"/>
     </designation>
   </concept>
   <concept>
@@ -79,7 +79,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="quantidade (mol)"/>
+      <value value="Quantidade (mol)"/>
     </designation>
   </concept>
   <concept>
@@ -95,7 +95,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="ângulo, plano"/>
+      <value value="Ângulo, plano"/>
     </designation>
   </concept>
   <concept>
@@ -111,7 +111,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="ângulo, sólido"/>
+      <value value="Ângulo, sólido"/>
     </designation>
   </concept>
   <concept>
@@ -127,7 +127,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="área"/>
+      <value value="Área"/>
     </designation>
   </concept>
   <concept>
@@ -143,7 +143,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="concentração"/>
+      <value value="Concentração"/>
     </designation>
   </concept>
   <concept>
@@ -159,7 +159,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="densidade"/>
+      <value value="Densidade"/>
     </designation>
   </concept>
   <concept>
@@ -175,7 +175,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="coeficiente de difusão"/>
+      <value value="Coeficiente de difusão"/>
     </designation>
   </concept>
   <concept>
@@ -191,7 +191,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="capacitância elétrica"/>
+      <value value="Capacitância elétrica"/>
     </designation>
   </concept>
   <concept>
@@ -207,7 +207,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="carga elétrica"/>
+      <value value="Carga elétrica"/>
     </designation>
   </concept>
   <concept>
@@ -223,7 +223,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="condutância elétrica"/>
+      <value value="Condutância elétrica"/>
     </designation>
   </concept>
   <concept>
@@ -239,7 +239,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="corrente elétrica"/>
+      <value value="Corrente elétrica"/>
     </designation>
   </concept>
   <concept>
@@ -255,7 +255,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="força de campo elétrico"/>
+      <value value="Intensidade do campo elétrico"/>
     </designation>
   </concept>
   <concept>
@@ -271,7 +271,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="potencial elétrico"/>
+      <value value="Energia potencial elétrica"/>
     </designation>
   </concept>
   <concept>
@@ -287,7 +287,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="energia"/>
+      <value value="Energia"/>
     </designation>
   </concept>
   <concept>
@@ -303,7 +303,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="densidade de energia"/>
+      <value value="Densidade de energia"/>
     </designation>
   </concept>
   <concept>
@@ -319,7 +319,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="dose de energia"/>
+      <value value="Dose de energia"/>
     </designation>
   </concept>
   <concept>
@@ -335,7 +335,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="energia por área"/>
+      <value value="Energia por área"/>
     </designation>
   </concept>
   <concept>
@@ -351,7 +351,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="energia, linear"/>
+      <value value="Energia, linear"/>
     </designation>
   </concept>
   <concept>
@@ -367,7 +367,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="taxa de fluxo, massa"/>
+      <value value="Taxa de fluxo, massa"/>
     </designation>
   </concept>
   <concept>
@@ -383,7 +383,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="taxa de fluxo, massa/força"/>
+      <value value="Taxa de fluxo, massa/força"/>
     </designation>
   </concept>
   <concept>
@@ -399,7 +399,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="taxa de flxuo, massa/volume"/>
+      <value value="Taxa de fluxo, massa/volume"/>
     </designation>
   </concept>
   <concept>
@@ -415,7 +415,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="taxa de flxuo, volume"/>
+      <value value="Taxa de fluxo, volume"/>
     </designation>
   </concept>
   <concept>
@@ -431,7 +431,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="fluxo, massa"/>
+      <value value="Fluxo, massa"/>
     </designation>
   </concept>
   <concept>
@@ -447,7 +447,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="força"/>
+      <value value="Força"/>
     </designation>
   </concept>
   <concept>
@@ -463,7 +463,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="força por massa"/>
+      <value value="Força por massa"/>
     </designation>
   </concept>
   <concept>
@@ -479,7 +479,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="força, corpo"/>
+      <value value="Força, corpo"/>
     </designation>
   </concept>
   <concept>
@@ -495,7 +495,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="frequência"/>
+      <value value="Frequência"/>
     </designation>
   </concept>
   <concept>
@@ -511,7 +511,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="taxa de filtração glomerular"/>
+      <value value="Taxa de filtração glomerular"/>
     </designation>
   </concept>
   <concept>
@@ -527,7 +527,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="coeficiente de transferência de calor"/>
+      <value value="Coeficiente de transferência de calor"/>
     </designation>
   </concept>
   <concept>
@@ -543,7 +543,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="iluminância"/>
+      <value value="Iluminância"/>
     </designation>
   </concept>
   <concept>
@@ -559,7 +559,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="indutância"/>
+      <value value="Indutância"/>
     </designation>
   </concept>
   <concept>
@@ -575,7 +575,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="comprimento"/>
+      <value value="Comprimento"/>
     </designation>
   </concept>
   <concept>
@@ -591,7 +591,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="intensidade luminosa"/>
+      <value value="Intensidade luminosa"/>
     </designation>
   </concept>
   <concept>
@@ -607,7 +607,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="intensidade sonora"/>
+      <value value="Intensidade sonora"/>
     </designation>
   </concept>
   <concept>
@@ -623,7 +623,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="fluxo luminoso"/>
+      <value value="Fluxo luminoso"/>
     </designation>
   </concept>
   <concept>
@@ -639,7 +639,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="fluxo magnético"/>
+      <value value="Fluxo magnético"/>
     </designation>
   </concept>
   <concept>
@@ -655,7 +655,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="densidade de fluxo magnético"/>
+      <value value="Densidade de fluxo magnético"/>
     </designation>
   </concept>
   <concept>
@@ -671,7 +671,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="massa"/>
+      <value value="Massa"/>
     </designation>
   </concept>
   <concept>
@@ -687,7 +687,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="massa (UI)"/>
+      <value value="Massa (UI)"/>
     </designation>
   </concept>
   <concept>
@@ -703,7 +703,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="massa (unidades)"/>
+      <value value="Massa (unidades)"/>
     </designation>
   </concept>
   <concept>
@@ -719,7 +719,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="massa por área"/>
+      <value value="Massa por área"/>
     </designation>
   </concept>
   <concept>
@@ -735,7 +735,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="momento de inércia, área"/>
+      <value value="Momento de inércia, área"/>
     </designation>
   </concept>
   <concept>
@@ -751,7 +751,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="momento de inércia, massa"/>
+      <value value="Momento de inércia, massa"/>
     </designation>
   </concept>
   <concept>
@@ -767,7 +767,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="momento"/>
+      <value value="Momento"/>
     </designation>
   </concept>
   <concept>
@@ -783,7 +783,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="momento, taxa de fluxo"/>
+      <value value="Momento, taxa de fluxo"/>
     </designation>
   </concept>
   <concept>
@@ -799,7 +799,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="momento, angular"/>
+      <value value="Momento, angular"/>
     </designation>
   </concept>
   <concept>
@@ -815,7 +815,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="potência"/>
+      <value value="Potência"/>
     </designation>
   </concept>
   <concept>
@@ -831,7 +831,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="densidade de potência"/>
+      <value value="Densidade de potência"/>
     </designation>
   </concept>
   <concept>
@@ -847,7 +847,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="fluxo de potência"/>
+      <value value="Fluxo de potência"/>
     </designation>
   </concept>
   <concept>
@@ -863,7 +863,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="potência, linear"/>
+      <value value="Potência, linear"/>
     </designation>
   </concept>
   <concept>
@@ -879,7 +879,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="pressão"/>
+      <value value="Pressão"/>
     </designation>
   </concept>
   <concept>
@@ -895,7 +895,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="proporção"/>
+      <value value="Proporção"/>
     </designation>
   </concept>
   <concept>
@@ -911,7 +911,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="real qualificado"/>
+      <value value="Real qualificado"/>
     </designation>
   </concept>
   <concept>
@@ -927,7 +927,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="radioatividade"/>
+      <value value="Radioactividade"/>
     </designation>
   </concept>
   <concept>
@@ -943,7 +943,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="resistência"/>
+      <value value="Resistência"/>
     </designation>
   </concept>
   <concept>
@@ -959,7 +959,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="energia específica"/>
+      <value value="Energia específica"/>
     </designation>
   </concept>
   <concept>
@@ -975,7 +975,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="calor específico, gás constante"/>
+      <value value="Calor específico, gás constante"/>
     </designation>
   </concept>
   <concept>
@@ -991,7 +991,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="superfície específica"/>
+      <value value="Superfície específica"/>
     </designation>
   </concept>
   <concept>
@@ -1007,7 +1007,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="volume específico"/>
+      <value value="Volume específico"/>
     </designation>
   </concept>
   <concept>
@@ -1023,7 +1023,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="peso específico"/>
+      <value value="Peso específico"/>
     </designation>
   </concept>
   <concept>
@@ -1039,7 +1039,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="tensão superficial"/>
+      <value value="Tensão superficial"/>
     </designation>
   </concept>
   <concept>
@@ -1055,7 +1055,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="temperatura"/>
+      <value value="Temperatura"/>
     </designation>
   </concept>
   <concept>
@@ -1071,7 +1071,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="condutividade térmica"/>
+      <value value="Condutividade térmica"/>
     </designation>
   </concept>
   <concept>
@@ -1087,7 +1087,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="tempo"/>
+      <value value="Tempo"/>
     </designation>
   </concept>
   <concept>
@@ -1103,7 +1103,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="torque"/>
+      <value value="Torque"/>
     </designation>
   </concept>
   <concept>
@@ -1119,7 +1119,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="velocidade"/>
+      <value value="Velocidade"/>
     </designation>
   </concept>
   <concept>
@@ -1135,7 +1135,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="velocidade angular"/>
+      <value value="Velocidade, angular"/>
     </designation>
   </concept>
   <concept>
@@ -1151,7 +1151,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Viscosity, dynamic (en)"/>
+      <value value="Viscosidade, dinâmica"/>
     </designation>
   </concept>
   <concept>
@@ -1167,7 +1167,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Viscosity, kinematic (en)"/>
+      <value value="Viscosidade, cinemática"/>
     </designation>
   </concept>
   <concept>
@@ -1183,7 +1183,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="voltagem, elétrica"/>
+      <value value="Potencial eléctrico"/>
     </designation>
   </concept>
   <concept>
@@ -1215,7 +1215,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="trabalho"/>
+      <value value="Trabalho"/>
     </designation>
   </concept>
   <concept>
@@ -1231,7 +1231,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="potência dióptrica"/>
+      <value value="Poder de refracção"/>
     </designation>
   </concept>
   <concept>
@@ -1247,7 +1247,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="&lt;not set&gt; (en)"/>
+      <value value="Não definido"/>
     </designation>
   </concept>
   <concept>
@@ -1263,7 +1263,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Time fraction (en)"/>
+      <value value="Fracção de tempo"/>
     </designation>
   </concept>
   <concept>
@@ -1279,7 +1279,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Rate of change, pressure (en)"/>
+      <value value="Taxa de variação, pressão"/>
     </designation>
   </concept>
   <concept>
@@ -1295,7 +1295,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Rate of change, frequency (en)"/>
+      <value value="Taxa de variação, frequência"/>
     </designation>
   </concept>
   <concept>
@@ -1311,7 +1311,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Arbitrary (en)"/>
+      <value value="Arbitrário"/>
     </designation>
   </concept>
   <concept>
@@ -1327,7 +1327,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Medication dose rate (en)"/>
+      <value value="Taxa de dose de medicação"/>
     </designation>
   </concept>
   <concept>
@@ -1343,7 +1343,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Spectral power (en)"/>
+      <value value="Potência espectral"/>
     </designation>
   </concept>
   <concept>
@@ -1359,7 +1359,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Spectral power density (en)"/>
+      <value value="Densidade de potência espectral"/>
     </designation>
   </concept>
   <concept>
@@ -1375,7 +1375,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Pace (en)"/>
+      <value value="Ritmo"/>
     </designation>
   </concept>
   <concept>
@@ -1391,7 +1391,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="Enzyme activity (en)"/>
+      <value value="Actividade enzimática"/>
     </designation>
   </concept>
 </CodeSystem>

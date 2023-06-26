@@ -63,7 +63,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="comuicação interpretada cara-a-cara"/>
+      <value value="comunicação interpretada cara-a-cara"/>
     </designation>
   </concept>
   <concept>
@@ -143,7 +143,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="assinatura via vídeo"/>
+      <value value="assinatura por vídeo"/>
     </designation>
   </concept>
   <concept>
@@ -159,7 +159,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="comunicação interpretada via vídeo"/>
+      <value value="comunicação interpretada por vídeo"/>
     </designation>
   </concept>
   <concept>
@@ -207,7 +207,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="áudio a ovivo; telefone; telefone via internet; teleconferência"/>
+      <value value="apenas áudio em directo; telefone; telefone por internet; teleconferência"/>
     </designation>
   </concept>
   <concept>
@@ -255,7 +255,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="telefone via internet"/>
+      <value value="telefone por internet"/>
     </designation>
   </concept>
   <concept>
@@ -335,7 +335,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="texto ao vivo; chat via internet; chat via SMS; nota escrita interativa"/>
+      <value value="apenas texto em directo; chat na Internet; chat por SMS; nota escrita interactiva"/>
     </designation>
   </concept>
   <concept>
@@ -351,7 +351,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="chat via internet"/>
+      <value value="chat por internet"/>
     </designation>
   </concept>
   <concept>
@@ -367,7 +367,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="chat via SMS"/>
+      <value value="chat por SMS"/>
     </designation>
   </concept>
   <concept>
@@ -383,7 +383,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="nota escrita interativa"/>
+      <value value="nota escrita interactiva"/>
     </designation>
   </concept>
   <concept>
@@ -399,7 +399,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="texto assíncrono; email; fax; carta; nota manuscrita; mensagem SMS"/>
+      <value value="texto assíncrono; correio electrónico; fax; carta; nota manuscrita; mensagem SMS"/>
     </designation>
   </concept>
   <concept>

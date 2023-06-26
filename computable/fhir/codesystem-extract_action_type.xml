@@ -31,7 +31,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*cancel(en)"/>
+      <value value="cancelar"/>
     </designation>
   </concept>
   <concept>
@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*resend(en)"/>
+      <value value="reenviar"/>
     </designation>
   </concept>
   <concept>
@@ -63,7 +63,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*send new(en)"/>
+      <value value="enviar novo"/>
     </designation>
   </concept>
 </CodeSystem>

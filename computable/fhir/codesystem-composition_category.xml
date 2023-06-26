@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*episodic(en)"/>
+      <value value="episódico"/>
     </designation>
   </concept>
   <concept>
@@ -71,7 +71,7 @@
     <display value="report"/>
     <designation>
       <language value="es"/>
-      <value value="*report(en)"/>
+      <value value="informe"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -79,7 +79,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*report(en)"/>
+      <value value="relatório"/>
     </designation>
   </concept>
 </CodeSystem>

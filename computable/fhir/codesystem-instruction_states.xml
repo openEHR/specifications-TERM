@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="planejado"/>
+      <value value="planeado"/>
     </designation>
   </concept>
   <concept>
@@ -111,7 +111,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="ativo"/>
+      <value value="activo"/>
     </designation>
   </concept>
   <concept>

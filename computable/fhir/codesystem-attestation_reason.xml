@@ -31,7 +31,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="assinou"/>
+      <value value="assinado"/>
     </designation>
   </concept>
   <concept>
@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="testemunhou"/>
+      <value value="testemunhado"/>
     </designation>
   </concept>
 </CodeSystem>

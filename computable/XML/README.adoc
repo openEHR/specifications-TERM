@@ -10,6 +10,12 @@ openEHR reference model terminology, and artefacts for binding or using standard
 - Improving terminology translations
 See https://openehr.atlassian.net/browse/SPECTERM-23
 
+- Adding 'format conversion' and 'restoration' new types to the audit_change_type group.
+See https://openehr.atlassian.net/browse/SPECTERM-25
+
+- Adding 'report' to Composition Category to support report Compositions.
+See https://openehr.atlassian.net/browse/SPECTERM-5
+
 - Improving terminology XML file format by adding unique identifiers, version and date attributes; updating XSD.
 See https://openehr.atlassian.net/browse/SPECTERM-17
 

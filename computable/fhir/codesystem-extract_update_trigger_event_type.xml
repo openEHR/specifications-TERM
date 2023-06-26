@@ -6,7 +6,7 @@
   <title value="Extract Update Trigger Event Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-02-11"/>
+  <date value="2023-03-05"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -23,7 +23,7 @@
     <display value="any change"/>
     <designation>
       <language value="es"/>
-      <value value="*any change(en)"/>
+      <value value="cualquier cambio"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -39,7 +39,7 @@
     <display value="correction"/>
     <designation>
       <language value="es"/>
-      <value value="*correction(en)"/>
+      <value value="corrección"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -55,7 +55,7 @@
     <display value="update"/>
     <designation>
       <language value="es"/>
-      <value value="*update(en)"/>
+      <value value="actualización"/>
     </designation>
     <designation>
       <language value="ja"/>

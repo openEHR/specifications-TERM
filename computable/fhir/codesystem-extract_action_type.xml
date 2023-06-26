@@ -6,7 +6,7 @@
   <title value="Extract Action Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-02-11"/>
+  <date value="2023-03-05"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -23,7 +23,7 @@
     <display value="cancel"/>
     <designation>
       <language value="es"/>
-      <value value="*cancel(en)"/>
+      <value value="cancelación"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -39,7 +39,7 @@
     <display value="resend"/>
     <designation>
       <language value="es"/>
-      <value value="*resend(en)"/>
+      <value value="reenvío"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -55,7 +55,7 @@
     <display value="send new"/>
     <designation>
       <language value="es"/>
-      <value value="*send new(en)"/>
+      <value value="nuevo envío"/>
     </designation>
     <designation>
       <language value="ja"/>

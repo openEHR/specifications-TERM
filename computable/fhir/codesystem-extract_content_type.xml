@@ -6,7 +6,7 @@
   <title value="Extract Content Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-02-11"/>
+  <date value="2023-03-05"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -23,7 +23,7 @@
     <display value="openEHR EHR"/>
     <designation>
       <language value="es"/>
-      <value value="*openEHR EHR(en)"/>
+      <value value="HCE openEHR"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -39,7 +39,7 @@
     <display value="openEHR Demographic"/>
     <designation>
       <language value="es"/>
-      <value value="*openEHR Demographic(en)"/>
+      <value value="Demográficos openEHR"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -55,7 +55,7 @@
     <display value="openEHR synchronisation"/>
     <designation>
       <language value="es"/>
-      <value value="*openEHR synchronisation(en)"/>
+      <value value="Sincronización openEHR"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -71,7 +71,7 @@
     <display value="openEHR generic"/>
     <designation>
       <language value="es"/>
-      <value value="*openEHR generic(en)"/>
+      <value value="Genérico openEHR"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -87,7 +87,7 @@
     <display value="generic EMR"/>
     <designation>
       <language value="es"/>
-      <value value="*generic EMR(en)"/>
+      <value value="HCE genérica"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -103,7 +103,7 @@
     <display value="other"/>
     <designation>
       <language value="es"/>
-      <value value="*other(en)"/>
+      <value value="otro"/>
     </designation>
     <designation>
       <language value="ja"/>

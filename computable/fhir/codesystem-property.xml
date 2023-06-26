@@ -6,7 +6,7 @@
   <title value="Property"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-02-11"/>
+  <date value="2023-03-05"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -1143,7 +1143,7 @@
     <display value="Viscosity, dynamic"/>
     <designation>
       <language value="es"/>
-      <value value="Viscosity, dynamic (en)"/>
+      <value value="Viscosidad, dinámica"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1159,7 +1159,7 @@
     <display value="Viscosity, kinematic"/>
     <designation>
       <language value="es"/>
-      <value value="Viscosity, kinematic (en)"/>
+      <value value="Viscosity, cinemática"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1239,7 +1239,7 @@
     <display value="&lt;not set&gt;"/>
     <designation>
       <language value="es"/>
-      <value value="&lt;not set&gt; (en)"/>
+      <value value="&lt;no asignado&gt;"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1255,7 +1255,7 @@
     <display value="Time fraction"/>
     <designation>
       <language value="es"/>
-      <value value="Time fraction (en)"/>
+      <value value="Fracción de tiempo"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1271,7 +1271,7 @@
     <display value="Rate of change, pressure"/>
     <designation>
       <language value="es"/>
-      <value value="Rate of change, pressure (en)"/>
+      <value value="Tasa de variación, presión"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1287,7 +1287,7 @@
     <display value="Rate of change, frequency"/>
     <designation>
       <language value="es"/>
-      <value value="Rate of change, frequency (en)"/>
+      <value value="Tasa de variación, frecuencia"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1303,7 +1303,7 @@
     <display value="Arbitrary"/>
     <designation>
       <language value="es"/>
-      <value value="Arbitrary (en)"/>
+      <value value="Arbitrario"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1319,7 +1319,7 @@
     <display value="Medication dose rate"/>
     <designation>
       <language value="es"/>
-      <value value="Medication dose rate (en)"/>
+      <value value="Dosis de medicación"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1335,7 +1335,7 @@
     <display value="Spectral power"/>
     <designation>
       <language value="es"/>
-      <value value="Spectral power (en)"/>
+      <value value="Potencia espectral"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1351,7 +1351,7 @@
     <display value="Spectral power density"/>
     <designation>
       <language value="es"/>
-      <value value="Spectral power density (en)"/>
+      <value value="Densidad espectral de potencia"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1367,7 +1367,7 @@
     <display value="Pace"/>
     <designation>
       <language value="es"/>
-      <value value="Pace (en)"/>
+      <value value="Ritmo"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -1383,7 +1383,7 @@
     <display value="Enzyme activity"/>
     <designation>
       <language value="es"/>
-      <value value="Enzyme activity (en)"/>
+      <value value="Actividad enzimática"/>
     </designation>
     <designation>
       <language value="ja"/>

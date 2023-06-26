@@ -6,7 +6,7 @@
   <title value="Version Lifecycle State"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-02-11"/>
+  <date value="2023-03-05"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -75,7 +75,7 @@
     </designation>
     <designation>
       <language value="ja"/>
-      <value value="*inactive(en)"/>
+      <value value="非アクティブ"/>
     </designation>
     <designation>
       <language value="pt"/>
@@ -91,7 +91,7 @@
     </designation>
     <designation>
       <language value="ja"/>
-      <value value="*abandoned(en)"/>
+      <value value="破棄"/>
     </designation>
     <designation>
       <language value="pt"/>

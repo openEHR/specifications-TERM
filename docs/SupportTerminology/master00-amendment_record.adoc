@@ -4,6 +4,8 @@
 |===
 |Issue|Details|Raiser|Completed
 
+4+^h|*TERM Release 3.0.0*
+
 |[[latest_issue]]latest
 |{spec_tickets}/SPECTERM-23[SPECTERM-23]: Improving translations.
 |S Kobayashi, +

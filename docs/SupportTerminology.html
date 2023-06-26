@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.20">
 <meta name="description" content="openEHR Support Terminology specification">
 <meta name="keywords" content="terminology, code-set, vocabulary, openehr">
 <title>Support Terminology specification</title>
@@ -121,7 +121,7 @@
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Release</strong>: TERM latest</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Release</strong>: TERM Release-3.0.0</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Status</strong>: STABLE</p></td>
 </tr>
 <tr>
@@ -185,11 +185,15 @@
 </thead>
 <tbody>
 <tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 3.0.0</strong></p></th>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue"></a>latest</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-23">SPECTERM-23</a>: Improving translations.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">S Kobayashi,<br>
+ V Pereira,<br>
  D Bosca</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>05 Mar 2023</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>26 Jun 2023</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"></td>
@@ -412,6 +416,9 @@ version and date attributes; updating XSD.</p></td>
 </li>
 <li>
 <p>Ocean Informatics, Australia</p>
+</li>
+<li>
+<p>Code24, The Netherlands</p>
 </li>
 </ul>
 </div>
@@ -7733,22 +7740,22 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="xml"><span></span><span class="tok-nt">&lt;terminology</span> <span class="tok-na">name=</span><span class="tok-s">&quot;openehr&quot;</span> <span class="tok-na">language=</span><span class="tok-s">&quot;en&quot;</span> <span class="tok-na">version=</span><span class="tok-s">&quot;3.0.0&quot;</span> <span class="tok-na">date=</span><span class="tok-s">&quot;2023-02-07&quot;</span><span class="tok-nt">&gt;</span>
-	<span class="tok-nt">&lt;codeset</span> <span class="tok-na">issuer=</span><span class="tok-s">&quot;ISO&quot;</span> <span class="tok-na">openehr_id=</span><span class="tok-s">&quot;countries&quot;</span> <span class="tok-na">name=</span><span class="tok-s">&quot;countries&quot;</span> <span class="tok-na">external_id=</span><span class="tok-s">&quot;ISO_3166-1&quot;</span><span class="tok-nt">&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;AF&quot;</span> <span class="tok-na">description=</span><span class="tok-s">&quot;AFGHANISTAN&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;AX&quot;</span> <span class="tok-na">description=</span><span class="tok-s">&quot;ÅLAND ISLANDS&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;AL&quot;</span> <span class="tok-na">description=</span><span class="tok-s">&quot;ALBANIA&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;...&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;ZW&quot;</span> <span class="tok-na">description=</span><span class="tok-s">&quot;ZIMBABWE&quot;</span><span class="tok-nt">/&gt;</span>
-	<span class="tok-nt">&lt;/codeset&gt;</span>
-	<span class="tok-nt">&lt;...&gt;</span>
-	<span class="tok-nt">&lt;codeset</span> <span class="tok-na">issuer=</span><span class="tok-s">&quot;IANA&quot;</span> <span class="tok-na">openehr_id=</span><span class="tok-s">&quot;character_sets&quot;</span> <span class="tok-na">name=</span><span class="tok-s">&quot;character sets&quot;</span> <span class="tok-na">external_id=</span><span class="tok-s">&quot;IANA_character-sets&quot;</span><span class="tok-nt">&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;ISO-10646-UTF-1&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;ISO_8859-3:1988&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;UTF-8&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;...&gt;</span>
-		<span class="tok-nt">&lt;code</span> <span class="tok-na">value=</span><span class="tok-s">&quot;ISO_8859-1:1987&quot;</span><span class="tok-nt">/&gt;</span>
-	<span class="tok-nt">&lt;/codeset&gt;</span>
+<pre class="pygments highlight"><code data-lang="xml"><span></span><span class="tok-nt">&lt;terminology</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;openehr&quot;</span><span class="tok-w"> </span><span class="tok-na">language=</span><span class="tok-s">&quot;en&quot;</span><span class="tok-w"> </span><span class="tok-na">version=</span><span class="tok-s">&quot;3.0.0&quot;</span><span class="tok-w"> </span><span class="tok-na">date=</span><span class="tok-s">&quot;2023-02-07&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;codeset</span><span class="tok-w"> </span><span class="tok-na">issuer=</span><span class="tok-s">&quot;ISO&quot;</span><span class="tok-w"> </span><span class="tok-na">openehr_id=</span><span class="tok-s">&quot;countries&quot;</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;countries&quot;</span><span class="tok-w"> </span><span class="tok-na">external_id=</span><span class="tok-s">&quot;ISO_3166-1&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;AF&quot;</span><span class="tok-w"> </span><span class="tok-na">description=</span><span class="tok-s">&quot;AFGHANISTAN&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;AX&quot;</span><span class="tok-w"> </span><span class="tok-na">description=</span><span class="tok-s">&quot;ÅLAND ISLANDS&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;AL&quot;</span><span class="tok-w"> </span><span class="tok-na">description=</span><span class="tok-s">&quot;ALBANIA&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;...&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;ZW&quot;</span><span class="tok-w"> </span><span class="tok-na">description=</span><span class="tok-s">&quot;ZIMBABWE&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;/codeset&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;...&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;codeset</span><span class="tok-w"> </span><span class="tok-na">issuer=</span><span class="tok-s">&quot;IANA&quot;</span><span class="tok-w"> </span><span class="tok-na">openehr_id=</span><span class="tok-s">&quot;character_sets&quot;</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;character sets&quot;</span><span class="tok-w"> </span><span class="tok-na">external_id=</span><span class="tok-s">&quot;IANA_character-sets&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;ISO-10646-UTF-1&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;ISO_8859-3:1988&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;UTF-8&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;...&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;code</span><span class="tok-w"> </span><span class="tok-na">value=</span><span class="tok-s">&quot;ISO_8859-1:1987&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;/codeset&gt;</span>
 <span class="tok-nt">&lt;/terminology&gt;</span></code></pre>
 </div>
 </div>
@@ -7757,35 +7764,35 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="xml"><span></span><span class="tok-nt">&lt;terminology</span> <span class="tok-na">name=</span><span class="tok-s">&quot;openehr&quot;</span> <span class="tok-na">language=</span><span class="tok-s">&quot;en&quot;</span> <span class="tok-na">version=</span><span class="tok-s">&quot;3.0.0&quot;</span> <span class="tok-na">date=</span><span class="tok-s">&quot;2023-02-07&quot;</span><span class="tok-nt">&gt;</span>
-	<span class="tok-nt">&lt;group</span> <span class="tok-na">openehr_id=</span><span class="tok-s">&quot;attestation_reason&quot;</span> <span class="tok-na">name=</span><span class="tok-s">&quot;attestation reason&quot;</span><span class="tok-nt">&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;240&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;signed&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;648&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;witnessed&quot;</span><span class="tok-nt">/&gt;</span>
-	<span class="tok-nt">&lt;/group&gt;</span>
-	<span class="tok-nt">&lt;group</span> <span class="tok-na">openehr_id=</span><span class="tok-s">&quot;audit_change_type&quot;</span> <span class="tok-na">name=</span><span class="tok-s">&quot;audit change type&quot;</span><span class="tok-nt">&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;249&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;creation&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;250&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;amendment&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;251&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;modification&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;252&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;synthesis&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;523&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;deleted&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;666&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;attestation&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;253&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;unknown&quot;</span><span class="tok-nt">/&gt;</span>
-	<span class="tok-nt">&lt;/group&gt;</span>
-	<span class="tok-nt">&lt;group</span> <span class="tok-na">openehr_id=</span><span class="tok-s">&quot;composition_category&quot;</span> <span class="tok-na">name=</span><span class="tok-s">&quot;composition category&quot;</span><span class="tok-nt">&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;431&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;persistent&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;451&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;episodic&quot;</span><span class="tok-nt">/&gt;</span>
-        <span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;433&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;event&quot;</span><span class="tok-nt">/&gt;</span>
-	<span class="tok-nt">&lt;/group&gt;</span>
-	<span class="tok-nt">&lt;group</span> <span class="tok-na">openehr_id=</span><span class="tok-s">&quot;property&quot;</span> <span class="tok-na">name=</span><span class="tok-s">&quot;property&quot;</span><span class="tok-nt">&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;339&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;Acceleration&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;342&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;Acceleration, angular&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;381&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;Amount (Eq)&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;384&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;Amount (mole)&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;497&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;Angle, plane&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;concept</span> <span class="tok-na">id=</span><span class="tok-s">&quot;500&quot;</span> <span class="tok-na">rubric=</span><span class="tok-s">&quot;Angle, solid&quot;</span><span class="tok-nt">/&gt;</span>
-		<span class="tok-nt">&lt;...&gt;</span>
-	<span class="tok-nt">&lt;/group&gt;</span>
-	<span class="tok-nt">&lt;...&gt;</span>
+<pre class="pygments highlight"><code data-lang="xml"><span></span><span class="tok-nt">&lt;terminology</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;openehr&quot;</span><span class="tok-w"> </span><span class="tok-na">language=</span><span class="tok-s">&quot;en&quot;</span><span class="tok-w"> </span><span class="tok-na">version=</span><span class="tok-s">&quot;3.0.0&quot;</span><span class="tok-w"> </span><span class="tok-na">date=</span><span class="tok-s">&quot;2023-02-07&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;group</span><span class="tok-w"> </span><span class="tok-na">openehr_id=</span><span class="tok-s">&quot;attestation_reason&quot;</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;attestation reason&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;240&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;signed&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;648&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;witnessed&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;/group&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;group</span><span class="tok-w"> </span><span class="tok-na">openehr_id=</span><span class="tok-s">&quot;audit_change_type&quot;</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;audit change type&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;249&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;creation&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;250&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;amendment&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;251&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;modification&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;252&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;synthesis&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;523&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;deleted&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;666&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;attestation&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;253&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;unknown&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;/group&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;group</span><span class="tok-w"> </span><span class="tok-na">openehr_id=</span><span class="tok-s">&quot;composition_category&quot;</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;composition category&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;431&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;persistent&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;451&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;episodic&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">        </span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;433&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;event&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;/group&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;group</span><span class="tok-w"> </span><span class="tok-na">openehr_id=</span><span class="tok-s">&quot;property&quot;</span><span class="tok-w"> </span><span class="tok-na">name=</span><span class="tok-s">&quot;property&quot;</span><span class="tok-nt">&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;339&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;Acceleration&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;342&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;Acceleration, angular&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;381&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;Amount (Eq)&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;384&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;Amount (mole)&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;497&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;Angle, plane&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;concept</span><span class="tok-w"> </span><span class="tok-na">id=</span><span class="tok-s">&quot;500&quot;</span><span class="tok-w"> </span><span class="tok-na">rubric=</span><span class="tok-s">&quot;Angle, solid&quot;</span><span class="tok-nt">/&gt;</span>
+<span class="tok-w">		</span><span class="tok-nt">&lt;...&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;/group&gt;</span>
+<span class="tok-w">	</span><span class="tok-nt">&lt;...&gt;</span>
 <span class="tok-nt">&lt;/terminology&gt;</span></code></pre>
 </div>
 </div>
@@ -7798,7 +7805,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-02-13 13:50:19 UTC
+Last updated 2023-06-26 20:19:48 UTC
 </div>
 </div>
 </body>

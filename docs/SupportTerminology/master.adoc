@@ -32,6 +32,7 @@ The work reported in this specification and related artefacts has been funded in
 
 * FreshEHR Informatics, UK
 * Ocean Informatics, Australia
+* Code24, The Netherlands
 
 === Trademarks
 

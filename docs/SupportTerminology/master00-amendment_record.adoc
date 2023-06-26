@@ -7,8 +7,9 @@
 |[[latest_issue]]latest
 |{spec_tickets}/SPECTERM-23[SPECTERM-23]: Improving translations.
 |S Kobayashi, +
+ V Pereira, +
  D Bosca
-|[[latest_issue_date]]05 Mar 2023
+|[[latest_issue_date]]26 Jun 2023
 
 |
 |{spec_tickets}/SPECTERM-25[SPECTERM-25]: Adding "format conversion" and "restoration" new types to the audit_change_type group.

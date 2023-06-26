@@ -485,6 +485,8 @@
   <Unit property_id="49" Text="statvolt" conversion="299.8" primary="false" UCUM="299792458.10-6V"/>
   <Unit property_id="49" Text="V" name="Volt" conversion="1" primary="true" UCUM="V" />
   <Unit property_id="49" Text="V" name="kilovolt" conversion="1" coefficient="3" primary="false" UCUM="kV" />
+  <Unit property_id="49" Text="mV" name="millivolt" conversion="1" coefficient="-3" primary="false" UCUM="mV" />
+  <Unit property_id="49" Text="µV" name="microvolt" conversion="1" coefficient="-6" primary="false" UCUM="uV" />
   <Unit property_id="49" Text="W/A" conversion="1" primary="false" UCUM="W/A"/>
   <Unit property_id="50" Text="abohm" conversion="1" coefficient="-9" primary="false" UCUM="10-9Ohm"/>
   <Unit property_id="50" Text="kg·m²/A²·s³" conversion="1" primary="false" UCUM="kg.m2/A2.S3"/>
@@ -541,6 +543,7 @@
   <Unit property_id="59" Text="{380/384}" name="{QUALIFIED REAL/AMOUNT (mole)}" conversion="0" primary="false"/>
   <Unit property_id="59" Text="{384/380}" name="{AMOUNT (mole)/QUALIFIED REAL}" conversion="0" primary="false"/>
   <Unit property_id="59" Text="μg/L" conversion="0" primary="false" UCUM="ug/L"/>
+  <Unit property_id="59" Text="ng/L" conversion="0" primary="false" UCUM="ng/L"/>
   <Unit property_id="59" Text="10⁹/L" conversion="0" primary="false" UCUM="10*9/L"/>
   <Unit property_id="59" Text="copies/mL" conversion="0" primary="false" UCUM="{copies}/mL"/>
   <Unit property_id="59" Text="copies/µg" conversion="0" primary="false" UCUM="{copies}/ug"/>

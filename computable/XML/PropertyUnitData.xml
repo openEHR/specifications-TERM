@@ -543,6 +543,7 @@
   <Unit property_id="59" Text="{380/384}" name="{QUALIFIED REAL/AMOUNT (mole)}" conversion="0" primary="false"/>
   <Unit property_id="59" Text="{384/380}" name="{AMOUNT (mole)/QUALIFIED REAL}" conversion="0" primary="false"/>
   <Unit property_id="59" Text="μg/L" conversion="0" primary="false" UCUM="ug/L"/>
+  <Unit property_id="59" Text="ng/L" conversion="0" primary="false" UCUM="ng/L"/>
   <Unit property_id="59" Text="10⁹/L" conversion="0" primary="false" UCUM="10*9/L"/>
   <Unit property_id="59" Text="copies/mL" conversion="0" primary="false" UCUM="{copies}/mL"/>
   <Unit property_id="59" Text="copies/µg" conversion="0" primary="false" UCUM="{copies}/ug"/>

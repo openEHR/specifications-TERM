@@ -35,15 +35,15 @@
         <concept id="252" rubric="síntesis"/>
         <concept id="523" rubric="eliminado"/>
         <concept id="666" rubric="testimonio"/>
-        <concept id="816" rubric="*restoration(en)"/>
-        <concept id="817" rubric="*format conversion(en)"/>
+        <concept id="816" rubric="restaurado"/>
+        <concept id="817" rubric="conversión de formato"/>
         <concept id="253" rubric="desconocido"/>
     </group>
     <group openehr_id="composition_category" name="composition category">
         <concept id="431" rubric="persistente"/>
         <concept id="451" rubric="episódico"/>
         <concept id="433" rubric="evento"/>
-        <concept id="815" rubric="*report(en)"/>
+        <concept id="815" rubric="informe"/>
     </group>
     <group openehr_id="property" name="property">
         <concept id="339" rubric="Aceleración"/>
@@ -137,8 +137,8 @@
         <concept id="532" rubric="completo"/><!-- warning: the rubric for this concept is 'completed' in the 'instruction states' group (known issue, see SPECPR-51) -->
         <concept id="553" rubric="incompleto"/>
         <concept id="523" rubric="eliminado"/>
-        <concept id="800" rubric="*inactive(en)"/>
-        <concept id="801" rubric="*abandoned(en)"/>
+        <concept id="800" rubric="inactivo"/>
+        <concept id="801" rubric="abandonado"/>
     </group>
     <group openehr_id="participation_function" name="participation function">
         <concept id="253" rubric="desconocido"/>
@@ -286,7 +286,7 @@
         <concept id="235" rubric="atención complementaria"/>
         <concept id="236" rubric="atención dental"/>
         <concept id="237" rubric="atención en casa de salud"/>
-        <concept id="802" rubric="*mental healthcare(en)"/>
+        <concept id="802" rubric="salud mental"/>
         <concept id="238" rubric="otros cuidados"/>
     </group>
     <group openehr_id="extract_content_type" name="extract content type">

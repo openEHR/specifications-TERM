@@ -62,6 +62,7 @@ class Aggregate extends Terminology {
             foreach ($codeSetImport->codings as $codingImport) {
                 if (!isset($codeSet->codings[$codingImport->code])) {
                     $newCodings[] = $codingImport->code;
+                    continue;
                 } else {
                     unset($neededCodings[$codingImport->code]);
                 }

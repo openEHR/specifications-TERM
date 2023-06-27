@@ -2,13 +2,15 @@
 
 case "${1:-}" in
   install)
+    docker-compose build php
     docker-compose run --rm php composer install
+    docker-compose run --rm php composer dump-autoload
     ;;
   composer)
     shift
     docker-compose run --rm php composer "$@"
     ;;
-  generate)
+  generate|build)
     docker-compose run --rm php composer exec generate_all
     ;;
   ""|--help|help)
@@ -20,7 +22,7 @@ case "${1:-}" in
     echo "Actions:"
     echo "    install         Installs local packages (composer install)"
     echo "    composer        Run composer command"
-    echo "    generate        Parses main terminology files and generate all other TERM files"
+    echo "    generate|build  Parses main terminology files and generate all other TERM files"
     echo "    help            This help"
     echo
     ;;

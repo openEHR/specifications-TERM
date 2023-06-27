@@ -1,33 +1,16 @@
-FROM php:8.1-cli
+FROM php:8.1-cli-alpine
 
-ENV DEBIAN_FRONTEND=noninteractive
-
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-            libzip-dev \
-            libonig-dev \
-            unzip \
-            libxml2-dev \
-            libssl-dev && \
-    docker-php-ext-install \
-            zip \
-            mbstring && \
-    docker-php-source delete && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-# create a guest user
-ARG user=guest
-ARG group=guests
+# create a guest local user
+ARG user=localuser
+ARG group=localgroup
 ARG uid=1000
 ARG gid=1000
-RUN groupadd -g ${gid} ${group} && \
-    useradd -u ${uid} -g ${group} -s /bin/sh -m ${user}
+RUN addgroup -g ${gid} -S ${group} \
+    && adduser -u ${uid} -G ${group} -S ${user}
 
 # Install composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 ENV COMPOSER_ALLOW_SUPERUSER=0 \
-    PHP_USER_ID=33 \
     COMPOSER_HOME=/home/${user}/.composer \
     PATH=/opt/project:/opt/project/vendor/bin:/home/${user}/.composer/vendor/bin:$PATH
 

@@ -484,7 +484,7 @@
   <Unit property_id="49" Text="mV" name="millivolt" conversion="1" coefficient="-3" primary="false" UCUM="mV"/>
   <Unit property_id="49" Text="statvolt" conversion="299.8" primary="false" UCUM="299792458.10-6V"/>
   <Unit property_id="49" Text="V" name="Volt" conversion="1" primary="true" UCUM="V" />
-  <Unit property_id="49" Text="V" name="kilovolt" conversion="1" coefficient="3" primary="false" UCUM="kV" />
+  <Unit property_id="49" Text="kV" name="kilovolt" conversion="1" coefficient="3" primary="false" UCUM="kV" />
   <Unit property_id="49" Text="mV" name="millivolt" conversion="1" coefficient="-3" primary="false" UCUM="mV" />
   <Unit property_id="49" Text="µV" name="microvolt" conversion="1" coefficient="-6" primary="false" UCUM="uV" />
   <Unit property_id="49" Text="W/A" conversion="1" primary="false" UCUM="W/A"/>

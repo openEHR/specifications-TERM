@@ -6,7 +6,7 @@
   <title value="Version Lifecycle State"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-03-05"/>
+  <date value="2023-06-26"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -63,7 +63,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="removido"/>
+      <value value="eliminado"/>
     </designation>
   </concept>
   <concept>
@@ -71,7 +71,7 @@
     <display value="inactive"/>
     <designation>
       <language value="es"/>
-      <value value="*inactive(en)"/>
+      <value value="inactivo"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -79,7 +79,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*inactive(en)"/>
+      <value value="inativo"/>
     </designation>
   </concept>
   <concept>
@@ -87,7 +87,7 @@
     <display value="abandoned"/>
     <designation>
       <language value="es"/>
-      <value value="*abandoned(en)"/>
+      <value value="abandonado"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -95,7 +95,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*abandoned(en)"/>
+      <value value="abandonado"/>
     </designation>
   </concept>
 </CodeSystem>

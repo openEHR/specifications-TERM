@@ -31,6 +31,9 @@ class Aggregate extends Terminology {
     public function import(Terminology $terminologyImport): self {
         echo "Aggregate: $terminologyImport->language: importing ";
         $this->terminologies[$terminologyImport->language] = $terminologyImport;
+        if (strcmp($terminologyImport->date, $this->date) > 0) {
+            $this->date = $terminologyImport->date;
+        }
         $neededCodeSetIds = array_flip(array_keys($this->codeSets));
         $newCodeSetIds = [];
         foreach ($terminologyImport->codeSets as $codeSetImport) {
@@ -59,6 +62,7 @@ class Aggregate extends Terminology {
             foreach ($codeSetImport->codings as $codingImport) {
                 if (!isset($codeSet->codings[$codingImport->code])) {
                     $newCodings[] = $codingImport->code;
+                    continue;
                 } else {
                     unset($neededCodings[$codingImport->code]);
                 }

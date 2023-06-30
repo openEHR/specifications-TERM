@@ -6,7 +6,7 @@
   <title value="Instruction States"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-03-05"/>
+  <date value="2023-06-26"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="planejado"/>
+      <value value="planeado"/>
     </designation>
   </concept>
   <concept>
@@ -111,7 +111,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="ativo"/>
+      <value value="activo"/>
     </designation>
   </concept>
   <concept>

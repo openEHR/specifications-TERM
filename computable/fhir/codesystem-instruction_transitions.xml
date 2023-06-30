@@ -6,7 +6,7 @@
   <title value="Instruction Transitions"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-03-05"/>
+  <date value="2023-06-26"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="planejar etapa"/>
+      <value value="planear etapa"/>
     </designation>
   </concept>
   <concept>
@@ -143,7 +143,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*scheduled step(en)"/>
+      <value value="etapa agendada"/>
     </designation>
   </concept>
   <concept>
@@ -159,7 +159,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="começar"/>
+      <value value="iniciar"/>
     </designation>
   </concept>
   <concept>
@@ -191,7 +191,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="etapa ativa"/>
+      <value value="etapa activa"/>
     </designation>
   </concept>
   <concept>
@@ -239,7 +239,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="resumir"/>
+      <value value="retomar"/>
     </designation>
   </concept>
   <concept>
@@ -271,7 +271,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="concluir"/>
+      <value value="terminar"/>
     </designation>
   </concept>
   <concept>
@@ -303,7 +303,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="notificar aborto"/>
+      <value value="notificação abortada"/>
     </designation>
   </concept>
   <concept>
@@ -319,7 +319,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="notificar conclusão"/>
+      <value value="notificação concluída"/>
     </designation>
   </concept>
   <concept>
@@ -335,7 +335,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="notificar cancelamento"/>
+      <value value="notificação cancelada"/>
     </designation>
   </concept>
 </CodeSystem>

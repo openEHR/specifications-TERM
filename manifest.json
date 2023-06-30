@@ -94,7 +94,7 @@
     "releases": [
         {
             "id": "3.0.0",
-            "date": "",
+            "date": "2023-06-26",
             "jira": {
                 "crs": "SPECTERM/versions/12571",
                 "prs": "SPECPR/versions/12572"

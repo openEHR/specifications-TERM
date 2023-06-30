@@ -6,7 +6,7 @@
   <title value="Null Flavours"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-03-05"/>
+  <date value="2023-06-26"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -17,7 +17,7 @@
   </contact>
   <caseSensitive value="true"/>
   <compose>
-    <lockedDate value="2023-03-05"/>
+    <lockedDate value="2023-06-26"/>
     <include>
       <system value="https://specifications.openehr.org/fhir/codesystem-null_flavours"/>
       <version value="3.0.0"/>

@@ -6,7 +6,7 @@
   <title value="Audit Change Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-03-05"/>
+  <date value="2023-06-26"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -47,7 +47,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="emenda"/>
+      <value value="alteração"/>
     </designation>
   </concept>
   <concept>
@@ -95,7 +95,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="remoção"/>
+      <value value="eliminado"/>
     </designation>
   </concept>
   <concept>
@@ -119,7 +119,7 @@
     <display value="restoration"/>
     <designation>
       <language value="es"/>
-      <value value="*restoration(en)"/>
+      <value value="restaurado"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -127,7 +127,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*restoration(en)"/>
+      <value value="restauração"/>
     </designation>
   </concept>
   <concept>
@@ -135,7 +135,7 @@
     <display value="format conversion"/>
     <designation>
       <language value="es"/>
-      <value value="*format conversion(en)"/>
+      <value value="conversión de formato"/>
     </designation>
     <designation>
       <language value="ja"/>
@@ -143,7 +143,7 @@
     </designation>
     <designation>
       <language value="pt"/>
-      <value value="*format conversion(en)"/>
+      <value value="conversão de formatos"/>
     </designation>
   </concept>
   <concept>

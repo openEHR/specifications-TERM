@@ -581,6 +581,11 @@
 	    <code value="image/jpeg"/>
 	    <code value="image/jp2"/>
 	    <code value="image/svg+xml"/>
+	    <code value="image/dicom-rle"/>
+	    <code value="image/jls"/>
+	    <code value="model/mtl"/>
+	    <code value="model/obj"/>
+	    <code value="model/stl"/>
 	    <code value="application/cda+xml"/>
 	    <code value="application/EDIFACT"/>
 	    <code value="application/fhir+json"/>

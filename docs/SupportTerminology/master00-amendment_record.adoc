@@ -4,14 +4,23 @@
 |===
 |Issue|Details|Raiser|Completed
 
+4+^h|*TERM Release 3.1.0 (unreleased)*
+
+|[[latest_issue]]3.1.0
+|{spec_tickets}/SPECTERM-26[SPECTERM-26]: Adding support for missing DICOM media types.
+|Chaya, +
+I McNicoll, +
+S Iancu
+|[[latest_issue_date]]19 Sep 2023
+
 4+^h|*TERM Release 3.0.0*
 
-|[[latest_issue]]3.0.0
+|3.0.0
 |{spec_tickets}/SPECTERM-23[SPECTERM-23]: Improving translations.
 |S Kobayashi, +
  V Pereira, +
  D Bosca
-|[[latest_issue_date]]26 Jun 2023
+|26 Jun 2023
 
 |
 |{spec_tickets}/SPECTERM-25[SPECTERM-25]: Adding "format conversion" and "restoration" new types to the audit_change_type group.

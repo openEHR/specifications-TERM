@@ -635,6 +635,11 @@ h| *Code*      h| *Description*       h| *Status*
 | *image/jpeg*      a|         | active
 | *image/jp2*      a|         | active
 | *image/svg+xml*      a|         | active
+| *image/dicom-rle*      a|         | active
+| *image/jls*      a|         | active
+| *model/mtl*      a|         | active
+| *model/obj*      a|         | active
+| *model/stl*      a|         | active
 | *application/cda+xml*      a|         | active
 | *application/EDIFACT*      a|         | active
 | *application/fhir+json*      a|         | active

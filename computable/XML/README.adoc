@@ -5,6 +5,11 @@ openEHR reference model terminology, and artefacts for binding or using standard
 == Reporting issues or requesting new terms
 *Any issues, change requests or problem reports, including requests for new terms should be posted via the https://openehr.atlassian.net/projects/SPECPR[openEHR Specifications JIRA Tracker]*
 
+== latest
+
+- Corrected typo for unit "kiloVolt" in PropertyUnitData.xml
+See https://openehr.atlassian.net/browse/SPECPR-425
+
 == RELEASE-3.0.0
 
 - Improving terminology translations

@@ -415,6 +415,7 @@
   <Unit property_id="40" Text="ft·lbf/ft²" conversion="14.6" primary="false" UCUM="[ft_i].[lbf_av]/[sft_i]"/>
   <Unit property_id="40" Text="hp·h/ft²" conversion="2.89" coefficient="7" primary="false" UCUM="[HP].h/[sft_i]"/>
   <Unit property_id="40" Text="J/m²" conversion="1" primary="true" UCUM="J/m2"/>
+  <Unit property_id="40" Text="J/cm²" name="Joules per square centimeter" conversion="1" coefficient="4" primary="false" UCUM="J/cm2"/>
   <Unit property_id="40" Text="kcal/cm²" conversion="4.187" coefficient="7" primary="false" UCUM="kcal/cm2"/>
   <Unit property_id="40" Text="kWh/ft²" conversion="3.87" coefficient="7" primary="false" UCUM="kW.h/[sft_i]"/>
   <Unit property_id="41" Text="Btu/ft³" conversion="3.73" coefficient="4" primary="false" UCUM="[Btu]/[cft_i]"/>

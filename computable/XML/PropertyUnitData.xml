@@ -322,25 +322,27 @@
   <Unit property_id="28" Text="lbf/ft" conversion="14.6" primary="false" UCUM="[lbf_av]/[ft_i]"/>
   <Unit property_id="28" Text="lbf/in" conversion="175" primary="false" UCUM="[lbf_av]/[in_i]"/>
   <Unit property_id="28" Text="N/m" conversion="1" primary="true" UCUM="N/m"/>
-  <Unit property_id="29" Text="atm" conversion="1.0125" coefficient="5" primary="false" UCUM="atm"/>
+  <Unit property_id="29" Text="atm" conversion="1.01325" coefficient="5" primary="false" UCUM="atm"/>
   <Unit property_id="29" Text="bar" name="bar" conversion="1" coefficient="5" primary="false" UCUM="bar"/>
-  <Unit property_id="29" Text="cmH₂O" name="centimeters of water" conversion="97.64" primary="false" UCUM="cm[H2O]"/>
-  <Unit property_id="29" Text="daPa" name="decaPascal" conversion="1" coefficient="1" primary="false" UCUM="daPa"/>
+  <Unit property_id="29" Text="mmH₂O" name="millimeters of water column" conversion="9.80665" primary="false" UCUM="mm[H2O]"/>
+  <Unit property_id="29" Text="cmH₂O" name="centimeters of water column" conversion="98.0665" primary="false" UCUM="cm[H2O]"/>
+  <Unit property_id="29" Text="mH₂O" name="meters of water column" conversion="9806.65" primary="false" UCUM="m[H2O]"/>
   <Unit property_id="29" Text="dyn/cm²" conversion="1" coefficient="-1" primary="false" UCUM="dyn/cm2"/>
-  <Unit property_id="29" Text="ftH₂O" name="feet of water" conversion="2" primary="false" UCUM="[ft_i'H2O]"/>
-  <Unit property_id="29" Text="inHg" name="inches of mercury" conversion="3" primary="false" UCUM="[in_i'Hg]"/>
-  <Unit property_id="29" Text="inH₂O" name="inches of water" conversion="249.1" primary="false" UCUM="[in_i'H2O]"/>
-  <Unit property_id="29" Text="kg/m²" conversion="9.8067" primary="false" UCUM="kg/m2"/>
+  <Unit property_id="29" Text="ftH₂O" name="feet of water column" conversion="2989.06692" primary="false" UCUM="[ft_i'H2O]"/>
+  <Unit property_id="29" Text="inHg" name="inches of mercury" conversion="3386.3788" primary="false" UCUM="[in_i'Hg]"/>
+  <Unit property_id="29" Text="inH₂O" name="inches of water column" conversion="249.08891" primary="false" UCUM="[in_i'H2O]"/>
+  <Unit property_id="29" Text="kgf/m²" name="kilogram force per square meter" conversion="9.80665" primary="false" UCUM="kgf/m2"/>
+  <Unit property_id="29" Text="daPa" name="decaPascal" conversion="1" coefficient="1" primary="false" UCUM="daPa"/>
+  <Unit property_id="29" Text="hPa" name="hectoPascal" conversion="1" coefficient="2" primary="false" UCUM="hPa"/>
   <Unit property_id="29" Text="kPa" name="kiloPascal" conversion="1" coefficient="3" primary="false" UCUM="kPa"/>
-  <Unit property_id="29" Text="lbf/ft²" conversion="47.88" primary="false" UCUM="[lbf_av]/[ft_i]2"/>
-  <Unit property_id="29" Text="lbf/in²" name="pounds per square inch" conversion="6" primary="false" UCUM="[psi]"/>
+  <Unit property_id="29" Text="lbf/ft²" name="pounds force per square foot" conversion="47.88" primary="false" UCUM="[lbf_av]/[ft_i]2"/>
+  <Unit property_id="29" Text="psi" name="pounds per square inch" conversion="6894.75729316836" primary="false" UCUM="[psi]"/>
   <Unit property_id="29" Text="mbar" name="millibar" conversion="1" coefficient="2" primary="false" UCUM="mbar"/>
-  <Unit property_id="29" Text="mmHg" name="millimeters of mercury" conversion="133.3" primary="false" UCUM="mm[Hg]"/>
-  <Unit property_id="29" Text="mmH₂O" name="millimeters of water" conversion="970.64" primary="false" UCUM="mm[H20]"/>
-  <Unit property_id="29" Text="N/m²" name="Newtons per sq. meter" conversion="1" primary="true" UCUM="N/m2"/>
+  <Unit property_id="29" Text="mmHg" name="millimeters of mercury" conversion="133.322" primary="false" UCUM="mm[Hg]"/>
+  <Unit property_id="29" Text="N/m²" name="Newtons per square meter" primary="true" UCUM="N/m2"/>
   <Unit property_id="29" Text="Pa" name="Pascal" conversion="1" primary="false" UCUM="Pa"/>
-  <Unit property_id="29" Text="pdl/ft²" conversion="1.489" primary="false" UCUM="([lb_av].[ft_i]/s2)/[sft_i]"/>
-  <Unit property_id="29" Text="ton/in²" conversion="1.38" coefficient="7" primary="false" UCUM="[ston_av]/[sin_i]"/>
+  <Unit property_id="29" Text="pdl/ft²" name="poundal per square foot" conversion="1.48816394356955" primary="false" UCUM="([lb_av].[ft_i]/s2)/[sft_i]"/>
+  <Unit property_id="29" Text="ton/in²" name="short tons force per square inch" conversion="13789514.5863367" primary="false" UCUM="2000[lbf_av]/[sin_i]"/>
   <Unit property_id="30" Text="dyn/cm³" conversion="1" coefficient="1" primary="false" UCUM="dyn/cm3"/>
   <Unit property_id="30" Text="kgf/cm³" conversion="9.807" coefficient="6" primary="false" UCUM="kgf/cm3"/>
   <Unit property_id="30" Text="lbf/ft³" conversion="157.1" primary="false" UCUM="[lbf_av]/[cft_i]"/>
@@ -415,6 +417,7 @@
   <Unit property_id="40" Text="ft·lbf/ft²" conversion="14.6" primary="false" UCUM="[ft_i].[lbf_av]/[sft_i]"/>
   <Unit property_id="40" Text="hp·h/ft²" conversion="2.89" coefficient="7" primary="false" UCUM="[HP].h/[sft_i]"/>
   <Unit property_id="40" Text="J/m²" conversion="1" primary="true" UCUM="J/m2"/>
+  <Unit property_id="40" Text="J/cm²" name="Joules per square centimeter" conversion="1" coefficient="4" primary="false" UCUM="J/cm2"/>
   <Unit property_id="40" Text="kcal/cm²" conversion="4.187" coefficient="7" primary="false" UCUM="kcal/cm2"/>
   <Unit property_id="40" Text="kWh/ft²" conversion="3.87" coefficient="7" primary="false" UCUM="kW.h/[sft_i]"/>
   <Unit property_id="41" Text="Btu/ft³" conversion="3.73" coefficient="4" primary="false" UCUM="[Btu]/[cft_i]"/>
@@ -612,7 +615,7 @@
   <Unit property_id="80" Text="{128/128}" name="{Time/Time}" conversion="0" primary="false" />
   <Unit property_id="81" Text="dioptre" name="Dioptre (lens)" conversion="1" primary="true" UCUM="[diop]"/>
   <Unit property_id="82" Text="daPa/s" name="decaPascals per second" primary="false" UCUM="daPa/s"/>
-  <Unit property_id="82" Text="mmH₂O/s" name="millimeters of water per second" primary="false" UCUM="mm[H20]/s"/>
+  <Unit property_id="82" Text="mmH₂O/s" name="millimeters of water per second" primary="false" UCUM="mm[H2O]/s"/>
   <Unit property_id="82" Text="Pa/s" name="Pascals per second" conversion="1" primary="false" UCUM="Ps/s"/>
   <Unit property_id="84" Text="Hz/s" name="Hertz per second" conversion="1" primary="false" UCUM="Hz/s"/>
   <Unit property_id="84" Text="kHz/s" name="Kilohertz per second" primary="false" UCUM="kHz/s"/>

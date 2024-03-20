@@ -6,12 +6,22 @@
 
 4+^h|*TERM Release 3.1.0 (unreleased)*
 
-|[[latest_issue]]3.1.0
+|[[latest_issue]]3.1.1
+|{spec_tickets}/SPECTERM-27[SPECTERM-27]: Added J/cm2, hPa, kgf/m² and other fixing other errors
+|S Ljosland Bakke
+|[[latest_issue_date]]20 Mar 2024
+
+|3.1.0
 |{spec_tickets}/SPECTERM-26[SPECTERM-26]: Adding support for missing DICOM media types.
 |Chaya, +
 I McNicoll, +
 S Iancu
-|[[latest_issue_date]]19 Sep 2023
+|19 Sep 2023
+
+|
+|{spec_tickets}/SPECPR-425[SPECPR-425]: Corrected typo for unit "kiloVolt" in PropertyUnitData.xml
+|S Ljosland Bakke
+|19 Sep 2023
 
 4+^h|*TERM Release 3.0.0*
 

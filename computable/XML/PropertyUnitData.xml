@@ -87,6 +87,7 @@
   <Property id="88" Text="Spectral power density" openEHR="758" />
   <Property id="89" Text="Pace" openEHR="759" />
   <Property id="90" Text="Enzyme activity" openEHR="760" />
+  <Property id="91" Text="Flow rate (volume) per area" openEHR="761" />
   <Unit property_id="0" Text="1000th in" name="thousandth of inch" conversion="2.54" coefficient="-5" primary="false"
         UCUM="[in_i]/1000"/>
   <Unit property_id="0" Text="cm" name="centimeter" conversion="1" coefficient="-2" primary="false" UCUM="cm"/>
@@ -638,4 +639,5 @@
   <Unit property_id="89" Text="s/m" name="seconds per meter" primary="true" UCUM="s/m"/>
   <Unit property_id="90" Text="µmol/min" name="micromole per minute" primary="true" UCUM="umol/min"/>
   <Unit property_id="90" Text="nmol/mL/h" name="nanomole per millilitre per hour" primary="false" UCUM="nmol/mL/h"/>
+  <Unit property_id="91" Text="{129/128/335}" name="{VOLUME/TIME/AREA}" conversion="0" primary="false" />
 </PropertyUnits>

@@ -88,6 +88,7 @@
   <Property id="90" Text="Enzyme activity" openEHR="760" />
   <Property id="91" Text="Flow rate (volume) per area" openEHR="761" />
   <Property id="92" Text="Volume per area" openEHR="762" />
+  <Property id="93" Text="Mitotic count" openEHR="763" />
   <Unit property_id="0" Text="1000th in" name="thousandth of inch" conversion="2.54" coefficient="-5" primary="false" UCUM="[in_i]/1000"/>
   <Unit property_id="0" Text="cm" name="centimeter" conversion="1" coefficient="-2" primary="false" UCUM="cm"/>
   <Unit property_id="0" Text="Fr" name="Charrière, french (Gauge of catheters)" conversion="0.33333333" coefficient="-3" primary="false" UCUM="[Ch]"/>
@@ -156,6 +157,7 @@
   <Unit property_id="5" Text="m²" name="square meter" conversion="1" primary="true" UCUM="m2"/>
   <Unit property_id="5" Text="yd²" conversion="0.8361" primary="false" UCUM="[syd_i]"/>
   <Unit property_id="5" Text="µm²" conversion="1" coefficient="-12" primary="false" UCUM="um2"/>
+  <Unit property_id="5" Text="HPF" name="High power field" conversion="0" primary="false" UCUM="[HPF]"/>
   <Unit property_id="6" Text="cc" name="cubic centimeter" conversion="1" coefficient="-6" primary="false" UCUM="cm3"/>
   <Unit property_id="6" Text="cl" name="centilitre" conversion="1" coefficient="-5" primary="false" UCUM="cL"/>
   <Unit property_id="6" Text="dl" name="decilitre" conversion="1" coefficient="-4" primary="false" UCUM="dL"/>
@@ -163,7 +165,6 @@
   <Unit property_id="6" Text="fl" name="femtoLitre" conversion="1" coefficient="-15" primary="false" UCUM="fL"/>
   <Unit property_id="6" Text="ft³" name="cubic foot" conversion="0.02832" primary="false" UCUM="[cft_i]"/>
   <Unit property_id="6" Text="gallon (US)" name="US gallon" conversion="3.785" coefficient="-3" primary="false" UCUM="[gal_us]"/>
-  <Unit property_id="6" Text="HPF" name="High power field" conversion="0" primary="false" UCUM="[HPF]"/>
   <Unit property_id="6" Text="in³" name="cubic inch" conversion="1.639" coefficient="-5" primary="false" UCUM="[cin_i]"/>
   <Unit property_id="6" Text="l" name="litre" conversion="1" coefficient="-3" primary="false" UCUM="L" />
   <Unit property_id="6" Text="LPF" name="Low power field" conversion="0" primary="false" UCUM="[LPF]"/>
@@ -614,5 +615,15 @@
   <Unit property_id="90" Text="nmol/mL/h" name="nanomole per millilitre per hour" primary="false" UCUM="nmol/mL/h"/>
   <Unit property_id="91" Text="{129/128/335}" name="{VOLUME/TIME/AREA}" conversion="0" primary="false" />
   <Unit property_id="92" Text="{129/335}" name="{VOLUME/AREA}" conversion="0" primary="false" />
+  <Unit property_id="93" Text="mitoses/50 HPF" name="mitoses per 50 high power fields" conversion="0" primary="false" UCUM="{mitoses}/50.[HPF]"/>
+  <Unit property_id="93" Text="mitoses/40 HPF" name="mitoses per 40 high power fields" conversion="0" primary="false" UCUM="{mitoses}/40.[HPF]"/>
+  <Unit property_id="93" Text="mitoses/10 HPF" name="mitoses per 10 high power fields" conversion="0" primary="false" UCUM="{mitoses}/10.[HPF]"/>
+  <Unit property_id="93" Text="mitoses/50 HPF" name="mitoses per high power field" conversion="0" primary="false" UCUM="{mitoses}/[HPF]"/>
+  <Unit property_id="93" Text="mitoses/50 HPF" name="mitoses per high power field" conversion="0" primary="false" UCUM="{mitoses}/[HPF]"/>
+  <Unit property_id="93" Text="mitoses/5 mm²" name="mitoses per 5 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/5.mm2"/>
+  <Unit property_id="93" Text="mitoses/7.95 mm²" name="mitoses per 7.95 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/795.10-2.mm2"/>
+  <Unit property_id="93" Text="mitoses/9.8 mm²" name="mitoses per 9.8 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/98.10-1.mm2"/>
+  <Unit property_id="93" Text="mitoses/11.85 mm²" name="mitoses per 11.85 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/1185.10-3.mm2"/>
+  <Unit property_id="93" Text="mitoses/17.2 mm²" name="mitoses per 17.2 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/172.10-1.mm2"/>
 </PropertyUnits>
 </xml>

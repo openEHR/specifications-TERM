@@ -618,8 +618,7 @@
   <Unit property_id="93" Text="mitoses/50 HPF" name="mitoses per 50 high power fields" conversion="0" primary="false" UCUM="{mitoses}/50.[HPF]"/>
   <Unit property_id="93" Text="mitoses/40 HPF" name="mitoses per 40 high power fields" conversion="0" primary="false" UCUM="{mitoses}/40.[HPF]"/>
   <Unit property_id="93" Text="mitoses/10 HPF" name="mitoses per 10 high power fields" conversion="0" primary="false" UCUM="{mitoses}/10.[HPF]"/>
-  <Unit property_id="93" Text="mitoses/50 HPF" name="mitoses per high power field" conversion="0" primary="false" UCUM="{mitoses}/[HPF]"/>
-  <Unit property_id="93" Text="mitoses/50 HPF" name="mitoses per high power field" conversion="0" primary="false" UCUM="{mitoses}/[HPF]"/>
+  <Unit property_id="93" Text="mitoses/HPF" name="mitoses per high power field" conversion="0" primary="false" UCUM="{mitoses}/[HPF]"/>
   <Unit property_id="93" Text="mitoses/5 mm²" name="mitoses per 5 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/5.mm2"/>
   <Unit property_id="93" Text="mitoses/7.95 mm²" name="mitoses per 7.95 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/795.10-2.mm2"/>
   <Unit property_id="93" Text="mitoses/9.8 mm²" name="mitoses per 9.8 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/98.10-1.mm2"/>

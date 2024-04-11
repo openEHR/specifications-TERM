@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
   <url value="https://specifications.openehr.org/fhir/codesystem-instruction_transitions"/>
-  <version value="3.0.0"/>
+  <version value="3.1.0"/>
   <name value="instruction_transitions"/>
   <title value="Instruction Transitions"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-06-26"/>
+  <date value="2024-04-11"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
     <telecom>
       <system value="url"/>
-      <value value="https://specifications.openehr.org/releases/TERM/Release-3.0.0"/>
+      <value value="https://specifications.openehr.org/releases/TERM/Release-3.1.0"/>
     </telecom>
   </contact>
   <caseSensitive value="true"/>

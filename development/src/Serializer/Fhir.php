@@ -10,8 +10,8 @@ use const OpenEHR\Specifications\Tools\Terminology\VERSION;
 
 class Fhir {
 
-    public const CodeSystemPath = 'fhir/codesystem-';
-    public const ValueSetPath = 'fhir/valueset-';
+    public const CodeSystemPath = 'FHIR/codesystem-';
+    public const ValueSetPath = 'FHIR/valueset-';
 
     /** @noinspection NullPointerExceptionInspection */
     public static function asCodeSystemXml(CodeSet $codeSet, Terminology $terminology): string {

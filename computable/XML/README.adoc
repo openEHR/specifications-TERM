@@ -7,6 +7,9 @@ openEHR reference model terminology, and artefacts for binding or using standard
 
 == 3.1.0 (unreleased)
 
+- Added Chinese translation of the openehr_terminology.xml.
+See https://openehr.atlassian.net/browse/SPECTERM-34
+
 - Added UCUM unit [drp] (drop) to the volume properties in PropertyUnitData.xml.
 See https://openehr.atlassian.net/browse/SPECTERM-33
 

@@ -5,7 +5,10 @@ openEHR reference model terminology, and artefacts for binding or using standard
 == Reporting issues or requesting new terms
 *Any issues, change requests or problem reports, including requests for new terms should be posted via the https://openehr.atlassian.net/projects/SPECPR[openEHR Specifications JIRA Tracker]*
 
-== latest
+== 3.1.0 (unreleased)
+
+- Added UCUM unit [drp] (drop) to the volume properties in PropertyUnitData.xml.
+See https://openehr.atlassian.net/browse/SPECTERM-33
 
 - Added ml/m2 and l/min/m2 to units in PropertyUnitData.xml.
 See https://openehr.atlassian.net/browse/SPECTERM-28 and (https://openehr.atlassian.net/browse/SPECPR-410 and https://openehr.atlassian.net/browse/SPECPR-412)

@@ -6,7 +6,7 @@
   <title value="Extract Update Trigger Event Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="qualquer alteração"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="任何变更"/>
+    </designation>
   </concept>
   <concept>
     <code value="813"/>
@@ -49,6 +53,10 @@
       <language value="pt"/>
       <value value="correcção"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="修正"/>
+    </designation>
   </concept>
   <concept>
     <code value="814"/>
@@ -64,6 +72,10 @@
     <designation>
       <language value="pt"/>
       <value value="actualização"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="更新"/>
     </designation>
   </concept>
 </CodeSystem>

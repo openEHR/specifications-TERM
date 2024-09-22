@@ -6,7 +6,7 @@
   <title value="Extract Content Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="registo de saúde electrónico em openEHR"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="openEHR EHR"/>
+    </designation>
   </concept>
   <concept>
     <code value="804"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="openEHR demográfico"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="openEHR 人口统计学信息"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="Sincronização openEHR"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="openEHR 同步化"/>
+    </designation>
   </concept>
   <concept>
     <code value="806"/>
@@ -80,6 +92,10 @@
     <designation>
       <language value="pt"/>
       <value value="openEHR genérico"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="openEHR 通用"/>
     </designation>
   </concept>
   <concept>
@@ -97,6 +113,10 @@
       <language value="pt"/>
       <value value="Registro electrónico médico genérico"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="通用 EMR"/>
+    </designation>
   </concept>
   <concept>
     <code value="808"/>
@@ -112,6 +132,10 @@
     <designation>
       <language value="pt"/>
       <value value="Outro"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="其他"/>
     </designation>
   </concept>
 </CodeSystem>

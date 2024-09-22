@@ -6,7 +6,7 @@
   <title value="Participation Function"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -32,6 +32,10 @@
     <designation>
       <language value="pt"/>
       <value value="desconhecido"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="未知"/>
     </designation>
   </concept>
 </CodeSystem>

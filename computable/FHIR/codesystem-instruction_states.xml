@@ -6,7 +6,7 @@
   <title value="Instruction States"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="inicial"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="初始"/>
+    </designation>
   </concept>
   <concept>
     <code value="526"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="planeado"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已计划"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="adiado"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已推迟"/>
+    </designation>
   </concept>
   <concept>
     <code value="528"/>
@@ -80,6 +92,10 @@
     <designation>
       <language value="pt"/>
       <value value="cancelado"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已取消"/>
     </designation>
   </concept>
   <concept>
@@ -97,6 +113,10 @@
       <language value="pt"/>
       <value value="agendado"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已排程"/>
+    </designation>
   </concept>
   <concept>
     <code value="245"/>
@@ -112,6 +132,10 @@
     <designation>
       <language value="pt"/>
       <value value="activo"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="现行有效"/>
     </designation>
   </concept>
   <concept>
@@ -129,6 +153,10 @@
       <language value="pt"/>
       <value value="suspenso"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已暂停"/>
+    </designation>
   </concept>
   <concept>
     <code value="531"/>
@@ -144,6 +172,10 @@
     <designation>
       <language value="pt"/>
       <value value="abortado"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已中止"/>
     </designation>
   </concept>
   <concept>
@@ -161,6 +193,10 @@
       <language value="pt"/>
       <value value="concluído"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已完成"/>
+    </designation>
   </concept>
   <concept>
     <code value="533"/>
@@ -176,6 +212,10 @@
     <designation>
       <language value="pt"/>
       <value value="expirado"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已过期"/>
     </designation>
   </concept>
 </CodeSystem>

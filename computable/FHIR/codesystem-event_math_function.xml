@@ -6,7 +6,7 @@
   <title value="Event Math Function"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="mínimo"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="最小值"/>
+    </designation>
   </concept>
   <concept>
     <code value="144"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="máximo"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="最大值"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="moda"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="众数"/>
+    </designation>
   </concept>
   <concept>
     <code value="268"/>
@@ -80,6 +92,10 @@
     <designation>
       <language value="pt"/>
       <value value="mediana"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="中位数"/>
     </designation>
   </concept>
   <concept>
@@ -97,6 +113,10 @@
       <language value="pt"/>
       <value value="média"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="均值"/>
+    </designation>
   </concept>
   <concept>
     <code value="147"/>
@@ -112,6 +132,10 @@
     <designation>
       <language value="pt"/>
       <value value="alteração"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="变化"/>
     </designation>
   </concept>
   <concept>
@@ -129,6 +153,10 @@
       <language value="pt"/>
       <value value="total"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="总计"/>
+    </designation>
   </concept>
   <concept>
     <code value="149"/>
@@ -144,6 +172,10 @@
     <designation>
       <language value="pt"/>
       <value value="variação"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="变异"/>
     </designation>
   </concept>
   <concept>
@@ -161,6 +193,10 @@
       <language value="pt"/>
       <value value="decréscimo"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="降低"/>
+    </designation>
   </concept>
   <concept>
     <code value="522"/>
@@ -177,6 +213,10 @@
       <language value="pt"/>
       <value value="acréscimo"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="升高"/>
+    </designation>
   </concept>
   <concept>
     <code value="640"/>
@@ -192,6 +232,10 @@
     <designation>
       <language value="pt"/>
       <value value="real"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="实际值"/>
     </designation>
   </concept>
 </CodeSystem>

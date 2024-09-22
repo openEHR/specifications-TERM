@@ -6,7 +6,7 @@
   <title value="Extract Action Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="cancelar"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="取消"/>
+    </designation>
   </concept>
   <concept>
     <code value="810"/>
@@ -49,6 +53,10 @@
       <language value="pt"/>
       <value value="reenviar"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="重新发送"/>
+    </designation>
   </concept>
   <concept>
     <code value="811"/>
@@ -64,6 +72,10 @@
     <designation>
       <language value="pt"/>
       <value value="enviar novo"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="发送新的"/>
     </designation>
   </concept>
 </CodeSystem>

@@ -6,7 +6,7 @@
   <title value="Attestation Reason"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="assinado"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已签署"/>
+    </designation>
   </concept>
   <concept>
     <code value="648"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="testemunhado"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已见证"/>
     </designation>
   </concept>
 </CodeSystem>

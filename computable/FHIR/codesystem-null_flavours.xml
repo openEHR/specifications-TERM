@@ -6,7 +6,7 @@
   <title value="Null Flavours"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="sem informação"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="无信息"/>
+    </designation>
   </concept>
   <concept>
     <code value="253"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="desconhecido"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="未知"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="mascarado"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已遮蔽"/>
+    </designation>
   </concept>
   <concept>
     <code value="273"/>
@@ -80,6 +92,10 @@
     <designation>
       <language value="pt"/>
       <value value="não aplicável"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="不适用"/>
     </designation>
   </concept>
 </CodeSystem>

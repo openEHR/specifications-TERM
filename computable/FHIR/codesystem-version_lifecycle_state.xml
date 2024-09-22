@@ -6,7 +6,7 @@
   <title value="Version Lifecycle State"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="completo"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="完整"/>
+    </designation>
   </concept>
   <concept>
     <code value="553"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="incompleto"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="不完整"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="eliminado"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已删除"/>
+    </designation>
   </concept>
   <concept>
     <code value="800"/>
@@ -81,6 +93,10 @@
       <language value="pt"/>
       <value value="inativo"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="无效"/>
+    </designation>
   </concept>
   <concept>
     <code value="801"/>
@@ -96,6 +112,10 @@
     <designation>
       <language value="pt"/>
       <value value="abandonado"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="已废弃"/>
     </designation>
   </concept>
 </CodeSystem>

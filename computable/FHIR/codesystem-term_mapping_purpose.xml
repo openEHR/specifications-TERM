@@ -6,7 +6,7 @@
   <title value="Term Mapping Purpose"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="saúde pública"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="公共卫生"/>
+    </designation>
   </concept>
   <concept>
     <code value="670"/>
@@ -49,6 +53,10 @@
       <language value="pt"/>
       <value value="reembolso"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="费用报销"/>
+    </designation>
   </concept>
   <concept>
     <code value="671"/>
@@ -64,6 +72,10 @@
     <designation>
       <language value="pt"/>
       <value value="estudo de investigação"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="研究调查"/>
     </designation>
   </concept>
 </CodeSystem>

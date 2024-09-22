@@ -6,7 +6,7 @@
   <title value="Composition Category"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="persistente"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="持久类"/>
+    </designation>
   </concept>
   <concept>
     <code value="451"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="episódico"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="偶发类"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="evento"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="事件类"/>
+    </designation>
   </concept>
   <concept>
     <code value="815"/>
@@ -80,6 +92,10 @@
     <designation>
       <language value="pt"/>
       <value value="relatório"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="报告类"/>
     </designation>
   </concept>
 </CodeSystem>

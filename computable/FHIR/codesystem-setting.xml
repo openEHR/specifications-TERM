@@ -6,7 +6,7 @@
   <title value="Setting"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="cuidados domiciliários"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="住所"/>
+    </designation>
   </concept>
   <concept>
     <code value="227"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="cuidados de emergência"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="急救医疗服务"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="cuidados médicos primários"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="基层医疗服务"/>
+    </designation>
   </concept>
   <concept>
     <code value="229"/>
@@ -80,6 +92,10 @@
     <designation>
       <language value="pt"/>
       <value value="cuidados de enfermagem primários"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="基层护理服务"/>
     </designation>
   </concept>
   <concept>
@@ -97,6 +113,10 @@
       <language value="pt"/>
       <value value="cuidados de saúde primários"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="基层辅助医疗服务"/>
+    </designation>
   </concept>
   <concept>
     <code value="231"/>
@@ -112,6 +132,10 @@
     <designation>
       <language value="pt"/>
       <value value="cuidados de obstetrícia"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="助产服务"/>
     </designation>
   </concept>
   <concept>
@@ -129,6 +153,10 @@
       <language value="pt"/>
       <value value="cuidados médicos secundários"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="二级医疗服务"/>
+    </designation>
   </concept>
   <concept>
     <code value="233"/>
@@ -144,6 +172,10 @@
     <designation>
       <language value="pt"/>
       <value value="cuidados de enfermagem secundários"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="二级护理服务"/>
     </designation>
   </concept>
   <concept>
@@ -161,6 +193,10 @@
       <language value="pt"/>
       <value value="cuidados de saúde especializada"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="二级辅助医疗服务"/>
+    </designation>
   </concept>
   <concept>
     <code value="235"/>
@@ -176,6 +212,10 @@
     <designation>
       <language value="pt"/>
       <value value="cuidados de saúde complementares"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="补充性医疗服务"/>
     </designation>
   </concept>
   <concept>
@@ -193,6 +233,10 @@
       <language value="pt"/>
       <value value="cuidados dentários"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="牙科服务"/>
+    </designation>
   </concept>
   <concept>
     <code value="237"/>
@@ -208,6 +252,10 @@
     <designation>
       <language value="pt"/>
       <value value="cuidados em lares residenciais"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="护理院服务"/>
     </designation>
   </concept>
   <concept>
@@ -225,6 +273,10 @@
       <language value="pt"/>
       <value value="cuidados de saúde mental"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="心理健康服务"/>
+    </designation>
   </concept>
   <concept>
     <code value="238"/>
@@ -240,6 +292,10 @@
     <designation>
       <language value="pt"/>
       <value value="outros cuidados"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="其他照护服务"/>
     </designation>
   </concept>
 </CodeSystem>

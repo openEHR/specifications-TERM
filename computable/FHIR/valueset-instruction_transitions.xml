@@ -6,7 +6,7 @@
   <title value="Instruction Transitions"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -17,7 +17,7 @@
   </contact>
   <caseSensitive value="true"/>
   <compose>
-    <lockedDate value="2024-04-11"/>
+    <lockedDate value="2024-08-22"/>
     <include>
       <system value="https://specifications.openehr.org/fhir/codesystem-instruction_transitions"/>
       <version value="3.1.0"/>

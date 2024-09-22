@@ -6,7 +6,7 @@
   <title value="Subject Relationship"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-04-11"/>
+  <date value="2024-08-22"/>
   <publisher value="openEHR International"/>
   <contact>
     <name value="openEHR TERM specifications"/>
@@ -33,6 +33,10 @@
       <language value="pt"/>
       <value value="próprio"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="本人"/>
+    </designation>
   </concept>
   <concept>
     <code value="3"/>
@@ -48,6 +52,10 @@
     <designation>
       <language value="pt"/>
       <value value="feto"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="胎儿"/>
     </designation>
   </concept>
   <concept>
@@ -65,6 +73,10 @@
       <language value="pt"/>
       <value value="mãe"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="母亲"/>
+    </designation>
   </concept>
   <concept>
     <code value="9"/>
@@ -80,6 +92,10 @@
     <designation>
       <language value="pt"/>
       <value value="pai"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="父亲"/>
     </designation>
   </concept>
   <concept>
@@ -97,6 +113,10 @@
       <language value="pt"/>
       <value value="dador"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="供体"/>
+    </designation>
   </concept>
   <concept>
     <code value="253"/>
@@ -112,6 +132,10 @@
     <designation>
       <language value="pt"/>
       <value value="desconhecido"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="未知"/>
     </designation>
   </concept>
   <concept>
@@ -129,6 +153,10 @@
       <language value="pt"/>
       <value value="filha adoptiva"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="养女"/>
+    </designation>
   </concept>
   <concept>
     <code value="260"/>
@@ -144,6 +172,10 @@
     <designation>
       <language value="pt"/>
       <value value="filho adoptivo"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="养子"/>
     </designation>
   </concept>
   <concept>
@@ -161,6 +193,10 @@
       <language value="pt"/>
       <value value="pai adoptivo"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="养父"/>
+    </designation>
   </concept>
   <concept>
     <code value="258"/>
@@ -176,6 +212,10 @@
     <designation>
       <language value="pt"/>
       <value value="mãe adoptiva"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="养母"/>
     </designation>
   </concept>
   <concept>
@@ -193,6 +233,10 @@
       <language value="pt"/>
       <value value="pai biológico"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="亲生父亲"/>
+    </designation>
   </concept>
   <concept>
     <code value="255"/>
@@ -208,6 +252,10 @@
     <designation>
       <language value="pt"/>
       <value value="mãe biológica"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="亲生母亲"/>
     </designation>
   </concept>
   <concept>
@@ -225,6 +273,10 @@
       <language value="pt"/>
       <value value="irmão"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="兄弟"/>
+    </designation>
   </concept>
   <concept>
     <code value="28"/>
@@ -240,6 +292,10 @@
     <designation>
       <language value="pt"/>
       <value value="filho"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="孩子"/>
     </designation>
   </concept>
   <concept>
@@ -257,6 +313,10 @@
       <language value="pt"/>
       <value value="coabitante"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="同居者"/>
+    </designation>
   </concept>
   <concept>
     <code value="257"/>
@@ -272,6 +332,10 @@
     <designation>
       <language value="pt"/>
       <value value="primo(a)"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="同辈堂表亲戚"/>
     </designation>
   </concept>
   <concept>
@@ -289,6 +353,10 @@
       <language value="pt"/>
       <value value="filha"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="女儿"/>
+    </designation>
   </concept>
   <concept>
     <code value="264"/>
@@ -304,6 +372,10 @@
     <designation>
       <language value="pt"/>
       <value value="guardião(ã)"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="监护人"/>
     </designation>
   </concept>
   <concept>
@@ -321,6 +393,10 @@
       <language value="pt"/>
       <value value="tia materna"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="姨母"/>
+    </designation>
   </concept>
   <concept>
     <code value="8"/>
@@ -336,6 +412,10 @@
     <designation>
       <language value="pt"/>
       <value value="avô materno"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="外祖父"/>
     </designation>
   </concept>
   <concept>
@@ -353,6 +433,10 @@
       <language value="pt"/>
       <value value="avó materna"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="外祖母"/>
+    </designation>
   </concept>
   <concept>
     <code value="38"/>
@@ -368,6 +452,10 @@
     <designation>
       <language value="pt"/>
       <value value="tio materno"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="舅父"/>
     </designation>
   </concept>
   <concept>
@@ -385,6 +473,10 @@
       <language value="pt"/>
       <value value="recém-nascido"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="新生儿"/>
+    </designation>
   </concept>
   <concept>
     <code value="254"/>
@@ -400,6 +492,10 @@
     <designation>
       <language value="pt"/>
       <value value="pai/mãe"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="父母"/>
     </designation>
   </concept>
   <concept>
@@ -417,6 +513,10 @@
       <language value="pt"/>
       <value value="companheiro/cônjuge"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="伴侣/配偶"/>
+    </designation>
   </concept>
   <concept>
     <code value="41"/>
@@ -432,6 +532,10 @@
     <designation>
       <language value="pt"/>
       <value value="tia paterna"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="姑母"/>
     </designation>
   </concept>
   <concept>
@@ -449,6 +553,10 @@
       <language value="pt"/>
       <value value="avô paterno"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="祖父"/>
+    </designation>
   </concept>
   <concept>
     <code value="37"/>
@@ -464,6 +572,10 @@
     <designation>
       <language value="pt"/>
       <value value="avó paterna"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="祖母"/>
     </designation>
   </concept>
   <concept>
@@ -481,6 +593,10 @@
       <language value="pt"/>
       <value value="tio paterno"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="叔伯"/>
+    </designation>
   </concept>
   <concept>
     <code value="27"/>
@@ -496,6 +612,10 @@
     <designation>
       <language value="pt"/>
       <value value="irmão(ã)"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="兄弟姐妹"/>
     </designation>
   </concept>
   <concept>
@@ -513,6 +633,10 @@
       <language value="pt"/>
       <value value="irmã"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="姐妹"/>
+    </designation>
   </concept>
   <concept>
     <code value="31"/>
@@ -528,6 +652,10 @@
     <designation>
       <language value="pt"/>
       <value value="filho"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="儿子"/>
     </designation>
   </concept>
   <concept>
@@ -545,6 +673,10 @@
       <language value="pt"/>
       <value value="padrasto"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="继父"/>
+    </designation>
   </concept>
   <concept>
     <code value="262"/>
@@ -560,6 +692,10 @@
     <designation>
       <language value="pt"/>
       <value value="madrasta"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="继母"/>
     </designation>
   </concept>
   <concept>
@@ -577,6 +713,10 @@
       <language value="pt"/>
       <value value="meio-irmão"/>
     </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="继兄弟或同父异母或同母异父兄弟"/>
+    </designation>
   </concept>
   <concept>
     <code value="26"/>
@@ -592,6 +732,10 @@
     <designation>
       <language value="pt"/>
       <value value="meia-irmã"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="继姐妹或同父异母或同母异父姐妹"/>
     </designation>
   </concept>
 </CodeSystem>

@@ -6,7 +6,7 @@
 |Name: *attestation reason* +
     Id: __attestation_reason__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-attestation_reason[CodeSystem^], https://specifications.openehr.org/fhir/valueset-attestation_reason[ValueSet^]`
 
 2+| {attestation_reason_description} +
@@ -26,7 +26,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *audit change type* +
     Id: __audit_change_type__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-audit_change_type[CodeSystem^], https://specifications.openehr.org/fhir/valueset-audit_change_type[ValueSet^]`
 
 2+| {audit_change_type_description} +
@@ -53,7 +53,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *composition category* +
     Id: __composition_category__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-composition_category[CodeSystem^], https://specifications.openehr.org/fhir/valueset-composition_category[ValueSet^]`
 
 2+| {composition_category_description} +
@@ -75,7 +75,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *property* +
     Id: __property__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-property[CodeSystem^], https://specifications.openehr.org/fhir/valueset-property[ValueSet^]`
 
 2+| {property_description} +
@@ -179,7 +179,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *version lifecycle state* +
     Id: __version_lifecycle_state__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-version_lifecycle_state[CodeSystem^], https://specifications.openehr.org/fhir/valueset-version_lifecycle_state[ValueSet^]`
 
 2+| {version_lifecycle_state_description} +
@@ -202,7 +202,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *participation function* +
     Id: __participation_function__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-participation_function[CodeSystem^], https://specifications.openehr.org/fhir/valueset-participation_function[ValueSet^]`
 
 2+| {participation_function_description} +
@@ -221,7 +221,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *null flavours* +
     Id: __null_flavours__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-null_flavours[CodeSystem^], https://specifications.openehr.org/fhir/valueset-null_flavours[ValueSet^]`
 
 2+| {null_flavours_description} +
@@ -243,7 +243,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *participation mode* +
     Id: __participation_mode__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-participation_mode[CodeSystem^], https://specifications.openehr.org/fhir/valueset-participation_mode[ValueSet^]`
 
 2+| {participation_mode_description} +
@@ -293,7 +293,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *instruction states* +
     Id: __instruction_states__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-instruction_states[CodeSystem^], https://specifications.openehr.org/fhir/valueset-instruction_states[ValueSet^]`
 
 2+| {instruction_states_description} +
@@ -321,7 +321,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *instruction transitions* +
     Id: __instruction_transitions__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-instruction_transitions[CodeSystem^], https://specifications.openehr.org/fhir/valueset-instruction_transitions[ValueSet^]`
 
 2+| {instruction_transitions_description} +
@@ -359,7 +359,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *subject relationship* +
     Id: __subject_relationship__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-subject_relationship[CodeSystem^], https://specifications.openehr.org/fhir/valueset-subject_relationship[ValueSet^]`
 
 2+| {subject_relationship_description} +
@@ -413,7 +413,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *term mapping purpose* +
     Id: __term_mapping_purpose__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-term_mapping_purpose[CodeSystem^], https://specifications.openehr.org/fhir/valueset-term_mapping_purpose[ValueSet^]`
 
 2+| {term_mapping_purpose_description} +
@@ -434,7 +434,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *event math function* +
     Id: __event_math_function__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-event_math_function[CodeSystem^], https://specifications.openehr.org/fhir/valueset-event_math_function[ValueSet^]`
 
 2+| {event_math_function_description} +
@@ -463,7 +463,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *setting* +
     Id: __setting__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-setting[CodeSystem^], https://specifications.openehr.org/fhir/valueset-setting[ValueSet^]`
 
 2+| {setting_description} +
@@ -495,7 +495,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *extract content type* +
     Id: __extract_content_type__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-extract_content_type[CodeSystem^], https://specifications.openehr.org/fhir/valueset-extract_content_type[ValueSet^]`
 
 2+| {extract_content_type_description} +
@@ -519,7 +519,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *extract action type* +
     Id: __extract_action_type__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-extract_action_type[CodeSystem^], https://specifications.openehr.org/fhir/valueset-extract_action_type[ValueSet^]`
 
 2+| {extract_action_type_description} +
@@ -540,7 +540,7 @@ h| *Code*      h| *Description*       h| *Status*
 |Name: *extract update trigger event type* +
     Id: __extract_update_trigger_event_type__ +
     Status: __active__ +
-    Languages:  __en, es, ja, pt__ +
+    Languages:  __en, es, ja, pt, zh__ +
     FHIR Terminology: `https://specifications.openehr.org/fhir/codesystem-extract_update_trigger_event_type[CodeSystem^], https://specifications.openehr.org/fhir/valueset-extract_update_trigger_event_type[ValueSet^]`
 
 2+| {extract_update_trigger_event_type_description} +

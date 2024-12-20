@@ -541,7 +541,7 @@
   <Unit property_id="60" Text="milliHz" name="miliherz" conversion="1" coefficient="-3" primary="false" UCUM="mHz"/>
   <Unit property_id="60" Text="{380/128}" name="{QUALIFIED REAL/TIME}" conversion="0" primary="false"/>
   <Unit property_id="61" Text="B" name="bel" conversion="1" primary="true" UCUM="B[A]"/>
-  <Unit property_id="61" Text="dB" conversion="1" coefficient="-1" primary="false" UCUM="dB[A]"/>
+  <Unit property_id="61" Text="dB" name="decibel" conversion="1" coefficient="-1" primary="false" UCUM="dB[A]"/>
   <Unit property_id="62" Text="Eq" conversion="1" primary="true" UCUM="eq"/>
   <Unit property_id="62" Text="mEq" conversion="1" coefficient="-3" primary="false" UCUM="meq"/>
   <Unit property_id="63" Text="{121/128}" name="{ENERGY/TIME}" primary="false" />

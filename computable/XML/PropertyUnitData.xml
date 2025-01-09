@@ -57,7 +57,7 @@
   <Property id="58" Text="Amount (mole)" openEHR="384" />
   <Property id="59" Text="Concentration" openEHR="119" />
   <Property id="60" Text="Frequency" openEHR="382" />
-  <Property id="61" Text="Loudness" openEHR="123" />
+  <Property id="61" Text="Sound pressure level" openEHR="123" />
   <Property id="62" Text="Amount (Eq)" openEHR="381" />
   <Property id="63" Text="Work" openEHR="130" />
   <Property id="64" Text="&lt;not set&gt;" openEHR="118" />
@@ -540,8 +540,15 @@
   <Unit property_id="60" Text="MHz" name="megaherz" conversion="1" coefficient="6" primary="false" UCUM="MHz"/>
   <Unit property_id="60" Text="milliHz" name="miliherz" conversion="1" coefficient="-3" primary="false" UCUM="mHz"/>
   <Unit property_id="60" Text="{380/128}" name="{QUALIFIED REAL/TIME}" conversion="0" primary="false"/>
-  <Unit property_id="61" Text="B" name="bel" conversion="1" primary="true" UCUM="B[A]"/>
-  <Unit property_id="61" Text="dB" name="decibel" conversion="1" coefficient="-1" primary="false" UCUM="dB[A]"/>
+  <Unit property_id="61" Text="B" name="bel sound pressure" conversion="1" primary="true" UCUM="B[SPL]"/>
+  <Unit property_id="61" Text="dB SPL" name="decibel sound pressure" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]"/>
+  <Unit property_id="61" Text="dB HL" name="decibel hearing level" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]{HL}"/>
+  <Unit property_id="61" Text="dB nHL" name="decibel normal hearing level" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]{nHL}"/>
+  <Unit property_id="61" Text="dB SL" name="decibel sensation level" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]{SL}"/>
+  <Unit property_id="61" Text="dB SNR" name="decibel signal-to-noise ratio" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]{SNR}"/>
+  <Unit property_id="61" Text="dB A" name="decibel A-weighting" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]{A}"/>
+  <Unit property_id="61" Text="dB B" name="decibel B-weighting" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]{B}"/>
+  <Unit property_id="61" Text="dB C" name="decibel C-weighting" conversion="1" coefficient="-1" primary="false" UCUM="dB[SPL]{C}"/>
   <Unit property_id="62" Text="Eq" conversion="1" primary="true" UCUM="eq"/>
   <Unit property_id="62" Text="mEq" conversion="1" coefficient="-3" primary="false" UCUM="meq"/>
   <Unit property_id="63" Text="{121/128}" name="{ENERGY/TIME}" primary="false" />
@@ -624,4 +631,5 @@
   <Unit property_id="93" Text="mitoses/9.8 mm²" name="mitoses per 9.8 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/98.10-1.mm2"/>
   <Unit property_id="93" Text="mitoses/11.85 mm²" name="mitoses per 11.85 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/1185.10-3.mm2"/>
   <Unit property_id="93" Text="mitoses/17.2 mm²" name="mitoses per 17.2 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/172.10-1.mm2"/>
+  <Unit property_id="85" Text="CU" name="categorical unit" conversion="0" primary="true" UCUM="[arb'U]{CU}"/>
 </PropertyUnits>

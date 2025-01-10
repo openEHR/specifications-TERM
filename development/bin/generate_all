@@ -17,7 +17,7 @@ ini_set('display_errors', 'stderr');
 //
 //==================================
 
-$languages = ['en', 'es', 'ja', 'pt'];
+$languages = ['en', 'es', 'ja', 'pt', 'zh'];
 $aggregate = new Aggregate();
 foreach ($languages as $lang) {
     $inputFile = "/data/computable/XML/$lang/openehr_terminology.xml";

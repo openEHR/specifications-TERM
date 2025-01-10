@@ -4,12 +4,13 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.22">
+<meta name="generator" content="Asciidoctor 2.0.23">
 <meta name="description" content="openEHR Support Terminology specification">
 <meta name="keywords" content="terminology, code-set, vocabulary, openehr">
 <title>Support Terminology specification</title>
 <link rel="stylesheet" href="https://specifications.openehr.org/styles/openehr.css">
 <link rel="stylesheet" href="https://specifications.openehr.org/styles/pygments-default.css">
+<link rel="stylesheet" href="https://specifications.openehr.org/styles/asciidoctor-tabs.css">
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
@@ -18,7 +19,6 @@
 <ul class="sectlevel0">
 <li><a href="#_support_terminology_specification">Support Terminology specification</a>
 <ul class="sectlevel1">
-<li><a href="#_amendment_record">Amendment Record</a></li>
 <li><a href="#_acknowledgements">Acknowledgements</a>
 <ul class="sectlevel2">
 <li><a href="#_trademarks">Trademarks</a></li>
@@ -91,6 +91,7 @@
 <li><a href="#_content_artefacts">4.3. Content Artefacts</a></li>
 </ul>
 </li>
+<li><a href="#_amendment_record">Amendment Record</a></li>
 </ul>
 </li>
 </ul>
@@ -121,7 +122,7 @@
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Release</strong>: TERM latest</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Release</strong>: TERM development</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Status</strong>: STABLE</p></td>
 </tr>
 <tr>
@@ -160,274 +161,6 @@
 <td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Support</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Issues: <a href="https://specifications.openehr.org/components/TERM/open_issues" target="_blank" rel="noopener">Problem Reports</a><br>
  Web: <a href="https://specifications.openehr.org" target="_blank" rel="noopener">specifications.openEHR.org</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_amendment_record"><a class="anchor" href="#_amendment_record"></a>Amendment Record</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 9.0909%;">
-<col style="width: 54.5454%;">
-<col style="width: 18.1818%;">
-<col style="width: 18.1819%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Issue</th>
-<th class="tableblock halign-left valign-top">Details</th>
-<th class="tableblock halign-left valign-top">Raiser</th>
-<th class="tableblock halign-left valign-top">Completed</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 3.1.0 (unreleased)</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue"></a>3.1.2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-28">SPECTERM-28</a>: Added ml/m2 and l/min/m2 to units in PropertyUnitData.xml (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-410" target="_blank" rel="noopener">SPECPR-410</a> and <a href="https://specifications.openehr.org/tickets/SPECPR-412" target="_blank" rel="noopener">SPECPR-412</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Kohler,<br>
-S Ljosland Bakke</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>7 Apr 2024</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-27">SPECTERM-27</a>: Added J/cm2, hPa, kgf/m² and other fixing other errors in PropertyUnitData.xml.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Ljosland Bakke</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">20 Mar 2024</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-26">SPECTERM-26</a>: Adding support for missing DICOM media types.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Chaya,<br>
-I McNicoll,<br>
-S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">19 Sep 2023</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECPR-425">SPECPR-425</a>: Corrected typo for unit "kiloVolt" in PropertyUnitData.xml.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Ljosland Bakke</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">19 Sep 2023</p></td>
-</tr>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 3.0.0</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3.0.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-23">SPECTERM-23</a>: Improving translations.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Kobayashi,<br>
- V Pereira,<br>
- D Bosca</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">26 Jun 2023</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-25">SPECTERM-25</a>: Adding "format conversion" and "restoration" new types to the audit_change_type group.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">05 Mar 2023</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-5">SPECTERM-5</a>: Adding "report" to Composition Category to support report Compositions.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">B Næss,<br>
- S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">05 Mar 2023</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-15">SPECTERM-15</a>: Rendering terminology code sets and vocabulary in the SupportTerminology document.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11 Feb 2023</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-16">SPECTERM-16</a>: Rendering terminology code sets and vocabulary as FHIR CodeSystem and ValueSet.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11 Feb 2023</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-17">SPECTERM-17</a>: Improving terminology XML file format by adding unique identifiers,
-version and date attributes; updating XSD.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">11 Feb 2023</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-24">SPECTERM-24</a>: Added PropertyUnitData.xml file to openEHR terminologies (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-408" target="_blank" rel="noopener">SPECPR-408</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">V Pereira,<br>
- S Ljosland Bakke</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">04 Feb 2023</p></td>
-</tr>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.4.0</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2.4.2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-22">SPECTERM-22</a>: Added missing SHA-* integrity check algorithms.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-21">SPECTERM-21</a>: Corrected terminology rubric typos inside "property" group (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-404" target="_blank" rel="noopener">SPECPR-404</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
- P Pazos</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-4">SPECTERM-4</a>: Added new vocabulary groups for EHR Extract related to Release 1.0.3 (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-370" target="_blank" rel="noopener">SPECPR-370</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
- T Beale</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-10">SPECTERM-10</a>: Added "inactive" and "abandoned" to "version lifecycle state" group (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-383" target="_blank" rel="noopener">SPECPR-383</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
- T Beale</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-20">SPECTERM-20</a>: Added "mental healthcare" to "setting" group (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-382" target="_blank" rel="noopener">SPECPR-382</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
- J Holslag</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2.4.1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-19">SPECTERM-19</a>: Correcting code for 'episodic' in Composition.category vocabulary (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-367" target="_blank" rel="noopener">SPECPR-367</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
- M Polajnar</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">06 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-18">SPECTERM-18</a>: Updating external terminology code-sets and cleanup duplicates (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-95" target="_blank" rel="noopener">SPECPR-95</a>, <a href="https://specifications.openehr.org/tickets/SPECPR-403" target="_blank" rel="noopener">SPECPR-403</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
- R van Etten,<br>
- B Jures</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">06 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-11">SPECTERM-11</a>: Merging terminology resource (XML) files into terminology specifications repository.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">06 Dec 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2.4.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-14">SPECTERM-14</a>: Adding some missing media types in external terminologies (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-402" target="_blank" rel="noopener">SPECPR-402</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
- P Pazos</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">23 Nov 2022</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-12" target="_blank" rel="noopener">SPECTERM-12</a>: Adding Spanish terminology file from <a href="https://github.com/openEHR/terminology" class="bare">https://github.com/openEHR/terminology</a> and updating related links (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-401" target="_blank" rel="noopener">SPECPR-401</a>).</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">P Pazos</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">23 Nov 2022</p></td>
-</tr>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.3.0</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2.3.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Adding a copy of terminology files Release-2.3.0 of <a href="https://github.com/openEHR/terminology" class="bare">https://github.com/openEHR/terminology</a> and updating related links.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">20 Oct 2019</p></td>
-</tr>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.2.0</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2.2.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Adding a copy of terminology files Release-2.2.0 of <a href="https://github.com/openEHR/terminology" class="bare">https://github.com/openEHR/terminology</a> and updating related links.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">01 Aug 2018</p></td>
-</tr>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.1.0</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2.1.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-6" target="_blank" rel="noopener">SPECTERM-6</a>: Correct Terminology typos.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">I McNicoll</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">08 Nov 2017</p></td>
-</tr>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>Release 1.0</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.0</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-219" target="_blank" rel="noopener">SPECRM-219</a>: Use constants instead of literals to refer to terminology in RM.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">R Chen</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">08 Apr 2007</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-221" target="_blank" rel="noopener">SPECRM-221</a>. Add normal_status to <code>DV_ORDERED</code>. Add new "normal status" terminology group.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-217" target="_blank" rel="noopener">SPECRM-217</a>: Additional math function.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">S Heard</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-235" target="_blank" rel="noopener">SPECRM-235</a>: Make attestation-only commit require a Contribution. Add 'attestation' code to audit-change type.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A Patterson</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-246" target="_blank" rel="noopener">SPECRM-246</a>: Correct openEHR terminology rubrics.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">B Verhees,<br>
- M Forss</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>Release 0.9</strong></p></th>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">0.9</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-184" target="_blank" rel="noopener">SPECRM-184</a>. Separate out terminology from Support IM.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">22 Oct 2005</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-182" target="_blank" rel="noopener">SPECRM-182</a>: Rationalise <code>VERSION.<em>lifecycle_state</em></code> and <code>ATTESTATION.status_</code>. Add new term set for attestation reason, deprecate attestation state term set.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-162" target="_blank" rel="noopener">SPECRM-162</a>. Allow party identifiers when no demographic data. Deprecate some terms from version lifecycle status group, add some new terms.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-140" target="_blank" rel="noopener">SPECRM-140</a>. Redevelop Instruction, based on workflow principles. Add term sets for Instruction State machine.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-192" target="_blank" rel="noopener">SPECRM-192</a>: Add display-as-absolute facility to delta Events in History</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
-<td class="tableblock halign-left valign-top"></td>
 </tr>
 </tbody>
 </table>
@@ -505,7 +238,7 @@ version and date attributes; updating XSD.</p></td>
 <div class="sect2">
 <h3 id="_status"><a class="anchor" href="#_status"></a>1.3. Status</h3>
 <div class="paragraph">
-<p>This specification is in the STABLE state. The development version of this document can be found at <a href="https://specifications.openehr.org/releases/TERM/latest/SupportTerminology.html" target="_blank" rel="noopener">https://specifications.openehr.org/releases/TERM/latest/SupportTerminology.html</a>.</p>
+<p>This specification is in the STABLE state. The development version of this document can be found at <a href="https://specifications.openehr.org/releases/TERM/development/SupportTerminology.html" target="_blank" rel="noopener">https://specifications.openehr.org/releases/TERM/development/SupportTerminology.html</a>.</p>
 </div>
 <div class="paragraph">
 <p>Known omissions or questions are indicated in the text with a 'to be determined' paragraph, as follows:</p>
@@ -5075,7 +4808,7 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>attestation reason</strong><br>
     Id: <em>attestation_reason</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-attestation_reason" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-attestation_reason" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies attestation statuses of Compositions or other elements of the health record.<br>
 External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationSignature/cs.html" target="_blank" rel="noopener">HL7 ParticipationSignature domain</a><br>
@@ -5122,7 +4855,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationSignature/
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>audit change type</strong><br>
     Id: <em>audit_change_type</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-audit_change_type" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-audit_change_type" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the kinds of changes to data which are recorded in audit trails.<br>
    <br>
@@ -5217,7 +4950,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationSignature/
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>composition category</strong><br>
     Id: <em>composition_category</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-composition_category" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-composition_category" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the values of the `category` attribute in Compositions.<br>
    <br>
@@ -5277,7 +5010,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationSignature/
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>property</strong><br>
     Id: <em>property</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-property" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-property" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies purposes for physical properties corresponding to formal unit specifications, and allows comparison of Quantities with different units but which measure the same property.<br>
 External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank" rel="noopener">Regenstrief Institute - Unified Codes for Units of Measure</a><br>
@@ -5912,7 +5645,7 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>version lifecycle state</strong><br>
     Id: <em>version_lifecycle_state</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-version_lifecycle_state" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-version_lifecycle_state" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies lifecycle states of Compositions or other elements of the health record.<br>
    <br>
@@ -5979,7 +5712,7 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>participation function</strong><br>
     Id: <em>participation_function</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-participation_function" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-participation_function" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies functions of participation of parties in an interaction.<br>
    <br>
@@ -6018,7 +5751,7 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>null flavours</strong><br>
     Id: <em>null_flavours</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-null_flavours" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-null_flavours" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies 'flavours of null' for missing data items.<br>
    <br>
@@ -6078,7 +5811,7 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>participation mode</strong><br>
     Id: <em>participation_mode</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-participation_mode" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-participation_mode" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies modes of participation of parties in an interaction.<br>
 External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.html" target="_blank" rel="noopener">HL7 ParticipationMode domain</a><br>
@@ -6335,7 +6068,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>instruction states</strong><br>
     Id: <em>instruction_states</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-instruction_states" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-instruction_states" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the names of the states in the <a href="https://specifications.openehr.org/releases/RM/latest/ehr.html#_the_standard_instruction_state_machine_ism" target="_blank" rel="noopener">standard Instruction state machine</a>.<br>
    <br>
@@ -6437,7 +6170,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>instruction transitions</strong><br>
     Id: <em>instruction_transitions</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-instruction_transitions" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-instruction_transitions" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the names of the transitions in the <a href="https://specifications.openehr.org/releases/RM/latest/ehr.html#_the_standard_instruction_state_machine_ism" target="_blank" rel="noopener">standard Instruction state machine</a>.<br>
    <br>
@@ -6609,7 +6342,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>subject relationship</strong><br>
     Id: <em>subject_relationship</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-subject_relationship" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-subject_relationship" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the relationship between the subject of care and some other party mentioned in the health record.<br>
    <br>
@@ -6893,7 +6626,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>term mapping purpose</strong><br>
     Id: <em>term_mapping_purpose</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-term_mapping_purpose" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-term_mapping_purpose" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies purposes for term mappings as used in openEHR coded text data.<br>
    <br>
@@ -6946,7 +6679,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>event math function</strong><br>
     Id: <em>event_math_function</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-event_math_function" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-event_math_function" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies mathematical functions applied to non-instantaneous time series events.<br>
    <br>
@@ -7055,7 +6788,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>setting</strong><br>
     Id: <em>setting</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-setting" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-setting" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies broad types of settings in which clinical care is delivered. It is not intended to be a perfect classification of the real world, but instead a practical coarse-grained categorisation to aid querying.<br>
    <br>
@@ -7185,7 +6918,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>extract content type</strong><br>
     Id: <em>extract_content_type</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-extract_content_type" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-extract_content_type" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the type of the content required for an Extract specification.<br>
    <br>
@@ -7259,7 +6992,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>extract action type</strong><br>
     Id: <em>extract_action_type</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-extract_action_type" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-extract_action_type" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the action types of a Request for an Extract specification.<br>
    <br>
@@ -7312,7 +7045,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <td class="tableblock halign-left valign-top"><p class="tableblock">Name: <strong>extract update trigger event type</strong><br>
     Id: <em>extract_update_trigger_event_type</em><br>
     Status: <em>active</em><br>
-    Languages:  <em>en, es, ja, pt</em><br>
+    Languages:  <em>en, es, ja, pt, zh</em><br>
     FHIR Terminology: <code><a href="https://specifications.openehr.org/fhir/codesystem-extract_update_trigger_event_type" target="_blank" rel="noopener">CodeSystem</a>, <a href="https://specifications.openehr.org/fhir/valueset-extract_update_trigger_event_type" target="_blank" rel="noopener">ValueSet</a></code></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This vocabulary codifies the event names of an update Extract specification.<br>
    <br>
@@ -7857,11 +7590,293 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_amendment_record"><a class="anchor" href="#_amendment_record"></a>Amendment Record</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 9.0909%;">
+<col style="width: 54.5454%;">
+<col style="width: 18.1818%;">
+<col style="width: 18.1819%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Issue</th>
+<th class="tableblock halign-left valign-top">Details</th>
+<th class="tableblock halign-left valign-top">Raiser</th>
+<th class="tableblock halign-left valign-top">Completed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 3.1.0 (unreleased)</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue"></a>3.1.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-34">SPECTERM-34</a>: Added Chinese translation of the openehr_terminology.xml.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L Zhang</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>22 Aug 2024</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-33">SPECTERM-33</a>: Added UCUM unit [drp] (drop) to the volume properties in PropertyUnitData.xml.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">B Littleton,<br>
+S Ljosland Bakke</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20 Aug 2024</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-28">SPECTERM-28</a>: Added ml/m2 and l/min/m2 to units in PropertyUnitData.xml (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-410" target="_blank" rel="noopener">SPECPR-410</a> and <a href="https://specifications.openehr.org/tickets/SPECPR-412" target="_blank" rel="noopener">SPECPR-412</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Kohler,<br>
+S Ljosland Bakke</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7 Apr 2024</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-27">SPECTERM-27</a>: Added J/cm2, hPa, kgf/m² and other fixing other errors in PropertyUnitData.xml.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Ljosland Bakke</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20 Mar 2024</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-26">SPECTERM-26</a>: Adding support for missing DICOM media types.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Chaya,<br>
+I McNicoll,<br>
+S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19 Sep 2023</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECPR-425">SPECPR-425</a>: Corrected typo for unit "kiloVolt" in PropertyUnitData.xml.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Ljosland Bakke</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19 Sep 2023</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 3.0.0</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-23">SPECTERM-23</a>: Improving translations.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Kobayashi,<br>
+ V Pereira,<br>
+ D Bosca</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">26 Jun 2023</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-25">SPECTERM-25</a>: Adding "format conversion" and "restoration" new types to the audit_change_type group.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">05 Mar 2023</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-5">SPECTERM-5</a>: Adding "report" to Composition Category to support report Compositions.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">B Næss,<br>
+ S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">05 Mar 2023</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-15">SPECTERM-15</a>: Rendering terminology code sets and vocabulary in the SupportTerminology document.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11 Feb 2023</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-16">SPECTERM-16</a>: Rendering terminology code sets and vocabulary as FHIR CodeSystem and ValueSet.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11 Feb 2023</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-17">SPECTERM-17</a>: Improving terminology XML file format by adding unique identifiers,
+version and date attributes; updating XSD.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11 Feb 2023</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-24">SPECTERM-24</a>: Added PropertyUnitData.xml file to openEHR terminologies (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-408" target="_blank" rel="noopener">SPECPR-408</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">V Pereira,<br>
+ S Ljosland Bakke</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 Feb 2023</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.4.0</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.4.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-22">SPECTERM-22</a>: Added missing SHA-* integrity check algorithms.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-21">SPECTERM-21</a>: Corrected terminology rubric typos inside "property" group (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-404" target="_blank" rel="noopener">SPECPR-404</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
+ P Pazos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-4">SPECTERM-4</a>: Added new vocabulary groups for EHR Extract related to Release 1.0.3 (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-370" target="_blank" rel="noopener">SPECPR-370</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
+ T Beale</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-10">SPECTERM-10</a>: Added "inactive" and "abandoned" to "version lifecycle state" group (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-383" target="_blank" rel="noopener">SPECPR-383</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
+ T Beale</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-20">SPECTERM-20</a>: Added "mental healthcare" to "setting" group (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-382" target="_blank" rel="noopener">SPECPR-382</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
+ J Holslag</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.4.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-19">SPECTERM-19</a>: Correcting code for 'episodic' in Composition.category vocabulary (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-367" target="_blank" rel="noopener">SPECPR-367</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
+ M Polajnar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">06 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-18">SPECTERM-18</a>: Updating external terminology code-sets and cleanup duplicates (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-95" target="_blank" rel="noopener">SPECPR-95</a>, <a href="https://specifications.openehr.org/tickets/SPECPR-403" target="_blank" rel="noopener">SPECPR-403</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
+ R van Etten,<br>
+ B Jures</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">06 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-11">SPECTERM-11</a>: Merging terminology resource (XML) files into terminology specifications repository.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">06 Dec 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.4.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-14">SPECTERM-14</a>: Adding some missing media types in external terminologies (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-402" target="_blank" rel="noopener">SPECPR-402</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu,<br>
+ P Pazos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23 Nov 2022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-12" target="_blank" rel="noopener">SPECTERM-12</a>: Adding Spanish terminology file from <a href="https://github.com/openEHR/terminology" class="bare">https://github.com/openEHR/terminology</a> and updating related links (fixes <a href="https://specifications.openehr.org/tickets/SPECPR-401" target="_blank" rel="noopener">SPECPR-401</a>).</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P Pazos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23 Nov 2022</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.3.0</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.3.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adding a copy of terminology files Release-2.3.0 of <a href="https://github.com/openEHR/terminology" class="bare">https://github.com/openEHR/terminology</a> and updating related links.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20 Oct 2019</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.2.0</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.2.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adding a copy of terminology files Release-2.2.0 of <a href="https://github.com/openEHR/terminology" class="bare">https://github.com/openEHR/terminology</a> and updating related links.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Iancu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">01 Aug 2018</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 2.1.0</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-6" target="_blank" rel="noopener">SPECTERM-6</a>: Correct Terminology typos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I McNicoll</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08 Nov 2017</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>Release 1.0</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-219" target="_blank" rel="noopener">SPECRM-219</a>: Use constants instead of literals to refer to terminology in RM.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">R Chen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08 Apr 2007</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-221" target="_blank" rel="noopener">SPECRM-221</a>. Add normal_status to <code>DV_ORDERED</code>. Add new "normal status" terminology group.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-217" target="_blank" rel="noopener">SPECRM-217</a>: Additional math function.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">S Heard</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-235" target="_blank" rel="noopener">SPECRM-235</a>: Make attestation-only commit require a Contribution. Add 'attestation' code to audit-change type.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A Patterson</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-246" target="_blank" rel="noopener">SPECRM-246</a>: Correct openEHR terminology rubrics.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">B Verhees,<br>
+ M Forss</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>Release 0.9</strong></p></th>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-184" target="_blank" rel="noopener">SPECRM-184</a>. Separate out terminology from Support IM.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22 Oct 2005</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-182" target="_blank" rel="noopener">SPECRM-182</a>: Rationalise <code>VERSION.<em>lifecycle_state</em></code> and <code>ATTESTATION.status_</code>. Add new term set for attestation reason, deprecate attestation state term set.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-162" target="_blank" rel="noopener">SPECRM-162</a>. Allow party identifiers when no demographic data. Deprecate some terms from version lifecycle status group, add some new terms.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-140" target="_blank" rel="noopener">SPECRM-140</a>. Redevelop Instruction, based on workflow principles. Add term sets for Instruction State machine.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPEC-192" target="_blank" rel="noopener">SPECRM-192</a>: Add display-as-absolute facility to delta Events in History</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H Frankel</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-06-26 20:25:04 UTC
+Last updated 2024-09-22 19:11:44 UTC
 </div>
 </div>
+<script src="https://specifications.openehr.org/js/asciidoctor-tabs.js"></script>
 </body>
 </html>

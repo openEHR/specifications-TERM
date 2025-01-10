@@ -174,6 +174,7 @@
   <Unit property_id="6" Text="pt (US)" name="US pint" conversion="473.2" coefficient="-6" primary="false" UCUM="[pt_us]"/>
   <Unit property_id="6" Text="µL" name="micro litre" conversion="1" coefficient="-6" primary="false" UCUM="uL"/>
   <Unit property_id="6" Text="µm³" name="cubic micrometer" conversion="1" coefficient="-18" primary="false" UCUM="um3"/>
+  <Unit property_id="6" Text="drop" name="drop" conversion="0.05" coefficient="-6" primary="false" UCUM="[drp]"/>
   <Unit property_id="7" Text="cfh" name="cubic feet per hour" conversion="7.87" coefficient="-6" primary="false" UCUM="[cft_i]/h"/>
   <Unit property_id="7" Text="cfm" name="cubic feet per minute" conversion="4.72" coefficient="-4" primary="false" UCUM="[cft_i]/m"/>
   <Unit property_id="7" Text="cfs" name="cubic feet per second" conversion="0.02832" primary="false" UCUM="[cft_i]/s"/>

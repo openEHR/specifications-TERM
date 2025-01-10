@@ -1,4 +1,4 @@
-<terminology name="openehr" language="en" version="3.0.0" date="2023-02-11">
+<terminology name="openehr" language="en" version="3.1.0" date="2024-04-11">
 	<codeset issuer="ISO" openehr_id="countries" name="countries" external_id="ISO_3166-1">
 		<code value="AF" description="AFGHANISTAN"/>
 		<code value="AX" description="ÅLAND ISLANDS"/>

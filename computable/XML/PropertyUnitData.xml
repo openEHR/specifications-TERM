@@ -600,6 +600,7 @@
   <Unit property_id="82" Text="daPa/s" name="decaPascals per second" primary="false" UCUM="daPa/s"/>
   <Unit property_id="82" Text="mmH₂O/s" name="millimeters of water per second" primary="false" UCUM="mm[H2O]/s"/>
   <Unit property_id="82" Text="Pa/s" name="Pascals per second" conversion="1" primary="false" UCUM="Ps/s"/>
+  <Unit property_id="82" Text="{125/128}" name="{PRESSURE/TIME}" conversion="0" primary="false"/>
   <Unit property_id="84" Text="Hz/s" name="Hertz per second" conversion="1" primary="false" UCUM="Hz/s"/>
   <Unit property_id="84" Text="kHz/s" name="Kilohertz per second" primary="false" UCUM="kHz/s"/>
   <Unit property_id="85" Text="U" name="enzyme unit" conversion="1" primary="true" UCUM="U"/>

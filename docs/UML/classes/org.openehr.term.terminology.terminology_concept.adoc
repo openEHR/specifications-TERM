@@ -13,15 +13,15 @@ h|*Attributes*
 ^h|*Meaning*
 
 h|*1..1*
-|*id*: `String`
+|*id*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
 a|The code of this concept.
 
 h|*1..1*
-|*rubric*: `String`
+|*rubric*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
 a|The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.
 
 h|*0..1*
 |*status*: `<<_terminology_status_enumeration,TERMINOLOGY_STATUS>> +
-{default{nbsp}={nbsp}active}`
+{default{nbsp}={nbsp}}`
 a|Status of this concept within the vocabulary.
 |===

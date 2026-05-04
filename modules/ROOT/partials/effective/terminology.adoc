@@ -12,10 +12,10 @@ a|Name of this terminology.
 |*language*: `link:/classes/String[String] ` [1..1]
 a|Language of this terminology, as an ISO:639 2-letter code.
 
-|*code_sets*: `link:/classes/List[List] <xref:TERM:terminology_package.adoc#_code_set_class[CODE_SET]>` [0..1]
+|*code_sets*: `link:/classes/List[List] <xref:{class_code_set}[CODE_SET]>` [0..1]
 a|Code sets in this Terminology.
 
-|*vocabularies*: `link:/classes/List[List] <xref:TERM:terminology_package.adoc#_terminology_group_class[TERMINOLOGY_GROUP]>` [0..1]
+|*vocabularies*: `link:/classes/List[List] <xref:{class_terminology_group}[TERMINOLOGY_GROUP]>` [0..1]
 a|Vocabularies of coded terms in this terminology.
 
 |*version*: `link:/classes/String[String] ` [0..1]

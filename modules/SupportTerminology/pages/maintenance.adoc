@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Maintenance
 
 == Assignment of New Codes

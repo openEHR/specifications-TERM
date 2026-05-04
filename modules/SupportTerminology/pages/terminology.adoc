@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Terminology
 
 The following subsections describe the purpose of the openEHR Terminology code sets and vocabularies. The computable definition may be found in the {openehr_terminology_resources}[openEHR `specifications-TERM` repository^].

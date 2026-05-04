@@ -1,5 +1,11 @@
+include::ROOT:partial$component_vars.adoc[]
+
 :spec_title: Support Terminology specification
 :copyright_year: 2008
 :spec_status: STABLE
 :keywords: terminology, code-set, vocabulary, openehr
 :description: openEHR Support Terminology specification
+
+:latest_issue: 3.1.3
+:latest_issue_date: 22 Aug 2024
+:pkg: org.openehr.term.terminology.

@@ -30,7 +30,7 @@ The concrete representation of the openEHR code sets and vocabularies is in the 
 
 [.text-center]
 .The structure of XML computable expressions in the repository
-image::{images_uri}/repo_structure.png[id=repo_structure, align="center"]
+image::repo_structure.png[id=repo_structure, align="center"]
 
 == Content Artefacts
 

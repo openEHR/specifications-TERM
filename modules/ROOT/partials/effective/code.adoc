@@ -1,29 +1,20 @@
-=== CODE Class
-
-[cols="^1,3,5"]
+[cols="2,3", frame=none, grid=rows]
 |===
-h|*Class*
 2+^h|*CODE*
 
-h|*Description*
 2+a|A single code entity in a code set.
 
-h|*Attributes*
-^h|*Signature*
-^h|*Meaning*
+2+h|*Attributes*
 
-h|*1..1*
-|*value*: `String`
+|*value*: `link:/classes/String[String] ` [1..1]
 a|The code string for this code entity, e.g. `"AF"`.
 
-h|*0..1*
-|*description*: `String`
+|*description*: `link:/classes/String[String] ` [0..1]
 a|Optional description of this code, e.g. `"AFGHANISTAN"`.
 
 This field may be used to hold translations of the description in a language-specific copy of the English language original code set.
 
-h|*0..1*
-|*status*: `<<_terminology_status_enumeration,TERMINOLOGY_STATUS>> +
-{default{nbsp}={nbsp}active}`
+|*status*: `xref:TERM:terminology_package.adoc#_terminology_status_enumeration[TERMINOLOGY_STATUS]` [0..1] +
+`{default{nbsp}={nbsp}}`
 a|Status of this code within the code set.
 |===

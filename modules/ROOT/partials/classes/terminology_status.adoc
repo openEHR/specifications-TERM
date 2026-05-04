@@ -1,0 +1,21 @@
+=== TERMINOLOGY_STATUS Enumeration
+
+[tabs]
+====
+Definition::
++
+include::ROOT:partial$definitions/terminology_status.adoc[]
+
+Effective::
++
+include::ROOT:partial$effective/terminology_status.adoc[]
+
+BMM::
++
+include::ROOT:partial$BMMs/terminology_status.adoc[]
+
+UML::
++
+image::ROOT:uml/classes/terminology_status.svg[]
+
+====

@@ -1,0 +1,26 @@
+[cols="2,3", frame=none, grid=rows]
+|===
+2+^h|*TERMINOLOGY*
+
+2+a|Container for code sets and/or vocabularies that belong to a given logical terminology.
+
+2+h|*Attributes*
+
+|*name*: `link:/classes/String[String] ` [1..1]
+a|Name of this terminology.
+
+|*language*: `link:/classes/String[String] ` [1..1]
+a|Language of this terminology, as an ISO:639 2-letter code.
+
+|*code_sets*: `link:/classes/List[List] <xref:TERM:terminology_package.adoc#_code_set_class[CODE_SET]>` [0..1]
+a|Code sets in this Terminology.
+
+|*vocabularies*: `link:/classes/List[List] <xref:TERM:terminology_package.adoc#_terminology_group_class[TERMINOLOGY_GROUP]>` [0..1]
+a|Vocabularies of coded terms in this terminology.
+
+|*version*: `link:/classes/String[String] ` [0..1]
+a|Version of this instance of the terminology.
+
+|*date*: `link:/classes/Iso8601_date[Iso8601_date] ` [0..1]
+a|Date of issue of this version of the terminology.
+|===

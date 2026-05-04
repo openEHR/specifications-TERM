@@ -1,5 +1,3 @@
-=== TERMINOLOGY_CONCEPT Class
-
 [cols="^1,3,5"]
 |===
 h|*Class*
@@ -13,15 +11,15 @@ h|*Attributes*
 ^h|*Meaning*
 
 h|*1..1*
-|*id*: `String`
+|*id*: `link:/classes/String[String] `
 a|The code of this concept.
 
 h|*1..1*
-|*rubric*: `String`
+|*rubric*: `link:/classes/String[String] `
 a|The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.
 
 h|*0..1*
-|*status*: `<<_terminology_status_enumeration,TERMINOLOGY_STATUS>> +
-{default{nbsp}={nbsp}active}`
+|*status*: `xref:TERM:terminology_package.adoc#_terminology_status_enumeration[TERMINOLOGY_STATUS]` +
+`{default{nbsp}={nbsp}}`
 a|Status of this concept within the vocabulary.
 |===

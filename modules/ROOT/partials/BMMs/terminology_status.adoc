@@ -1,0 +1,21 @@
+[source,json]
+--------
+{
+    "_type": "P_BMM_ENUMERATION_STRING",
+    "name": "TERMINOLOGY_STATUS",
+    "documentation": "Enumeration of possible lifecycle states of any part of the terminomlogy.",
+    "ancestors": [
+        "String"
+    ],
+    "item_names": [
+        "trial",
+        "active",
+        "retired"
+    ],
+    "item_documentations": [
+        "Terminology element is in Trial state.",
+        "Terminology element is in Active state, i.e. published and in use.",
+        "Terminology element has been Retired, i.e. deprecated."
+    ]
+}
+--------

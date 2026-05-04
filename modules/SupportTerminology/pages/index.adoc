@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 //
 // ============================================ Asciidoc HEADER =============================================
 //
@@ -7,7 +9,25 @@
 //
 
 
-= {spec_title}
+= {spec_title} [.spec-status.spec-status-stable]#{spec_status}#
+
+== Purpose
+
+This document describes the openEHR Support Terminology and code sets, which define the vocabulary and codes needed for the openEHR Reference, Archetype and Service models. The openEHR terminology is not considered to be in the same space as externally defined terminologies such as {snomed_ct}[SNOMED CT^], {who_icd}[ICDx^] etc, since it is not an ontology of real facts, but of informational classifiers needed by the openEHR models. The code sets are generally a means of interfacing external codes such as ISO language identifiers, with openEHR. The audience of this document includes:
+
+* Standards bodies producing health informatics standards;
+* Software development organisations developing EHR systems;
+* Academic groups studying the EHR;
+* The open source healthcare community.
+
+== Related Documents
+
+Prerequisite documents for reading this document include:
+
+* The {openehr_overview}[openEHR Architecture Overview^].
+
+
+
 
 
 //
@@ -19,38 +39,12 @@
 // --------------------------------------------- Preface -----------------------------------------------
 //
 
-== Acknowledgements
+== Feedback
 
-The work reported in this specification and related artefacts has been funded in part by the following organisations:
+Feedback may be provided on the {openehr_term_forum}[openEHR Terminology specifications forum^].
 
-* FreshEHR Informatics, UK
-* Ocean Informatics, Australia
-* Code24, The Netherlands
+Issues may be raised on the {component_prs}[specifications Problem Report tracker^].
 
-=== Trademarks
+To see changes made due to previously reported issues, see the {component_history}[{component} component Change Request tracker^].
 
-* 'openEHR' is a trademark of the openEHR Foundation
-
-//
-// --------------------------------------------- TOC -----------------------------------------------
-//
-//toc::[left]
-
-//
-// --------------------------------------------- CHAPTERS -----------------------------------------------
-//
-
-
-ifdef::package_qualifiers[]
-:pkg: org.openehr.term.terminology.
-endif::[]
-
-//include::master05-translation.adoc[leveloffset=+1]
-//include::master06-maintenance.adoc[leveloffset=+1]
-
-//
-// --------------------------------------------- REFERENCES -----------------------------------------------
-//
-:sectnums!:
-//== References
 

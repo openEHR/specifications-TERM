@@ -1,0 +1,6 @@
+name: TERM
+title: openEHR Terminology
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/SupportTerminology/nav.adoc

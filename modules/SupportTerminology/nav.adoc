@@ -1,0 +1,10 @@
+* xref:index.adoc[Support Terminology specification]
+** xref:overview.adoc[Overview]
+** xref:terminology_code_sets_vars.adoc[Terminology Code Sets Vars]
+** xref:terminology_vocabularies_vars.adoc[Terminology Vocabularies Vars]
+** xref:terminology.adoc[Terminology]
+** xref:representation.adoc[Representation]
+** xref:translation.adoc[Translation]
+** xref:maintenance.adoc[Maintenance]
+** xref:appendix.adoc[Appendix]
+

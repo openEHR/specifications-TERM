@@ -12,7 +12,7 @@ a|The code of this concept.
 |*rubric*: `link:/classes/String[String] ` [1..1]
 a|The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.
 
-|*status*: `xref:TERM:terminology_package.adoc#_terminology_status_enumeration[TERMINOLOGY_STATUS]` [0..1] +
+|*status*: `xref:{class_terminology_status}[TERMINOLOGY_STATUS]` [0..1] +
 `{default{nbsp}={nbsp}}`
 a|Status of this concept within the vocabulary.
 |===

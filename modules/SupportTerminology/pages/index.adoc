@@ -1,0 +1,56 @@
+//
+// ============================================ Asciidoc HEADER =============================================
+//
+
+//
+// ============================================ Asciidoc PREAMBLE =============================================
+//
+
+
+= {spec_title}
+
+
+//
+// ============================================= Asciidoc BODY ===============================================
+//
+
+
+//
+// --------------------------------------------- Preface -----------------------------------------------
+//
+
+== Acknowledgements
+
+The work reported in this specification and related artefacts has been funded in part by the following organisations:
+
+* FreshEHR Informatics, UK
+* Ocean Informatics, Australia
+* Code24, The Netherlands
+
+=== Trademarks
+
+* 'openEHR' is a trademark of the openEHR Foundation
+
+//
+// --------------------------------------------- TOC -----------------------------------------------
+//
+//toc::[left]
+
+//
+// --------------------------------------------- CHAPTERS -----------------------------------------------
+//
+
+
+ifdef::package_qualifiers[]
+:pkg: org.openehr.term.terminology.
+endif::[]
+
+//include::master05-translation.adoc[leveloffset=+1]
+//include::master06-maintenance.adoc[leveloffset=+1]
+
+//
+// --------------------------------------------- REFERENCES -----------------------------------------------
+//
+:sectnums!:
+//== References
+

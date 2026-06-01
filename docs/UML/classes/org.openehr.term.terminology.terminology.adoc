@@ -13,11 +13,11 @@ h|*Attributes*
 ^h|*Meaning*
 
 h|*1..1*
-|*name*: `String`
+|*name*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
 a|Name of this terminology.
 
 h|*1..1*
-|*language*: `String`
+|*language*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
 a|Language of this terminology, as an ISO:639 2-letter code.
 
 h|*0..1*

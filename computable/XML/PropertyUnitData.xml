@@ -269,11 +269,13 @@
   <Unit property_id="20" Text="lbm/ft²·s" conversion="4.883" primary="false" UCUM="[lb_av]/[sft_i].s"/>
   <Unit property_id="21" Text="g/cm²" conversion="1" coefficient="1" primary="false" UCUM="g/cm2"/>
   <Unit property_id="21" Text="g/m²" conversion="1" coefficient="-3" primary="false" UCUM="g/m2"/>
+  <Unit property_id="21" Text="mg/m²" conversion="1" coefficient="-6" primary="false" UCUM="mg/m2"/>
   <Unit property_id="21" Text="g/m^2.7" name="mass per height^2.7 (BSA)" conversion="0" primary="false" UCUM="g/m27.10-1"/>
   <Unit property_id="21" Text="kg/m²" conversion="1" primary="true" UCUM="kg/m2"/>
   <Unit property_id="21" Text="lbm/ft²" conversion="4.883" primary="false" UCUM="[lb_av]/[sft_i]"/>
   <Unit property_id="21" Text="lbm/in²" conversion="703" primary="false" UCUM="[lb_av]/[sin_i]"/>
   <Unit property_id="21" Text="ton/mile²" conversion="3.5" coefficient="-4" primary="false" UCUM="[ston_av]/[mi_i]2"/>
+  <Unit property_id="21" Text="{124/335}" name="{MASS/AREA}" conversion="0" primary="false"/>
   <Unit property_id="22" Text="g/cm³" conversion="1" primary="false" UCUM="g/cm3"/>
   <Unit property_id="22" Text="grain/ft³" conversion="2.289" coefficient="-3" primary="false" UCUM="[gr]/[cft_i]"/>
   <Unit property_id="22" Text="kg/m³" conversion="1" primary="true" UCUM="kg/m3"/>

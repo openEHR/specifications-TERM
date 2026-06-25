@@ -89,6 +89,7 @@
   <Property id="91" Text="Flow rate (volume) per area" openEHR="761" />
   <Property id="92" Text="Volume per area" openEHR="762" />
   <Property id="93" Text="Mitotic count" openEHR="763" />
+  <Property id="94" Text="Length per area" openEHR="764" />
   <Unit property_id="0" Text="1000th in" name="thousandth of inch" conversion="2.54" coefficient="-5" primary="false" UCUM="[in_i]/1000"/>
   <Unit property_id="0" Text="cm" name="centimeter" conversion="1" coefficient="-2" primary="false" UCUM="cm"/>
   <Unit property_id="0" Text="Fr" name="Charrière, french (Gauge of catheters)" conversion="0.33333333" coefficient="-3" primary="false" UCUM="[Ch]"/>
@@ -634,4 +635,6 @@
   <Unit property_id="93" Text="mitoses/11.85 mm²" name="mitoses per 11.85 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/1185.10-3.mm2"/>
   <Unit property_id="93" Text="mitoses/17.2 mm²" name="mitoses per 17.2 square millimetres" conversion="0" primary="false" UCUM="{mitoses}/172.10-1.mm2"/>
   <Unit property_id="85" Text="CU" name="categorical unit" conversion="0" primary="true" UCUM="[arb'U]{CU}"/>
+  <Unit property_id="94" Text="{122/335}" name="{LENGTH/AREA}" conversion="0" primary="false"/>
+  <Unit property_id="94" Text="mm/m²" name="millimeters per square meter" conversion="0" primary="false" UCUM="mm/m2"/>
 </PropertyUnits>

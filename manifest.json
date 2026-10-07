@@ -78,7 +78,7 @@
             "type": "url",
             "title": "FHIR CodeSystem and ValueSet",
             "description": "The openEHR Terminology as FHIR CodeSystem and ValueSet files.",
-            "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/fhir"
+            "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/FHIR"
         }
     ],
     "jira": {

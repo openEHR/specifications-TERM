@@ -74,7 +74,7 @@ To change a class/attribute/function/invariant, edit the BMM schema and regenera
 
 ## Terminology data and generator
 
-`development/` holds a PHP 8.1 generator, run in Docker, that derives several tracked files from the hand-edited XML.
+`development/` holds a PHP 8.4 generator, run in Docker, that derives several tracked files from the hand-edited XML.
 
 **Edit by hand:**
 

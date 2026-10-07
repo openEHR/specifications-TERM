@@ -90,8 +90,9 @@ To change a class/attribute/function/invariant, edit the BMM schema and regenera
 - `computable/XML/*.v3.xml` — all languages merged into one file per terminology.
 ```bash
 cd development
-./run install    # first time: build the PHP image, composer install
-./run generate   # same as: docker-compose run --rm php composer exec generate_all
+make install     # first time: build the PHP image, composer install
+make generate    # same as: docker-compose run --rm php composer exec generate_all
+make help        # lists the actions; override the compose command with COMPOSE="docker compose"
 ```
 
 Then review the changed generated files with `git diff`. `docker-compose.yml` mounts `../docs` and `../computable` into the container as `/data/docs` and `/data/computable`.

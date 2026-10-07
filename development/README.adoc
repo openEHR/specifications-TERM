@@ -16,10 +16,11 @@ docker-compose run --rm php composer install
 docker-compose run --rm php composer exec generate_all
 ```
 
-An alternative is to use the provided wrapper bash script. To get the help on this command you will need to execute:
+An alternative is to use the provided `Makefile`, which wraps the same commands. To get the help on it you will need to execute:
 ```
-./run
+make help
 ```
+The sequence above then becomes `make install` followed by `make generate`.
 
 == Output
 

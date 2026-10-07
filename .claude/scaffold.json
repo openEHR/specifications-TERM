@@ -1,0 +1,73 @@
+{
+  "template_set": "openehr-specs/scaffold",
+  "revision": 1,
+  "variables": {
+    "component": "TERM",
+    "repo_name": "specifications-TERM",
+    "component_title": "openEHR Terminology",
+    "component_description": "openEHR Terminology Component",
+    "keywords": "terminology, code-set, openehr",
+    "jira_project": "SPECTERM",
+    "jira_open_issues": "11100",
+    "first_release": "0.1.0",
+    "published_url": "https://specifications.openehr.org/releases/TERM/",
+    "default_branch": "master",
+    "license": "cc-by-sa-3.0",
+    "bmm_schema_id": "openehr_term_3.1.0",
+    "documents": "`SupportTerminology`, `en_openehr_terminology.xml`, `openehr_external_terminologies.xml`, `PropertyUnitData.xml`"
+  },
+  "defaulted": [
+    "first_release",
+    "published_url"
+  ],
+  "files": {
+    "agents": {
+      "regions": {
+        "plugin": "ed57e86dd75c17808e407fcb40af752dfbde9b33873a84d84b9bc0e4f093efcb",
+        "build": "f25f3f3ed8338d361cc1eadf577321a20b09e5253bfb3c654c2f185b0aa9c360",
+        "conventions": "33a3a817ec8e93b1c16fb90ba202aa677c13d575b159c3a3b615f8d92dae96ac"
+      }
+    },
+    "claude-md": {
+      "sha256": "577b902329a179d241ef2fbd35fa391f365e86f5057cae156d2444bb0546c364"
+    },
+    "claude-settings": {
+      "items": [
+        "enabledPlugins.claude-md-management@claude-plugins-official",
+        "enabledPlugins.openehr-specs@openehr",
+        "enabledPlugins.pr-review-toolkit@claude-plugins-official",
+        "enabledPlugins.superpowers@claude-plugins-official",
+        "extraKnownMarketplaces.openehr.source.repo",
+        "extraKnownMarketplaces.openehr.source.source",
+        "permissions.allow[]=\"Bash(git add *)\"",
+        "permissions.allow[]=\"Bash(git commit *)\"",
+        "permissions.allow[]=\"Bash(git diff:*)\"",
+        "permissions.allow[]=\"WebFetch(domain:specifications.openehr.org)\"",
+        "permissions.allow[]=\"mcp__atlassian-openehr__atlassianUserInfo\"",
+        "permissions.allow[]=\"mcp__atlassian-openehr__getAccessibleAtlassianResources\"",
+        "permissions.allow[]=\"mcp__atlassian-openehr__getVisibleJiraProjects\""
+      ]
+    },
+    "gitignore": {
+      "items": [
+        "*.bak",
+        ".claude/settings.local.json",
+        ".env",
+        ".idea/",
+        ".vscode/",
+        ".worktrees/",
+        "temp/"
+      ]
+    },
+    "asciidoctorconfig": {
+      "items": [
+        "component",
+        "imagesdir",
+        "package_qualifiers"
+      ]
+    }
+  },
+  "pinned": [
+    "agents:build"
+  ]
+}

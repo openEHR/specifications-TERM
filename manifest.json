@@ -79,12 +79,6 @@
             "title": "FHIR CodeSystem and ValueSet",
             "description": "The openEHR Terminology as FHIR CodeSystem and ValueSet files.",
             "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/fhir"
-        },
-        {
-            "id": "openEHR_UML-TERM.mdzip",
-            "type": "uml",
-            "title": "TERM UML",
-            "description": "UML file for openEHR TERM classes, as MagicDraw 19. Contains UML 2.5 standard XMI file."
         }
     ],
     "jira": {

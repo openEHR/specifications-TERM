@@ -79,6 +79,13 @@
             "title": "FHIR CodeSystem and ValueSet",
             "description": "The openEHR Terminology as FHIR CodeSystem and ValueSet files.",
             "link": "https://github.com/openEHR/specifications-TERM/tree/master/computable/FHIR"
+        },
+        {
+            "id": "ITS-BMM-TERM",
+            "type": "url",
+            "title": "Terminology BMM",
+            "description": "BMM files for openEHR Terminology classes",
+            "link": "https://github.com/openEHR/specifications-ITS-BMM/tree/master/components/TERM"
         }
     ],
     "jira": {

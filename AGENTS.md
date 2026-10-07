@@ -92,6 +92,7 @@ To change a class/attribute/function/invariant, edit the BMM schema and regenera
 cd development
 make install     # first time: build the PHP image, composer install
 make generate    # same as: docker-compose run --rm php composer exec generate_all
+make sh          # shell in the PHP container (composer and php are available there)
 make help        # lists the actions; override the compose command with COMPOSE="docker compose"
 ```
 

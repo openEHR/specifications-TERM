@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="generator" content="Asciidoctor 2.0.26">
 <meta name="description" content="openEHR Support Terminology specification">
 <meta name="keywords" content="terminology, code-set, vocabulary, openehr">
 <title>Support Terminology specification</title>
@@ -146,7 +146,7 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-center valign-top" colspan="2">&#169; 2008 - 2024 The openEHR Foundation</th>
+<th class="tableblock halign-center valign-top" colspan="2">&#169; 2008 - 2026 The openEHR Foundation</th>
 </tr>
 </thead>
 <tbody>
@@ -7128,14 +7128,14 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>name</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>name</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Name of this terminology.</p>
 </div></div></td>
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>language</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>language</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Language of this terminology, as an ISO:639 2-letter code.</p>
 </div></div></td>
@@ -7204,7 +7204,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>openehr_id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>openehr_id</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Identifier used for code set in the openEHR Reference Model. The value is inferred from the <code><em>name</em></code> attribute.</p>
 </div>
@@ -7227,7 +7227,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>issuer</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>issuer</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Name of the issuing organisation.</p>
 </div></div></td>
@@ -7241,7 +7241,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>external_id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>external_id</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>An optional identifier assumed by openEHR to be the identifier of this code set, based on its published name, with spaces replaced by underscores.</p>
 </div>
@@ -7264,8 +7264,8 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
-{default&#160;=&#160;active}</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a></code><br>
+<code>{default&#160;=&#160;active}</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Status of this code set.</p>
 </div></div></td>
@@ -7299,14 +7299,14 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>value</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>value</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>The code string for this code entity, e.g. <code>"AF"</code>.</p>
 </div></div></td>
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>description</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>description</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Optional description of this code, e.g. <code>"AFGHANISTAN"</code>.</p>
 </div>
@@ -7316,8 +7316,8 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
-{default&#160;=&#160;active}</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a></code><br>
+<code>{default&#160;=&#160;active}</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Status of this code within the code set.</p>
 </div></div></td>
@@ -7351,7 +7351,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>name</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>name</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Name of this vocabulary.</p>
 </div></div></td>
@@ -7365,7 +7365,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>openehr_id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>openehr_id</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Identifier used for terminology group in the openEHR Reference Model. The value is inferred from the <code><em>name</em></code> attribute.</p>
 </div>
@@ -7388,8 +7388,8 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
-{default&#160;=&#160;active}</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a></code><br>
+<code>{default&#160;=&#160;active}</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Status of this vocabulary.</p>
 </div></div></td>
@@ -7423,22 +7423,22 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>id</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>id</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>The code of this concept.</p>
 </div></div></td>
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>1..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>rubric</strong>: <code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>rubric</strong>: <code><a href="/releases/BASE/latest/foundation_types.html#_string_class" target="_blank" rel="noopener">String</a></code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.</p>
 </div></div></td>
 </tr>
 <tr>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>0..1</strong></p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a><br>
-{default&#160;=&#160;active}</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>status</strong>: <code><a href="#_terminology_status_enumeration">TERMINOLOGY_STATUS</a></code><br>
+<code>{default&#160;=&#160;active}</code></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Status of this concept within the vocabulary.</p>
 </div></div></td>
@@ -7466,7 +7466,7 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </div></div></td>
 </tr>
 <tr>
-<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Attributes</strong></p></th>
+<th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Constants</strong></p></th>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Signature</strong></p></th>
 <th class="tableblock halign-center valign-top"><p class="tableblock"><strong>Meaning</strong></p></th>
 </tr>

@@ -13,7 +13,7 @@ TERM is mostly data, not a class model. The XML files under `computable/XML` are
 ## Layout
 
 - `docs/SupportTerminology/master.adoc` plus `masterNN-*.adoc` chapters (`master00` = amendment record); `manifest_vars.adoc` is generated from `manifest.json` on publish. `master05` and `master06` are stubs, commented out in `master.adoc`.
-- `computable/BMM/openehr_term_3.1.0.bmm.json` — the BMM; source of truth for all classes. bmm-publisher ships an identical copy.
+- `computable/BMM/openehr_term_3.1.0.bmm.json` — the BMM; source of truth for all classes. bmm-publisher's bundled copy and `specifications-ITS-BMM/components/TERM` are updated separately and can lag this file, so always pass this file by path.
 - `docs/UML/classes/` — **generated** class tables, named `org.openehr.term.terminology.<class>.adoc` (hence `{pkg}` in chapter includes, and `-q` when publishing).
 - `docs/UML/diagrams/TERM-term.terminology.svg` — the class diagram, drawn in MagicDraw; it is not produced by the class-table regeneration.
 - `computable/XML/` — the hand-edited terminology sources, and `computable/FHIR/` — generated FHIR files; both are described under "Terminology data and generator".
@@ -51,7 +51,7 @@ Rendering the documents and regenerating the class tables need only Docker. All 
 docker run --rm -u $(id -u):$(id -g) -v "$PWD:/documents/" ghcr.io/openehr/asciidoctor development TERM
 ```
 
-The build prints `generated <file>` and exits 0 even when includes are missing, so read the log: any `ERROR` or `include file not found` line means incomplete output. It also rewrites the tracked `docs/*.html` artefacts.
+Read the build log: any `ERROR` or `include file not found` line means incomplete output. An image built from AA_GLOBAL with `--failure-level=ERROR` then prints `FAILED <file>` and exits 1; an older image prints `generated <file>` and exits 0 regardless. The build also rewrites the tracked `docs/*.html` artefacts.
 
 ```bash
 # regenerate class tables (NEVER hand-edit docs/UML/classes/*.adoc) — run from this repo's root.
@@ -67,7 +67,7 @@ docker run --rm --user $(id -u):$(id -g) \
 # then diff "$OUT" against docs/UML/classes and copy over the tables you changed
 ```
 
-Regenerated this way, the six tables match the committed ones except the four `status` rows, where the publisher closes the code span before the line break; that difference is cosmetic.
+Regenerated this way, the six tables match the committed ones byte for byte. Do not pass the schema id instead of the path (`legacy-adoc openehr_term_3.1.0 …`): bmm-publisher then exits 0 but silently renders its bundled copy of the BMM, not this repo's.
 
 To change a class/attribute/function/invariant, edit the BMM schema and regenerate — never touch the generated tables (see skill `openehr-specs:class-generation`).
 <!-- openehr-scaffold:end build -->

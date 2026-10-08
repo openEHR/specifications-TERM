@@ -86,6 +86,13 @@
             "title": "Terminology BMM",
             "description": "BMM files for openEHR Terminology classes",
             "link": "https://github.com/openEHR/specifications-ITS-BMM/tree/master/components/TERM"
+        },
+        {
+            "id": "ITS-BMM-BASE",
+            "dependency": {
+                "component": "BASE",
+                "release": "development"
+            }
         }
     ],
     "jira": {

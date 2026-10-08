@@ -1,6 +1,6 @@
 {
   "template_set": "openehr-specs/scaffold",
-  "revision": 1,
+  "revision": 2,
   "variables": {
     "component": "TERM",
     "repo_name": "specifications-TERM",
@@ -14,6 +14,7 @@
     "default_branch": "master",
     "license": "cc-by-sa-3.0",
     "bmm_schema_id": "openehr_term_3.1.0",
+    "base_bmm_schema_id": "openehr_base_1.3.0",
     "documents": "`SupportTerminology`, `en_openehr_terminology.xml`, `openehr_external_terminologies.xml`, `PropertyUnitData.xml`"
   },
   "defaulted": [
@@ -29,7 +30,7 @@
       }
     },
     "claude-md": {
-      "sha256": "577b902329a179d241ef2fbd35fa391f365e86f5057cae156d2444bb0546c364"
+      "sha256": "da9e13a59e48d21ccf0a64b7765bf0aeb0a54ace0992da5c43782976ed148fb7"
     },
     "claude-settings": {
       "items": [

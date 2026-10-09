@@ -56,8 +56,10 @@ Read the build log: any `ERROR` or `include file not found` line means incomplet
 ```bash
 # regenerate class tables (NEVER hand-edit docs/UML/classes/*.adoc) — run from this repo's root.
 # Pass the repo BMM by PATH: a bare schema id (openehr_term_3.1.0) uses the image's bundled copy, which lags this repo.
-# TERM's tables link to BASE types, so also pass the sibling BASE BMM as a dependency (-d); without it
-# those links come out as /classes/String instead of /releases/BASE/{base_release}/...
+# The BMM lists BASE in `includes`, but bmm-publisher does not load included schemas itself. TERM's tables
+# link to BASE types (String, List, Iso8601_date), so also pass the sibling BASE BMM as a dependency (-d);
+# without it bmm-publisher warns "Type ... is not defined in any loaded schema" and those links come out as
+# /classes/String instead of /releases/BASE/{base_release}/...
 OUT=$(mktemp -d)
 docker run --rm --user $(id -u):$(id -g) \
   -v "$PWD/computable/BMM/openehr_term_3.1.0.bmm.json":/in/openehr_term_3.1.0.bmm.json:ro \

@@ -7,6 +7,11 @@
     "schema_lifecycle_state": "stable",
     "schema_description": "term",
     "schema_author": "Thomas Beale <thomas.beale@openehr.org>, code-generator",
+    "includes": {
+        "openehr_base_1.3.0": {
+            "id": "openehr_base_1.3.0"
+        }
+    },
     "packages": {
         "org.openehr.term.terminology": {
             "name": "org.openehr.term.terminology",

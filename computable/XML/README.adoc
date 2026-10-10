@@ -7,6 +7,9 @@ openEHR reference model terminology, and artefacts for binding or using standard
 
 == 3.1.0 (unreleased)
 
+- Restored `pt-pt` in the `languages` code set of openehr_external_terminologies.xml (it was marked DEPRECATED in 2.4.0, although it is a valid RFC 5646 tag); named the replacement codes for the invalid or withdrawn `ji`, `sb`, `sx` and `sz`; added `ro-md` and `ru-md` and deprecated `ro-mo` and `ru-mo` (region `MO` is Macao, Moldova is `MD`).
+See https://openehr.atlassian.net/browse/SPECTERM-36 (related: https://openehr.atlassian.net/browse/SPECTERM-18, https://openehr.atlassian.net/browse/SPECPR-95)
+
 - Added ng/mL/cm3 and μg/L/cm3 (PSA density) to PropertyUnitData.xml under a new property "Concentration per volume"; added missing property concepts 761-765 to the property vocabulary.
 See https://openehr.atlassian.net/browse/SPECPR-450
 

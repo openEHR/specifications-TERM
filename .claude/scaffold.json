@@ -1,6 +1,6 @@
 {
   "template_set": "openehr-specs/scaffold",
-  "revision": 2,
+  "revision": 4,
   "variables": {
     "component": "TERM",
     "repo_name": "specifications-TERM",
@@ -14,7 +14,7 @@
     "default_branch": "master",
     "license": "cc-by-sa-3.0",
     "bmm_schema_id": "openehr_term_3.1.0",
-    "base_bmm_schema_id": "openehr_base_1.3.0",
+    "bmm_dependencies": "openehr_base_1.3.0",
     "documents": "`SupportTerminology`, `en_openehr_terminology.xml`, `openehr_external_terminologies.xml`, `PropertyUnitData.xml`"
   },
   "defaulted": [
@@ -24,7 +24,7 @@
   "files": {
     "agents": {
       "regions": {
-        "plugin": "ed57e86dd75c17808e407fcb40af752dfbde9b33873a84d84b9bc0e4f093efcb",
+        "plugin": "4bb62f3ff169e4c680694d622c3037e805d3b93bc50504e0a34fcb147b6eb6e4",
         "build": "f25f3f3ed8338d361cc1eadf577321a20b09e5253bfb3c654c2f185b0aa9c360",
         "conventions": "33a3a817ec8e93b1c16fb90ba202aa677c13d575b159c3a3b615f8d92dae96ac"
       }

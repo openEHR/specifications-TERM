@@ -1,4 +1,3 @@
-include::partial$module_vars.adoc[]
 
 :attestation_reason_description: This vocabulary codifies attestation statuses of Compositions \
    or other elements of the health record. \

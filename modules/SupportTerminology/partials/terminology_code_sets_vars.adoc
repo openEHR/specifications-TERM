@@ -1,4 +1,3 @@
-include::partial$module_vars.adoc[]
 
 :countries_description: This code set defined by the {iso_3166_1_codes_alpha_2_codes}[ISO 3166-1 "alpha-2"] \
    standard consists of two-character names of countries and country subdivisions.

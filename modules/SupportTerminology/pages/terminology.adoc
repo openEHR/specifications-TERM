@@ -1,4 +1,6 @@
 include::partial$module_vars.adoc[]
+include::partial$terminology_code_sets_vars.adoc[]
+include::partial$terminology_vocabularies_vars.adoc[]
 
 = Terminology
 

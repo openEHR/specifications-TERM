@@ -2223,6 +2223,7 @@
     Status: <em>active</em></p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">This code set consists of the language tags defined by <a href="https://tools.ietf.org/html/rfc5646">RFC-5646</a>. The syntax consists of the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1 "alpha-2"</a> form of names of languages, often followed by a region subtag from the <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Current_codes">ISO 3166-1 "alpha-2"</a> country list. These are maintained by the <a href="https://www.iana.org/assignments/language-subtag-registry">IANA Language Subtag Registry</a>.<br>
 NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" covers many more languages of cultural or indigenous interest, but which nevertheless are unlikely to be supported by current software or operating systems.<br>
+Region-qualified tags such as "pt-pt" or "pt-br" are valid RFC-5646 tags and are listed where a regional variant is in use. A code is marked DEPRECATED only when it is invalid or withdrawn in the IANA Language Subtag Registry, not because it denotes a regional variant. Tags are case-insensitive; the conventional form uses an uppercase region subtag, e.g. "pt-PT".<br>
    <br>
     Used in: <code><a href="https://specifications.openehr.org/releases/RM/latest/ehr.html#_entry_class" target="_blank" rel="noopener">ENTRY.language</a>, <a href="https://specifications.openehr.org/releases/RM/latest/ehr.html#_composition_class" target="_blank" rel="noopener">COMPOSITION.language</a>, <a href="https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_encapsulated_class" target="_blank" rel="noopener">DV_ENCAPSULATED.language</a></code></p></td>
 </tr>
@@ -3417,7 +3418,7 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>pt-pt</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Portuguese (Portugal) - DEPRECATED</p>
+<p>Portuguese (Portugal)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -3464,9 +3465,16 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ro-md</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Romanian (Moldova)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ro-mo</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Romanian (Moldavia)</p>
+<p>Romanian (Moldavia) - DEPRECATED (MO is Macao; use ro-md)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -3492,9 +3500,16 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ru-md</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Russian (Moldova)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ru-mo</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Russian (Moldavia)</p>
+<p>Russian (Moldavia) - DEPRECATED (MO is Macao; use ru-md)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -3508,7 +3523,7 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>sz</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Sami (Lappish) - DEPRECATED</p>
+<p>Sami (Lappish) - DEPRECATED (use se, Northern Sami)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -3550,7 +3565,7 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>sb</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Serbian - DEPRECATED</p>
+<p>Serbian - DEPRECATED (use sr)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -3746,7 +3761,7 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>sx</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Sutu - DEPRECATED</p>
+<p>Sutu - DEPRECATED (use st)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -3977,7 +3992,7 @@ NOTE: This code set does not cover all languages, whereas ISO 639-2 "alpha-3" co
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ji</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Yiddish - DEPRECATED</p>
+<p>Yiddish - DEPRECATED (use yi)</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -5079,6 +5094,13 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>765</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Concentration per volume</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>350</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Density</p>
@@ -5166,6 +5188,13 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>364</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Energy, linear</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>761</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Flow rate (volume) per area</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -5268,6 +5297,13 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>764</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Length per area</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>499</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Light intensity</p>
@@ -5327,6 +5363,13 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>349</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Mass per area</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>763</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Mitotic count</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -5537,6 +5580,13 @@ External reference: <a href="http://unitsofmeasure.org/ucum.html" target="_blank
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>129</strong></p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Volume</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>762</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Volume per area</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
@@ -6658,6 +6708,13 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>672</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>interoperability</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">active</p></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -7613,10 +7670,30 @@ External reference: <a href="https://www.hl7.org/fhir/v3/ParticipationMode/cs.ht
 <th class="tableblock halign-center valign-top" colspan="4"><p class="tableblock"><strong>TERM Release 3.1.0 (unreleased)</strong></p></th>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue"></a>3.1.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue"></a>3.1.6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-36" target="_blank" rel="noopener">SPECTERM-36</a>: Restored <code>pt-pt</code> in the <code>languages</code> code set of openehr_external_terminologies.xml (it had been marked DEPRECATED in Release 2.4.0, although it is a valid RFC 5646 tag, like the other language-region tags in the code set); named the replacement codes for the invalid or withdrawn <code>ji</code>, <code>sb</code>, <code>sx</code> and <code>sz</code>; corrected the Moldova entries by adding <code>ro-md</code> and <code>ru-md</code> and deprecating <code>ro-mo</code> and <code>ru-mo</code> (region <code>MO</code> is Macao); documented the policy for region-qualified codes in the <code>languages</code> code set description. See also <a href="https://specifications.openehr.org/tickets/SPECTERM-18" target="_blank" rel="noopener">SPECTERM-18</a> and <a href="https://specifications.openehr.org/tickets/SPECPR-95" target="_blank" rel="noopener">SPECPR-95</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">V Pereira</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>10 Oct 2026</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-31" target="_blank" rel="noopener">SPECTERM-31</a>: Added "interoperability" (openEHR code 672) to the term mapping purpose vocabulary in openehr_terminology.xml, with es, ja, pt and zh translations.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A Vidrean,<br>
+S Kohler</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09 Oct 2026</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECPR-450" target="_blank" rel="noopener">SPECPR-450</a>: Added ng/mL/cm3 and μg/L/cm3 (PSA density) to PropertyUnitData.xml under a new property "Concentration per volume" (openEHR code 765); added the property concepts 761-765 missing from the property vocabulary in openehr_terminology.xml.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C Ehrentraut,<br>
+S Kohler</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09 Oct 2026</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://specifications.openehr.org/tickets/SPECTERM-34">SPECTERM-34</a>: Added Chinese translation of the openehr_terminology.xml.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">L Zhang</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a id="latest_issue_date"></a>22 Aug 2024</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22 Aug 2024</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"></td>

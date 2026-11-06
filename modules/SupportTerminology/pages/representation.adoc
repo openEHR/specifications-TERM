@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Representation
 
 == Model
@@ -6,23 +8,23 @@ The UML model of the openEHR code sets and vocabularies is shown below. Note tha
 
 [.text-center]
 .openEHR Terminology Model
-image::{uml_diagrams_uri}/TERM-term.terminology.svg[id=openehr_terminology_model, align="center"]
+image::ROOT:uml/TERM-term.terminology.svg[id=openehr_terminology_model, align="center"]
 
 The `TERMINOLOGY` type above may include both code sets and vocabularies, however, for practical purposes, a single instance is used to represent all code sets, while each translation of the vocabularies has its own instance.
 
 === Class Definitions
 
-include::{uml_export_dir}/classes/{pkg}terminology.adoc[leveloffset=+1]
+include::ROOT:partial$classes/terminology.adoc[leveloffset=+1]
 
-include::{uml_export_dir}/classes/{pkg}code_set.adoc[leveloffset=+1]
+include::ROOT:partial$classes/code_set.adoc[leveloffset=+1]
 
-include::{uml_export_dir}/classes/{pkg}code.adoc[leveloffset=+1]
+include::ROOT:partial$classes/code.adoc[leveloffset=+1]
 
-include::{uml_export_dir}/classes/{pkg}terminology_group.adoc[leveloffset=+1]
+include::ROOT:partial$classes/terminology_group.adoc[leveloffset=+1]
 
-include::{uml_export_dir}/classes/{pkg}terminology_concept.adoc[leveloffset=+1]
+include::ROOT:partial$classes/terminology_concept.adoc[leveloffset=+1]
 
-include::{uml_export_dir}/classes/{pkg}terminology_status.adoc[leveloffset=+1]
+include::ROOT:partial$classes/terminology_status.adoc[leveloffset=+1]
 
 == XML Representation
 

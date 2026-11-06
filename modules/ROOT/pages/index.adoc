@@ -1,0 +1,10 @@
+= openEHR Terminology
+
+[.spec-meta-line]
+Status: [.spec-status.spec-status-stable]#STABLE#  Release: [.release-tag]#{page-component-version}#
+
+image::openehr_block_diagram.svg[openEHR openEHR Terminology block diagram,role=block-diagram]
+
+== Specifications
+
+* xref:SupportTerminology:index.adoc[Support Terminology specification] [.spec-status.spec-status-stable]#STABLE# — Support Terminology and code-sets needed for RM, AM and SM

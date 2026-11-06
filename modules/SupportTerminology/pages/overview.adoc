@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Overview
 
 This document provides a documentary expression of the openEHR Support Terminology, consisting of code sets and vocabulary that provide values for the coded attributes in the openEHR Reference Model. The computable form of this terminology is available in the {openehr_terminology_resources}[openEHR `specifications-TERM` repository^], and is the definitive expression. Access to the terminology in the openEHR reference model is via the classes defined in the package `rm.support.terminology`.

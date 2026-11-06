@@ -19,11 +19,11 @@ h|*1..1*
 a|Language of this terminology, as an ISO:639 2-letter code.
 
 h|*0..1*
-|*code_sets*: `xref:{class_list}[List]<xref:{class_code_set}[CODE_SET]>`
+|*code_sets*: `xref:{class_list}[List]<xref:SupportTerminology:representation.adoc#_code_set_class[CODE_SET]>`
 a|Code sets in this Terminology.
 
 h|*0..1*
-|*vocabularies*: `xref:{class_list}[List]<xref:{class_terminology_group}[TERMINOLOGY_GROUP]>`
+|*vocabularies*: `xref:{class_list}[List]<xref:SupportTerminology:representation.adoc#_terminology_group_class[TERMINOLOGY_GROUP]>`
 a|Vocabularies of coded terms in this terminology.
 
 h|*0..1*

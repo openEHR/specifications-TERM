@@ -1,0 +1,46 @@
+include::partial$module_vars.adoc[]
+
+= Appendix
+
+
+== Acknowledgements
+
+The work reported in this specification and related artefacts has been funded in part by the following organisations:
+
+* FreshEHR Informatics, UK
+* Ocean Informatics, Australia
+* Code24, The Netherlands
+
+=== Trademarks
+
+* 'openEHR' is a trademark of the openEHR Foundation
+
+
+
+
+ifdef::package_qualifiers[]
+endif::[]
+== Requests for new Terminology Codes
+
+Requests for codes may be made by raising a new issue on the {component_prs}[specifications Problem Report tracker^]; the 'Component' field must be set to 'TERM - openEHR Terminology'.
+
+== Creating and Maintaining Translations
+
+A new translation is created by creating a new translated form of the English-language (or another convenient language, e.g. Spanish, to create Portuguese etc) {openehr_terminology_resources}/tree/master/computable/XML/en/openehr_terminology.xml[terminology file^].
+
+This may be done by the Git workflow of:
+
+* fork the {openehr_terminology_resources}[`specifications-TERM` repository^];
+* create the new file `openehr_terminology.xml` in a directory `/computable/XML/xx`, where `xx` is a ISO 639-1 two-character language code;
+* when translation is complete, create a Pull Request.
+* raise a new issue on the {component_prs}[specifications Problem Report tracker^] with 'Component' field must be set to 'TERM - openEHR Terminology'.
+
+Translations are maintained when new codes are added by means of notifications to editor or the GitHub authors of current translations.
+
+ifdef::package_qualifiers[]
+:pkg: org.openehr.term.terminology.
+endif::[]
+
+:sectnums!:
+
+include::partial$amendment_record.adoc[]

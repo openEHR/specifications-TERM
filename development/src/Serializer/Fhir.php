@@ -62,7 +62,7 @@ class Fhir {
         $contact->addchild('name')->addAttribute('value', 'openEHR TERM specifications');
         $telecom = $contact->addchild('telecom');
         $telecom->addchild('system')->addAttribute('value', 'url');
-        $telecom->addchild('value')->addAttribute('value', 'https://specifications.openehr.org/releases/TERM/Release-'.$terminology->version ?: VERSION);
+        $telecom->addchild('value')->addAttribute('value', 'https://specifications.openehr.org/releases/TERM/Release-' . ($terminology->version ?: VERSION));
         $xml->addchild('caseSensitive')->addAttribute('value', 'true');
     }
 

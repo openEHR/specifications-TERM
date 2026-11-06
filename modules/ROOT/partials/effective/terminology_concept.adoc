@@ -6,13 +6,13 @@
 
 2+h|*Attributes*
 
-|*id*: `link:/classes/String[String] ` [1..1]
+|*id*: `xref:{class_string}[String]` [1..1]
 a|The code of this concept.
 
-|*rubric*: `link:/classes/String[String] ` [1..1]
+|*rubric*: `xref:{class_string}[String]` [1..1]
 a|The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.
 
-|*status*: `xref:{class_terminology_status}[TERMINOLOGY_STATUS]` [0..1] +
-`{default{nbsp}={nbsp}}`
+|*status*: `xref:SupportTerminology:representation.adoc#_terminology_status_enumeration[TERMINOLOGY_STATUS]` [0..1] +
+`{default{nbsp}={nbsp}active}`
 a|Status of this concept within the vocabulary.
 |===

@@ -6,15 +6,15 @@
 
 2+h|*Attributes*
 
-|*value*: `link:/classes/String[String] ` [1..1]
+|*value*: `xref:{class_string}[String]` [1..1]
 a|The code string for this code entity, e.g. `"AF"`.
 
-|*description*: `link:/classes/String[String] ` [0..1]
+|*description*: `xref:{class_string}[String]` [0..1]
 a|Optional description of this code, e.g. `"AFGHANISTAN"`.
 
 This field may be used to hold translations of the description in a language-specific copy of the English language original code set.
 
-|*status*: `xref:{class_terminology_status}[TERMINOLOGY_STATUS]` [0..1] +
-`{default{nbsp}={nbsp}}`
+|*status*: `xref:SupportTerminology:representation.adoc#_terminology_status_enumeration[TERMINOLOGY_STATUS]` [0..1] +
+`{default{nbsp}={nbsp}active}`
 a|Status of this code within the code set.
 |===

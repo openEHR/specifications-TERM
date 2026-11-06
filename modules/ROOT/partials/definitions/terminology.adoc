@@ -11,26 +11,26 @@ h|*Attributes*
 ^h|*Meaning*
 
 h|*1..1*
-|*name*: `link:/classes/String[String] `
+|*name*: `xref:{class_string}[String]`
 a|Name of this terminology.
 
 h|*1..1*
-|*language*: `link:/classes/String[String] `
+|*language*: `xref:{class_string}[String]`
 a|Language of this terminology, as an ISO:639 2-letter code.
 
 h|*0..1*
-|*code_sets*: `link:/classes/List[List] <xref:{class_code_set}[CODE_SET]>`
+|*code_sets*: `xref:{class_list}[List]<xref:SupportTerminology:representation.adoc#_code_set_class[CODE_SET]>`
 a|Code sets in this Terminology.
 
 h|*0..1*
-|*vocabularies*: `link:/classes/List[List] <xref:{class_terminology_group}[TERMINOLOGY_GROUP]>`
+|*vocabularies*: `xref:{class_list}[List]<xref:SupportTerminology:representation.adoc#_terminology_group_class[TERMINOLOGY_GROUP]>`
 a|Vocabularies of coded terms in this terminology.
 
 h|*0..1*
-|*version*: `link:/classes/String[String] `
+|*version*: `xref:{class_string}[String]`
 a|Version of this instance of the terminology.
 
 h|*0..1*
-|*date*: `link:/classes/Iso8601_date[Iso8601_date] `
+|*date*: `xref:{class_iso8601_date}[Iso8601_date]`
 a|Date of issue of this version of the terminology.
 |===

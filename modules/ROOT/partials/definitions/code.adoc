@@ -11,17 +11,17 @@ h|*Attributes*
 ^h|*Meaning*
 
 h|*1..1*
-|*value*: `link:/classes/String[String] `
+|*value*: `xref:{class_string}[String]`
 a|The code string for this code entity, e.g. `"AF"`.
 
 h|*0..1*
-|*description*: `link:/classes/String[String] `
+|*description*: `xref:{class_string}[String]`
 a|Optional description of this code, e.g. `"AFGHANISTAN"`.
 
 This field may be used to hold translations of the description in a language-specific copy of the English language original code set.
 
 h|*0..1*
-|*status*: `xref:{class_terminology_status}[TERMINOLOGY_STATUS]` +
-`{default{nbsp}={nbsp}}`
+|*status*: `xref:SupportTerminology:representation.adoc#_terminology_status_enumeration[TERMINOLOGY_STATUS]` +
+`{default{nbsp}={nbsp}active}`
 a|Status of this code within the code set.
 |===

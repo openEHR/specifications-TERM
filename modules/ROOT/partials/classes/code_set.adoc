@@ -1,0 +1,21 @@
+=== CODE_SET Class
+
+[tabs]
+====
+Definition::
++
+include::ROOT:partial$definitions/code_set.adoc[]
+
+Effective::
++
+include::ROOT:partial$effective/code_set.adoc[]
+
+BMM::
++
+include::ROOT:partial$BMMs/code_set.adoc[]
+
+UML::
++
+image::ROOT:uml/classes/code_set.svg[]
+
+====

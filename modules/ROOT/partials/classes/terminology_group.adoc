@@ -1,0 +1,21 @@
+=== TERMINOLOGY_GROUP Class
+
+[tabs]
+====
+Definition::
++
+include::ROOT:partial$definitions/terminology_group.adoc[]
+
+Effective::
++
+include::ROOT:partial$effective/terminology_group.adoc[]
+
+BMM::
++
+include::ROOT:partial$BMMs/terminology_group.adoc[]
+
+UML::
++
+image::ROOT:uml/classes/terminology_group.svg[]
+
+====

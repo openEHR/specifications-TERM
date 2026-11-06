@@ -1,0 +1,36 @@
+[cols="^1,3,5"]
+|===
+h|*Class*
+2+^h|*TERMINOLOGY*
+
+h|*Description*
+2+a|Container for code sets and/or vocabularies that belong to a given logical terminology.
+
+h|*Attributes*
+^h|*Signature*
+^h|*Meaning*
+
+h|*1..1*
+|*name*: `xref:{class_string}[String]`
+a|Name of this terminology.
+
+h|*1..1*
+|*language*: `xref:{class_string}[String]`
+a|Language of this terminology, as an ISO:639 2-letter code.
+
+h|*0..1*
+|*code_sets*: `xref:{class_list}[List]<xref:{class_code_set}[CODE_SET]>`
+a|Code sets in this Terminology.
+
+h|*0..1*
+|*vocabularies*: `xref:{class_list}[List]<xref:{class_terminology_group}[TERMINOLOGY_GROUP]>`
+a|Vocabularies of coded terms in this terminology.
+
+h|*0..1*
+|*version*: `xref:{class_string}[String]`
+a|Version of this instance of the terminology.
+
+h|*0..1*
+|*date*: `xref:{class_iso8601_date}[Iso8601_date]`
+a|Date of issue of this version of the terminology.
+|===

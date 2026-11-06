@@ -1,0 +1,18 @@
+[cols="2,3", frame=none, grid=rows]
+|===
+2+^h|*TERMINOLOGY_CONCEPT*
+
+2+a|A single terminology concept in a vocabulary.
+
+2+h|*Attributes*
+
+|*id*: `xref:{class_string}[String]` [1..1]
+a|The code of this concept.
+
+|*rubric*: `xref:{class_string}[String]` [1..1]
+a|The rubric, i.e. linguistic expression, of this concept, in the language of this terminology instance.
+
+|*status*: `xref:{class_terminology_status}[TERMINOLOGY_STATUS]` [0..1] +
+`{default{nbsp}={nbsp}active}`
+a|Status of this concept within the vocabulary.
+|===

@@ -1,23 +1,15 @@
-=== CODE_SET Class
-
-[cols="^1,3,5"]
+[cols="2,3", frame=none, grid=rows]
 |===
-h|*Class*
 2+^h|*CODE_SET*
 
-h|*Description*
 2+a|A code set.
 
-h|*Attributes*
-^h|*Signature*
-^h|*Meaning*
+2+h|*Attributes*
 
-h|*1..1*
-|*name*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
+|*name*: `xref:{class_string}[String]` [1..1]
 a|Name of this code set.
 
-h|*1..1*
-|*openehr_id*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
+|*openehr_id*: `xref:{class_string}[String]` [1..1]
 a|Identifier used for code set in the openEHR Reference Model. The value is inferred from the `_name_` attribute.
 
 Valid values take the form of an xs:NCName value, i.e. cannot contain:
@@ -27,16 +19,13 @@ Valid values take the form of an xs:NCName value, i.e. cannot contain:
 
 An NCName cannot begin with a number, dot or minus character although these can appear later in the value.
 
-h|*1..1*
-|*issuer*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
+|*issuer*: `xref:{class_string}[String]` [1..1]
 a|Name of the issuing organisation.
 
-h|*0..1*
-|*codes*: `link:/releases/BASE/{base_release}/foundation_types.html#_list_class[List^]<<<_code_class,CODE>>>`
+|*codes*: `xref:{class_list}[List]<xref:{class_code}[CODE]>` [0..1]
 a|Codes in this code set.
 
-h|*0..1*
-|*external_id*: `link:/releases/BASE/{base_release}/foundation_types.html#_string_class[String^]`
+|*external_id*: `xref:{class_string}[String]` [0..1]
 a|An optional identifier assumed by openEHR to be the identifier of this code set, based on its published name, with spaces replaced by underscores.
 
 Valid values take the form of an xs:NCName value, i.e. cannot contain:
@@ -46,8 +35,7 @@ Valid values take the form of an xs:NCName value, i.e. cannot contain:
 
 An NCName cannot begin with a number, dot or minus character although these can appear later in the value.
 
-h|*0..1*
-|*status*: `<<_terminology_status_enumeration,TERMINOLOGY_STATUS>>` +
+|*status*: `xref:{class_terminology_status}[TERMINOLOGY_STATUS]` [0..1] +
 `{default{nbsp}={nbsp}active}`
 a|Status of this code set.
 |===

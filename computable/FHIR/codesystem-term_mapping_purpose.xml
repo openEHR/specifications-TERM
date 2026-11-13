@@ -17,7 +17,7 @@
   </contact>
   <caseSensitive value="true"/>
   <content value="complete"/>
-  <count value="4"/>
+  <count value="5"/>
   <concept>
     <code value="669"/>
     <display value="public health"/>
@@ -96,6 +96,26 @@
     <designation>
       <language value="zh"/>
       <value value="互操作性"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="673"/>
+    <display value="legacy conversion"/>
+    <designation>
+      <language value="es"/>
+      <value value="conversión de datos heredados"/>
+    </designation>
+    <designation>
+      <language value="ja"/>
+      <value value="レガシーデータ変換"/>
+    </designation>
+    <designation>
+      <language value="pt"/>
+      <value value="conversão de dados legados"/>
+    </designation>
+    <designation>
+      <language value="zh"/>
+      <value value="遗留数据转换"/>
     </designation>
   </concept>
 </CodeSystem>

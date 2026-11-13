@@ -430,6 +430,7 @@ h| *Code*      h| *Description*       h| *Status*
 | *670*      a| reimbursement       | active
 | *671*      a| research study       | active
 | *672*      a| interoperability       | active
+| *673*      a| legacy conversion       | active
 |===
 
 === Event Math Function

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <url value="https://specifications.openehr.org/fhir/conceptmap-legacy_terminology_ids"/>
+  <version value="3.1.0"/>
+  <name value="legacy_terminology_ids"/>
+  <title value="Legacy openEHR terminology ids to HL7 code system URIs"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-11-27"/>
+  <publisher value="openEHR International"/>
+  <contact>
+    <name value="openEHR TERM specifications"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://specifications.openehr.org/releases/TERM/Release-3.1.0"/>
+    </telecom>
+  </contact>
+  <description value="Maps legacy short-name values of TERMINOLOGY_ID (e.g. SNOMED-CT) to the HL7 code system URI recommended for new data. Platforms use it internally to resolve legacy terminology ids to URIs, e.g. when queried. Source codes are the legacy short names; target codes are URIs."/>
+  <group>
+    <target value="urn:ietf:rfc:3986"/>
+    <element>
+      <code value="ATC"/>
+      <display value="Anatomical Therapeutic Chemical Classification"/>
+      <target>
+        <code value="http://www.whocc.no/atc"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ATC/DDD"/>
+      <display value="Defined Daily Dose for each substance"/>
+      <target>
+        <code value="http://www.whocc.no/atc_ddd_index"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="CMS"/>
+      <display value="Codes for Medicare service locations"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/place-of-service"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="CPT4"/>
+      <display value="Current Procedural Terminology, 4th edition"/>
+      <target>
+        <code value="http://www.ama-assn.org/go/cpt"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="CLINVAR"/>
+      <display value="Database for clinical significance of variants"/>
+      <target>
+        <code value="http://www.ncbi.nlm.nih.gov/clinvar"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="CVX"/>
+      <display value="CDC Vaccine Administered CVX (NCIRD)"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/cvx"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="HCPCS"/>
+      <display value="Healthcare Common Procedure Coding System (CMS)"/>
+      <target>
+        <code value="http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-10"/>
+      <display value="International Classification of Diseases 10th Edition"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/icd-10"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-10-CM"/>
+      <display value="International Classification of Diseases, Tenth Revision, Clinical Modification (NCHS)"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/icd-10-cm"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-10-GM"/>
+      <display value="ICD-10 classification in Germany"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/dmdICD10"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-9"/>
+      <display value="International Classification of Diseases 9th Edition"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/icd-9"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-9-CM"/>
+      <display value="International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 1 and 2 (NCHS)"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/icd-9-cm"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-9-PROC"/>
+      <display value="International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS)"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/icd-9-cm"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-O-3"/>
+      <display value="International Classification of Diseases for Oncology 3rd Edition"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/icd-o-3"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICD-11"/>
+      <display value="International Classification of Diseases 11th Edition"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/icd-11"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="MESH"/>
+      <display value="Medical Subject Headings (NLM)"/>
+      <target>
+        <code value="http://www.nlm.nih.gov/mesh"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="MED-RT"/>
+      <display value="Medication Reference Terminology (MED-RT)"/>
+      <target>
+        <code value="http://va.gov/terminology/medrt"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="NAACCR"/>
+      <display value="North American Association of Central Cancer Registries Data Standards &amp; Data Dictionary Volume II (NAACCR)"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/naaccrCodes"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="NDC"/>
+      <display value="National Drug Code (FDA and manufacturers)"/>
+      <target>
+        <code value="http://hl7.org/fhir/sid/ndc"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="NDF-RT"/>
+      <display value="National Drug File - Reference Terminology"/>
+      <target>
+        <code value="http://hl7.org/fhir/ndfrt"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="OPS"/>
+      <display value="Operationen- und Prozedurenschlüssel for medical procedures"/>
+      <target>
+        <code value="http://fhir.de/CodeSystem/bfarm/ops"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="RADLEX"/>
+      <display value="Radiology lexicon for radiological terminology"/>
+      <target>
+        <code value="http://radlex.org"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="SNOMED-CT"/>
+      <display value="Systematized Nomenclature of Medicine"/>
+      <target>
+        <code value="http://snomed.info/sct"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="SNOMED-VETERINARY"/>
+      <display value="SNOMED terminology for veterinary sciences"/>
+      <target>
+        <code value="http://snomed.info/vet"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="UCUM"/>
+      <display value="Unified Code for Units of Measure"/>
+      <target>
+        <code value="http://unitsofmeasure.org"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ORDO"/>
+      <display value="The Orphanet Rare Disease ontology (ORDO)"/>
+      <target>
+        <code value="http://www.orpha.net"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="UNII"/>
+      <display value="Unique Ingredient Identifier (UNII)"/>
+      <target>
+        <code value="http://fdasis.nlm.nih.gov"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="HL7V2"/>
+      <display value="Health Level Seven version 2"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/v2"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="HL7V3"/>
+      <display value="Health Level Seven version 3"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/v3"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="PCLOCD"/>
+      <display value="pan-Canadian LOINC Observation Code Database (pCLOCD)"/>
+      <target>
+        <code value="https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="IANA-CHARACTER-SETS"/>
+      <display value="IANA character sets"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/v3-Charset"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="IANA-MEDIA-TYPES"/>
+      <display value="IANA media types"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/v3-mediaType"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ISO-639-1"/>
+      <display value="2-character ISO language codes"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/iso639-1"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ISO-639-3"/>
+      <display value="3-character ISO language codes"/>
+      <target>
+        <code value="http://terminology.hl7.org/CodeSystem/iso639-3"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

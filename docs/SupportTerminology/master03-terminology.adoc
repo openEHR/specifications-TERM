@@ -14,6 +14,10 @@ Within the openEHR vocabularies, terms are identified in groups, each with its o
 
 include::codesets/openehr_terminology-vocabularies.adoc[]
 
+== Legacy Terminology Identifiers
 
+New data should use URIs as the value of `TERMINOLOGY_ID`, as described in the {openehr_base_types}#_terminology_identifiers[BASE Base Types specification^]: for example `http://snomed.info/sct` instead of `SNOMED-CT`. Data created before this recommendation uses short names, such as `SNOMED-CT` or `ICD-10`, which remain valid as legacy identifiers.
 
+The conversion table below maps these legacy short names to the HL7 code system URIs. Platforms use it internally to resolve a legacy terminology identifier to its URI, for example when a query uses the URI and the stored data uses the short name, so that both match. The table is published as a {hl7_fhir}/conceptmap.html[FHIR ConceptMap^] in the {openehr_terminology_resources}[openEHR `specifications-TERM` repository^], file `computable/FHIR/conceptmap-legacy_terminology_ids.xml`; the source codes are the legacy short names and the target codes are URIs.
 
+include::codesets/legacy_terminology_ids-table.adoc[]

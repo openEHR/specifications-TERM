@@ -1,0 +1,39 @@
+[cols="2,3,4", options="header"]
+|===
+|Legacy id|Terminology|HL7 URI
+
+|`ATC`|Anatomical Therapeutic Chemical Classification|`http://www.whocc.no/atc`
+|`ATC/DDD`|Defined Daily Dose for each substance|`http://www.whocc.no/atc_ddd_index`
+|`CMS`|Codes for Medicare service locations|`http://terminology.hl7.org/CodeSystem/place-of-service`
+|`CPT4`|Current Procedural Terminology, 4th edition|`http://www.ama-assn.org/go/cpt`
+|`CLINVAR`|Database for clinical significance of variants|`http://www.ncbi.nlm.nih.gov/clinvar`
+|`CVX`|CDC Vaccine Administered CVX (NCIRD)|`http://hl7.org/fhir/sid/cvx`
+|`HCPCS`|Healthcare Common Procedure Coding System (CMS)|`http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets`
+|`ICD-10`|International Classification of Diseases 10th Edition|`http://hl7.org/fhir/sid/icd-10`
+|`ICD-10-CM`|International Classification of Diseases, Tenth Revision, Clinical Modification (NCHS)|`http://hl7.org/fhir/sid/icd-10-cm`
+|`ICD-10-GM`|ICD-10 classification in Germany|`http://terminology.hl7.org/CodeSystem/dmdICD10`
+|`ICD-9`|International Classification of Diseases 9th Edition|`http://hl7.org/fhir/sid/icd-9`
+|`ICD-9-CM`|International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 1 and 2 (NCHS)|`http://hl7.org/fhir/sid/icd-9-cm`
+|`ICD-9-PROC`|International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS)|`http://hl7.org/fhir/sid/icd-9-cm`
+|`ICD-O-3`|International Classification of Diseases for Oncology 3rd Edition|`http://hl7.org/fhir/sid/icd-o-3`
+|`ICD-11`|International Classification of Diseases 11th Edition|`http://hl7.org/fhir/sid/icd-11`
+|`MESH`|Medical Subject Headings (NLM)|`http://www.nlm.nih.gov/mesh`
+|`MED-RT`|Medication Reference Terminology (MED-RT)|`http://va.gov/terminology/medrt`
+|`NAACCR`|North American Association of Central Cancer Registries Data Standards & Data Dictionary Volume II (NAACCR)|`http://terminology.hl7.org/CodeSystem/naaccrCodes`
+|`NDC`|National Drug Code (FDA and manufacturers)|`http://hl7.org/fhir/sid/ndc`
+|`NDF-RT`|National Drug File - Reference Terminology|`http://hl7.org/fhir/ndfrt`
+|`OPS`|Operationen- und Prozedurenschlüssel for medical procedures|`http://fhir.de/CodeSystem/bfarm/ops`
+|`RADLEX`|Radiology lexicon for radiological terminology|`http://radlex.org`
+|`SNOMED-CT`|Systematized Nomenclature of Medicine|`http://snomed.info/sct`
+|`SNOMED-VETERINARY`|SNOMED terminology for veterinary sciences|`http://snomed.info/vet`
+|`UCUM`|Unified Code for Units of Measure|`http://unitsofmeasure.org`
+|`ORDO`|The Orphanet Rare Disease ontology (ORDO)|`http://www.orpha.net`
+|`UNII`|Unique Ingredient Identifier (UNII)|`http://fdasis.nlm.nih.gov`
+|`HL7V2`|Health Level Seven version 2|`http://terminology.hl7.org/CodeSystem/v2`
+|`HL7V3`|Health Level Seven version 3|`http://terminology.hl7.org/CodeSystem/v3`
+|`PCLOCD`|pan-Canadian LOINC Observation Code Database (pCLOCD)|`https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD`
+|`IANA-CHARACTER-SETS`|IANA character sets|`http://terminology.hl7.org/CodeSystem/v3-Charset`
+|`IANA-MEDIA-TYPES`|IANA media types|`http://terminology.hl7.org/CodeSystem/v3-mediaType`
+|`ISO-639-1`|2-character ISO language codes|`http://terminology.hl7.org/CodeSystem/iso639-1`
+|`ISO-639-3`|3-character ISO language codes|`http://terminology.hl7.org/CodeSystem/iso639-3`
+|===
